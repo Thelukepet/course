@@ -8,10 +8,13 @@ description: RU Big Data course information and overall structure
 # Course Information
 
 The course on Blackboard:
-[Blackboard](https://blackboard.ru.nl/webapps/blackboard/execute/launcher?type=Course&id=_107255_1&url=)
+[Blackboard](http://bit.ly/RUBigDataBB)
 
 The course on Piazza:
-[Piazza](https://piazza.com/ru.nl/spring2016/nwiibc036/home)
+[Piazza](http://bit.ly/RUBigData)
+
+Quizzes:
+[Socrative](https://b.socrative.com/login/student/), room BIGDATARU
 
 # Practical Assignments
 
