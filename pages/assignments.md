@@ -1,3 +1,5 @@
+layout:page
+
 History
 ```
   734  git clone git://github.com/kbroman/simple_site

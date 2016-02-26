@@ -1,3 +1,9 @@
+---
+layout: page
+title: Using the Coursera Docker Image
+description: How to use the Coursera Docker Image on the machines in the Huygens terminal rooms
+---
+
 # Coursera Docker Image
 
 In the course, we will use docker to ensure that we work on the same configuration of the development environment.
@@ -5,6 +11,17 @@ In the course, we will use docker to ensure that we work on the same configurati
 ## Setup Docker
 
 Docker is already setup in the HG terminal rooms.
+
+You should be part of group `docker`, which you can check by issuing the `groups` command.
+If you do not see group `docker` listed in the output, you may check the following:
+    [[ -n "`grep $USER /etc/group | grep docker`" ]] && echo yes
+
+If you do not see "yes", you still have to be added to the group - please send mail to `arjen@cs.ru.nl` with your username ($USER).
+If you do, then the proper solution is to logout and login again; 
+a workaround is to issue the following command in the terminal you want to run docker from:
+    exec su -l $USER
+
+## Using Docker
 
 A minimal test:
 
