@@ -38,29 +38,11 @@ The forum works best if we use it actively!
 In this course, we use *Github for education* to hand in **brief** reports (say, *blogs*) about the practical work.
 Standard git functionality serves perfectly for carrying out peer review, and keeping track of modifications in response to feedback.
 
-Refer to [assignment 1](A1a-blogging.html) for more details.
+Refer to [assignment 1](assignments/A1a-blogging.html) for more details.
 
 ## Schedule
 
-- [Assignment 1a](A1a-blogging.html)
-- [Assignment 1b](A1b-blogging.html)
-
-### "Blogging" framework:
-Use [GitHub Pages](http://pages.github.com) and [git](http://git-scm.com) 
-to create webpages in [Markdown](https://daringfireball.net/projects/markdown/).
-
-Did you get your student pack yet?
-Please go to [github for education](https://education.github.com/pack/join) to get benefits like private repos.
-
-Modify the webpage through its GitHub repository, with `git add`, `git commit`, and `git push`.
-
-Original instructions: [simple site](http://kbroman.org/simple_site/).
-Markdown [quick reference guide](http://kramdown.gettalong.org/quickref.html).
-
-[Steps in sequence](pages/assignments.html)
-
-### Docker:
-Use [Docker](https://docs.docker.com/linux/) to remove the burden on unifying working environments.
-
-
+February 26th: Setup
+- [Assignment 1a](assignments/A1a-blogging.html)
+- [Assignment 1b](assignments/A1b-docker.html)
 
