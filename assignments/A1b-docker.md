@@ -5,7 +5,7 @@ tagline: Docker
 description: First steps using Docker
 ---
 
-# Development using Docker
+# Development Setup
 
 ## Introduction
 
@@ -13,10 +13,7 @@ We will use [Docker](https://docs.docker.com/linux/) to remove the burden on uni
 
 ## Brief examples
 
-*Etc.*
+*TODO*
 
 See also:
-- [Docker at home](../pages/docker.md)
-
-
-
+* [Docker at home](../pages/docker.md)

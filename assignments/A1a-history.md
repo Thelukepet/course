@@ -4,21 +4,26 @@ title: Assignments
 description: How to complete and turn in assignments
 ---
 
-History
-```
-  734  git clone git://github.com/kbroman/simple_site
-  735  mv simple_site course
-  736  cd course
-  737  rm -rf .git
+A trace of git commands issued to construct the course site, for reference.
+
+Initialize the repository as follows:
+```bash:
+git clone git://github.com/kbroman/simple_site
+mv simple_site course
+cd course
+rm -rf .git
 ```
 
-Follow Instructions.
+Follow the detailed [instructions](http://kbroman.org/simple_site/pages/independent_site.html) to setup and personalize the site.
+
 
 ```
-  761  git init
-  762  git add .
-  763  git commit -m "first commit"
-  764  git branch -m master gh-pages
-  765  git remote add origin git@github.com:rubigdata/course.git
-  766  git push -u origin gh-pages
+git init
+git add .
+git commit -m "first commit"
+git branch -m master gh-pages
+git remote add origin git@github.com:rubigdata/course.git
+git push -u origin gh-pages
 ```
+
+In the `git remote add` command, use the details of your `github` repository to store the completed practical assignments.
