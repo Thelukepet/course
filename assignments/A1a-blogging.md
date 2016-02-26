@@ -17,6 +17,7 @@ Markdown is convenient as a tool to publish on the web, *especially* when used i
 automagically convert the markdown into HTML.
 
 See also: 
+
 * [Quick reference guide](http://kramdown.gettalong.org/quickref.html);
 * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) by Github;
 * [Markdown](https://daringfireball.net/projects/markdown/) roots.
@@ -34,4 +35,5 @@ Once you have your first repository with a simple site to just testify success,
 you will use it as an even quicker starting point to bootstrap new repositories for completing the subsequent course assignments.
 
 See also:
+
 * [Steps in sequence](A1a-history.html) provide a quick reference of the history of git commands used to create the course site.
