@@ -27,6 +27,8 @@ Modify the webpage through its GitHub repository, with `git add`, `git commit`, 
 Original instructions: [simple site](http://kbroman.org/simple_site/).
 Markdown [quick reference guide](http://kramdown.gettalong.org/quickref.html).
 
+[History](pages/start-site.html)
+
 ### Docker:
 Use [Docker](https://docs.docker.com/linux/) to remove the burden on unifying working environments.
 
