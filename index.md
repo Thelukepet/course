@@ -19,6 +19,9 @@ The course on Piazza:
 Use [GitHub Pages](http://pages.github.com) and [git](http://git-scm.com) 
 to create webpages in [Markdown](https://daringfireball.net/projects/markdown/).
 
+Did you get your student pack yet?
+Please go to [github for education](https://education.github.com/pack/join) to get benefits like private repos.
+
 Modify the webpage through its GitHub repository, with `git add`, `git commit`, and `git push`.
 
 Original instructions: [simple site](http://kbroman.org/simple_site/).
