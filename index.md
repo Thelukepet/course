@@ -5,7 +5,10 @@ tagline: Course website using GitHub Pages
 description: RU Big Data course information
 ---
 
+The course on Blackboard:
 [Blackboard](https://blackboard.ru.nl/webapps/blackboard/execute/modulepage/view?course_id=_107255_1)
+
+The course on Piazza:
 [Piazza](https://piazza.com/ru.nl/spring2016/nwiibc036/home)
 
 [Sign up](https://piazza.com/ru.nl/spring2016/nwiibc036) to Piazza and help each other!
