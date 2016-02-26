@@ -17,8 +17,9 @@ Equating a webpage to a GitHub repository allows to edit pages with `git add`, `
 When setup correctly, *Jekyll* will automagically convert your markdown into HTML.
 
 See also: 
-* [Markdown](https://daringfireball.net/projects/markdown/).
-* [Quick reference guide](http://kramdown.gettalong.org/quickref.html).
+* [Quick reference guide](http://kramdown.gettalong.org/quickref.html);
+* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) by Github;
+* [Markdown](https://daringfireball.net/projects/markdown/) roots.
 
 ## Github for Education
 
