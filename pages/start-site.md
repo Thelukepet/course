@@ -4,7 +4,6 @@ History
   735  mv simple_site course
   736  cd course
   737  rm -rf .git
-  738  git init
 ```
 
 Follow Instructions.
