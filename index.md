@@ -28,6 +28,7 @@ Original instructions: [simple site](http://kbroman.org/simple_site/).
 Markdown [quick reference guide](http://kramdown.gettalong.org/quickref.html).
 
 [History](pages/start-site.html)
+[History (workaround)](https://github.com/rubigdata/course/blob/gh-pages/pages/start-site.md)
 
 ### Docker:
 Use [Docker](https://docs.docker.com/linux/) to remove the burden on unifying working environments.
