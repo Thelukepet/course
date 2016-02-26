@@ -1,5 +1,7 @@
 ---
-layout:page
+layout: page
+title: Assignments
+description: How to complete and turn in assignments
 ---
 
 History

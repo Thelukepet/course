@@ -1,7 +1,7 @@
 ---
 layout: page
 title: RU Big Data
-tagline: Course website using GitHub Pages
+tagline: Course NWI-IBC036-2015
 description: RU Big Data course information
 ---
 
@@ -27,9 +27,10 @@ Modify the webpage through its GitHub repository, with `git add`, `git commit`, 
 Original instructions: [simple site](http://kbroman.org/simple_site/).
 Markdown [quick reference guide](http://kramdown.gettalong.org/quickref.html).
 
-[History](pages/start_site.html)
-[History (workaround)](https://github.com/rubigdata/course/blob/gh-pages/pages/start-site.md)
+[Steps in sequence](pages/assignments.html)
 
 ### Docker:
 Use [Docker](https://docs.docker.com/linux/) to remove the burden on unifying working environments.
+
+
 
