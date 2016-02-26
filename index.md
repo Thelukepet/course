@@ -8,7 +8,7 @@ description: RU Big Data course information
 [Blackboard](https://blackboard.ru.nl/webapps/blackboard/execute/modulepage/view?course_id=_107255_1)
 [Piazza](https://piazza.com/ru.nl/spring2016/nwiibc036/home)
 
-[Sign up](piazza.com/ru.nl/spring2016/nwiibc036) to Piazza and help each other!
+[Sign up](https://piazza.com/ru.nl/spring2016/nwiibc036) to Piazza and help each other!
 
 ## Goals:
 
