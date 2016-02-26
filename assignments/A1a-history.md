@@ -8,7 +8,7 @@ A trace of git commands issued to construct the course site, for reference.
 
 Initialize the repository as follows:
 
-```shell:
+```
 git clone git://github.com/kbroman/simple_site
 mv simple_site course
 cd course
