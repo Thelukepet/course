@@ -6,29 +6,12 @@ description: How to use the Coursera Docker Image on the machines in the Huygens
 
 # Coursera Docker Image
 
-In the course, we will use docker to ensure that we work on the same configuration of the development environment.
+## Setup
 
-## Setup Docker
+Make sure to have first read [Docker instructions](docker.html).
 
-Docker is already setup in the HG terminal rooms.
-
-You should be part of group `docker`, which you can check by issuing the `groups` command.
-If you do not see group `docker` listed in the output, you may check the following:
-    [[ -n "`grep $USER /etc/group | grep docker`" ]] && echo yes
-
-If you do not see "yes", you still have to be added to the group - please send mail to `arjen@cs.ru.nl` with your username ($USER).
-If you do, then the proper solution is to logout and login again; 
-a workaround is to issue the following command in the terminal you want to run docker from:
-    exec su -l $USER
-
-## Using Docker
-
-A minimal test:
-
-    docker run hello-world
-
-Initiate the next steps to get the Cloudera image running; either in the terminal rooms, or at home/anywhere.
-
+Then initialize the Cloudera docker image, as follows:
+ 
 ## Setup Cloudera docker image in terminal rooms
 
     docker import - cloudera/quickstart:latest < /vol/practica/BigData/cloudera-docker-image.tar
@@ -43,23 +26,13 @@ When running the image (i.e., starting a container), we will request the web int
 
     docker run --hostname=quickstart.cloudera --privileged=true --name=CDH -t -i -p 80 docker.io/cloudera/quickstart /usr/bin/docker-quickstart
 
-Using the `-i` option opens an interactive shell, `-t` creates a pseudo-TTY. 
-You can detach the terminal with key sequence `Ctrl-p``Ctrl-q`.
-**TODO:** more on attach detach
-
-The port where the tutorial is started can be requested the combination of
-
-    docker ps
-
-and, using the container's hash,
-
-    docker port HASH
-
-You can assign a name to a container with, e.g., `--name=CDH`; then subsequent commands can use the given name instead of its hash, e.g., `docker port CDH`.
-
+Get the exposed port using `docker ps` and a subsequent `docker port HASH`.
+ 
 ## Using Cloudera docker image
 
-In image do:
+Follow the tutorial on http://localhost:9000/
+
+The original tutorial data is stored in a relational database that you can access as follows:
 
     mysql --user=retail_dba --password=cloudera  retail_db
 
