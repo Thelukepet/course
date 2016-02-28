@@ -46,6 +46,7 @@ Refer to [assignment 1](assignments/A1a-blogging.html) for more details.
 ## Schedule
 
 February 26th: Setup
+
 * [Assignment 1a](assignments/A1a-blogging.html)
 * [Assignment 1b](assignments/A1b-docker.html)
 

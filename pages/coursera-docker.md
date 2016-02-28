@@ -15,6 +15,7 @@ Then initialize the Cloudera docker image, as follows:
 ## Setup Cloudera docker image in terminal rooms
 
     docker import - cloudera/quickstart:latest < /vol/practica/BigData/cloudera-docker-image.tar
+    docker load < /vol/practica/BigData/cloudera-docker-image.tar
 
 ## Setup Cloudera docker image at home
 
