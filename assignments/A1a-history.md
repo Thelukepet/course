@@ -4,7 +4,7 @@ title: Assignments
 description: How to complete and turn in assignments
 ---
 
-A trace of git commands issued to construct the course site, for reference.
+A trace of git commands issued to construct the [Course site](http://rubigdata.github.io/course), for reference.
 
 Initialize the repository as follows:
 
@@ -15,8 +15,10 @@ cd course
 rm -rf .git
 ```
 
-Follow the detailed [instructions](http://kbroman.org/simple_site/pages/independent_site.html) to setup and personalize the site.
+Follow the detailed [instructions](http://kbroman.org/simple_site/pages/independent_site.html) to setup the site
+and write its initial contents (using Markdown).
 
+Then, we publish the site by pushing it to the repository:
 
 ```
 git init
@@ -28,3 +30,6 @@ git push -u origin gh-pages
 ```
 
 In the `git remote add` command, use the details of your `github` repository to store the completed practical assignments.
+
+Feel free to inspect the Github Repository for the [Course Site](https://github.com/rubigdata/course) and/or its
+history, but keep in mind that only the documents published online comprise the *official* course information.
