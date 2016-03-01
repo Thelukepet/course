@@ -10,14 +10,14 @@ In the course, we will use docker to ensure that we work on the same configurati
 
 ## Setup Docker
 
-Docker is already setup in the HG terminal rooms.
+Docker has been installed and is **ready for use** in terminal room HG00.023.
 
-You should be part of group `docker`, which you can check by issuing the `groups` command.
+Using the client will *only* work correctly if your account is part of group `docker`; check this by issuing the `groups` command.
 If you do not see group `docker` listed in the output, you may check the following:
     [[ -n "`grep $USER /etc/group | grep docker`" ]] && echo yes
 
 If you do not see "yes", you still have to be added to the group - please send mail to `arjen@cs.ru.nl` with your username ($USER).
-If you do, then the proper solution is to logout and login again; 
+If you do see a "yes", the proper solution is to logout and login again; 
 a workaround is to issue the following command in the terminal you want to run docker from:
     exec su -l $USER
 
@@ -27,20 +27,34 @@ A minimal test:
 
     docker run hello-world
 
-## Start an image
+Now, learn more about docker and its usage:
+please follow **step two** and **step three** from the excellent documentation.
 
-When running the image (i.e., starting a container), we will request the web interface to be exposed (port 80) so you can follow the tutorial using your local browser.
+If you want to install docker on your own hardware, start at the link corresponding to your operating system,
+and first go through **step one** to get docker up and running:
 
-    docker run --hostname=quickstart.cloudera --privileged=true --name=CDH -t -i -p 80 docker.io/cloudera/quickstart /usr/bin/docker-quickstart
+- [Windows](https://docs.docker.com/windows/)
+- [OS X](https://docs.docker.com/mac)
+- [Linux](https://docs.docker.com/linux/)
 
-Using the `-i` option opens an interactive shell, `-t` creates a pseudo-TTY. 
-You can detach the terminal with key sequence `Ctrl-p``Ctrl-q`.
+Otherwise, follow the Linux tutorial on a RU computer booted to Ubuntu in the terminal room, starting from [**step two**](https://docs.docker.com/linux/step_two/)
+of the docker tutorial.
 
-You can assign a name to a container with, e.g., `--name=CDH`; then subsequent commands can use the given name instead of its hash, e.g., `docker port CDH`.
+In the course, we will only use docker with images provided by others, so it is not necessary to continue to step four, although I will
+not stop you if you are starting to get the hang of it!
 
-**TODO:** 
-more on attach detach
-more on exec
+## Starting a container for Spark Notebook
+
+In the assignments, we get hands-on experience with [Spark Notebook](http://spark-notebook.io).
+
+If this is the first time to start Spark Notebook, you need to initialize a container:
+follow the instructions given in [Spark Notebook for the big data course](spark-notebook.html).
+Otherwise, start up the container if it is not running yet, or simply open [localhost:9000](http://localhost:9000/) in your browser.
+
+(You can check `docker images` and `docker ps` to find out if another student has taken these steps before on the same machine;
+in that case, just skip ahead to start the container without loading the image, or simply open the browser.)
+
+*Etc. Etc.*
 
 ## Clean up
 
