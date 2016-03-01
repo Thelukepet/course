@@ -5,8 +5,6 @@ tagline: Blogging environment
 description: Setting up the blogging environment that will be used for handing in the practical work
 ---
 
-# Blogging Setup 
-
 ## Content over layout
 
 Grading this course will not take into account how beautiful results of the work are formatted.
