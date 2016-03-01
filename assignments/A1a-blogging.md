@@ -21,12 +21,24 @@ automagically convert the markdown into HTML.
 Did you already request your github student pack?
 Please go to [github for education](https://education.github.com/pack/join) to get benefits like private repositories.
 
-## How to setup your environment
+If you are not yet fluent in `git` and Github, then go ahead and study the 
+[online training material](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
+provided by Github. If you are unhappy working with the command line (*a skill which I do recommend taking the 
+effort to acquire*), consider Github's [OS X](http://mac.github.com) or [Windows](http://windows.github.com)
+tool suites (the Windows one *is* convenient).
 
-Original instructions: [simple site](http://kbroman.org/simple_site/).
+## How to Create a Blog Post
 
-Once you have your first repository with a simple site to just testify success, 
-you will use it as an even quicker starting point to bootstrap new repositories for completing the subsequent course assignments.
+After familiarizing yourself with `git` (or refreshing your memory) with the resources above, continue to write a 
+mockup blog post in Markdown syntax, as a model of the process of creating the results of an assignment.
+
+Follow **carefully** the instructions provided in this
+[tutorial to create a simple site](http://kbroman.org/simple_site/) in Markdown and have it hosted for free.
+
+The goal in this first assignment is to just complete your first repository that contains a simple site, 
+composed in Markdown, published online for free; with no actual content, just to make sure the process is familiar.
+You can use the results of this template as your own **simple site**, and deploy the same steps in the rest 
+of the course to bootstrap new blog posts, one for every *real* course assignment.
 
 ## See also: 
 
