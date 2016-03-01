@@ -47,3 +47,16 @@ You can execute a shell inside the running container by looking up its hash usin
 (different from the images' hash!), followed by
 
     docker exec -it HASH /bin/bash
+
+## See also:
+
+After the first trials in the terminal rooms, I discoverd that the images should be relatively small for things 
+to work on the hardware provided in the Huygens building. The image I discussed, and will be used in the next
+assignment, is the first one in the list below. If you prefer Python over Scala, the second image is a good
+alternative; though slightly less complete than the Spark Notebook. A very complete Spark Notebook (that will however
+not run nicely) is the third link below - try it at home!
+
+- [Spark Notebook](http://spark-notebook.io) for Scala, the source of the image used in class
+- [Pyspark Notebook](http://blog.prabeeshk.com/blog/2015/06/19/pyspark-notebook-with-docker/) for Python
+- A more complete Spark Notebook, including Python and R, provided by [Jupyter](https://hub.docker.com/r/jupyter/all-spark-notebook/) (however, ~4GB, will not run well on the computers in the terminal room)
+
