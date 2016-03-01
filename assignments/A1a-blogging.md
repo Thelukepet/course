@@ -44,7 +44,7 @@ composed in Markdown, published online for free; with no actual content, just to
 You can use the results of this template as your own **simple site**, and deploy the same steps in the rest 
 of the course to bootstrap new blog posts, one for every *real* course assignment.
 
-## See also: 
+## See also
 
 * [Quick reference guide](http://kramdown.gettalong.org/quickref.html);
 * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) by Github;
