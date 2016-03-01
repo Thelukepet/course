@@ -27,6 +27,7 @@ Docker has been installed and is ready for use in terminal room HG00.023.
 Using the client will however *only* work correctly if your account is part of group `docker`; 
 check this by issuing the `groups` command.
 If you do not see group `docker` listed in the output, you may check the following:
+
     [[ -n "`grep $USER /etc/group | grep docker`" ]] && echo yes
 
 If you do not see "yes", you still have to be added to the group - please send mail to `arjen@cs.ru.nl` with your username ($USER).
@@ -102,4 +103,4 @@ You may for example remove an unused cloudera image from your machine:
 
 Optional extra reading (not required for the course):
 
-* Advanced Docker with the [Docker book](www.dockerbook.com) (not free, ~EUR 10).
+* Advanced Docker with the [Docker book](http://www.dockerbook.com/) (not free, ~EUR 10).
