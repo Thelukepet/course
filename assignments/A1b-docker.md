@@ -5,7 +5,7 @@ tagline: Docker
 description: First steps using Docker
 ---
 
-# Development Setup
+# Docker Environment
 
 ## Introduction
 
