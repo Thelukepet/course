@@ -50,5 +50,5 @@ of the course to bootstrap new blog posts, one for every *real* course assignmen
 * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) by Github;
 * [Markdown](https://daringfireball.net/projects/markdown/) roots.
 
-**If you get stuck, [my command history](A1a-history.html) provides a quick reference of the series of git commands
-that I use to create this course site.**
+*If you get stuck, [my command history](A1a-history.html) provides a quick reference of the series of git commands
+that I use to create this course site.*
