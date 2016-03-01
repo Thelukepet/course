@@ -56,7 +56,7 @@ assignment, is the first one in the list below. If you prefer Python over Scala,
 alternative; though slightly less complete than the Spark Notebook. A very complete Spark Notebook (that will however
 not run nicely) is the third link below - try it at home!
 
-- [Spark Notebook](http://spark-notebook.io) for Scala, the source of the image used in class
-- [Pyspark Notebook](http://blog.prabeeshk.com/blog/2015/06/19/pyspark-notebook-with-docker/) for Python
-- A more complete Spark Notebook, including Python and R, provided by [Jupyter](https://hub.docker.com/r/jupyter/all-spark-notebook/) (however, ~4GB, will not run well on the computers in the terminal room)
+* [Spark Notebook](http://spark-notebook.io) for Scala, the source of the image used in class
+* [Pyspark Notebook](http://blog.prabeeshk.com/blog/2015/06/19/pyspark-notebook-with-docker/) for Python
+* A more complete Spark Notebook, including Python and R, provided by [Jupyter](https://hub.docker.com/r/jupyter/all-spark-notebook/) (however, ~4GB, will not run well on the computers in the terminal room)
 

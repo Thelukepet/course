@@ -35,7 +35,7 @@ then subsequent commands can use the given name instead of its hash, e.g., `dock
 
 ## Using Cloudera docker image
 
-Follow the tutorial on http://localhost:9000/
+Follow the tutorial on http://localhost/
 
 The original tutorial data is stored in a relational database that you can access as follows:
 
@@ -45,21 +45,8 @@ The original tutorial data is stored in a relational database that you can acces
 
 ## Clean up
 
-While using docker, it is easy to forget that every container and image takes up disk space on the local machine. Please clean up regularly!
-
-Find out the running containers:
-
-    docker ps -f status=running
-
-Any running containers not in use, you may stop using `docker stop HASH`.
-
-Remove the inactive, exited containers that you do not use as follows:
-
-    docker ps -f status=exited -q | \
-      xargs docker rm
-
-When we complete the first phase of the course, we will not use the cloudera image any more.
-Remove these cloudera images as follows:
+When we complete the first phase of the course (in April), we will not use the cloudera image any more.
+Remove the cloudera image as follows:
 
     docker images -q docker.io/cloudera/quickstart | \
       xargs docker rmi

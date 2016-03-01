@@ -38,15 +38,29 @@ The forum works best if we use it actively!
 
 ## Completing and Evaluating Assignments
 
-In this course, we use *Github for education* to hand in **brief** reports (say, *blogs*) about the practical work.
-Standard git functionality serves perfectly for carrying out peer review, and keeping track of modifications in response to feedback.
+In this course, we use *Github for education* to hand in **brief** reports (like a blog post) about the results of the 
+practical work. Standard git functionality serves perfectly for carrying out peer review, and keeping track of 
+modifications in response to feedback.
 
-Refer to [assignment 1](assignments/A1a-blogging.html) for more details.
+Refer to [assignment 1a](assignments/A1a-blogging.html) for more details about the blogging framework.
 
-## Schedule
+## Development environment
 
-February 26th: Setup
+To reduce the source of errors in setting up compute infrastructure, I decided to try Docker for the course.
+
+Refer to [assignment 1b](assignments/A1b-docker.html) to get to know Docker and install Spark Notebook,
+that we will use this week's practical assignment for learning Spark.
+
+## Assignments Schedule
+
+###February 26th: Setup
+
+Completing the first assignment is not evaluated. However, I expect that every student will be able 
+to create their assignment reports in Markdown and have these converted to HTML at their github page,
+and know how to start Spark Notebook on their hardware of choice (be it a laptop, their home computer or
+a PC in HG 00.023).
+
+Instructions (assignments A1a and A1b):
 
 * [Assignment 1a](assignments/A1a-blogging.html)
 * [Assignment 1b](assignments/A1b-docker.html)
-
