@@ -29,7 +29,10 @@ git remote add origin git@github.com:rubigdata/course.git
 git push -u origin gh-pages
 ```
 
-In the `git remote add` command, use the details of your `github` repository to store the completed practical assignments.
+In the `git remote add` command, use the details of your `github` repository instead of the course's when you 
+post the blog post for a completed practical assignment.
+
+## See also:
 
 Feel free to inspect the Github Repository for the [Course Site](https://github.com/rubigdata/course) and/or its
 history, but keep in mind that only the documents published online comprise the *official* course information.

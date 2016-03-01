@@ -16,12 +16,6 @@ Markdown is convenient as a tool to publish on the web, *especially* when used i
 `git add`, `git commit`, and `git push` the website, *collaboratively and versioned*. When setup correctly, a tool called *Jekyll* will 
 automagically convert the markdown into HTML.
 
-See also: 
-
-* [Quick reference guide](http://kramdown.gettalong.org/quickref.html);
-* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) by Github;
-* [Markdown](https://daringfireball.net/projects/markdown/) roots.
-
 ## Github for Education
 
 Did you already request your github student pack?
@@ -34,6 +28,11 @@ Original instructions: [simple site](http://kbroman.org/simple_site/).
 Once you have your first repository with a simple site to just testify success, 
 you will use it as an even quicker starting point to bootstrap new repositories for completing the subsequent course assignments.
 
-See also:
+## See also: 
 
-* [Steps in sequence](A1a-history.html) provide a quick reference of the history of git commands used to create the course site.
+* [Quick reference guide](http://kramdown.gettalong.org/quickref.html);
+* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) by Github;
+* [Markdown](https://daringfireball.net/projects/markdown/) roots.
+
+And, if you get stuck, [my command history](A1a-history.html) provides a quick reference of the series of git commands
+that I use to create this course site.
