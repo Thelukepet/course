@@ -12,6 +12,9 @@ https://classroom.github.com/classrooms/17478409-ru-big-data-course
 Adding team members to the organization and team:
 https://github.com/orgs/rubigdata/people
 
+*Note:*
+Adding "startup code" refers to an initial repository with material for the assignment.
+
 *Etc.*
 
 ## Github for Education

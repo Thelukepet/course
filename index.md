@@ -13,6 +13,9 @@ The course on Blackboard:
 The course on Piazza:
 [Piazza](http://bit.ly/RUBigData)
 
+The course on Classroom for Github:
+[Classroom for Github](https://classroom.github.com/classrooms/17478409-ru-big-data-course/)
+
 Quizzes:
 [Socrative](https://b.socrative.com/login/student/), room BIGDATARU
 
