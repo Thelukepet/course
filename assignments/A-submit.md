@@ -24,3 +24,6 @@ Follow these steps for each real assignment:
 ## See also
 
 * [Course Site](http://rubigdata.github.io/course)
+* [Classroom for Github](
+
+)

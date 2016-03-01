@@ -13,3 +13,9 @@ Adding team members to the organization and team:
 https://github.com/orgs/rubigdata/people
 
 *Etc.*
+
+## Github for Education
+
+Teachers community site:
+https://github.com/education/teachers
+
