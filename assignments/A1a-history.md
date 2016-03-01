@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Assignments
-description: How to complete and turn in assignments
+title: History
+description: Trace of commands used to create a simple site published on Github, composed in Markdown
 ---
 
 A trace of git commands issued to construct the [Course site](http://rubigdata.github.io/course), for reference.
