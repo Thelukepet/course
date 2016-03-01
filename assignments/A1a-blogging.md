@@ -35,6 +35,10 @@ mockup blog post in Markdown syntax, as a model of the process of creating the r
 Follow **carefully** the instructions provided in this
 [tutorial to create a simple site](http://kbroman.org/simple_site/) in Markdown and have it hosted for free.
 
+*Note: details matter; for example, pages written in Markdown that omit the header information will not render 
+as HTML, as I learned the hard way myself. Unless you know exactly what you are doing, follow the instructions 
+carefully.*
+
 The goal in this first assignment is to just complete your first repository that contains a simple site, 
 composed in Markdown, published online for free; with no actual content, just to make sure the process is familiar.
 You can use the results of this template as your own **simple site**, and deploy the same steps in the rest 
