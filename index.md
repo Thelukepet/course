@@ -53,7 +53,7 @@ that we will use this week's practical assignment for learning Spark.
 
 ## Assignments Schedule
 
-###February 26th: Setup
+### February 26th: Setup
 
 Completing the first assignment is not evaluated. However, I expect that every student will be able 
 to create their assignment reports in Markdown and have these converted to HTML at their github page,
