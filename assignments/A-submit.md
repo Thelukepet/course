@@ -21,5 +21,4 @@ Follow these steps for each real assignment:
 
 ## See also:
 
-Feel free to inspect the Github Repository for the [Course Site](https://github.com/rubigdata/course) and/or its
-history, but keep in mind that only the documents published online comprise the *official* course information.
+* [Course Site](http://rubigdata.github.io/course)
