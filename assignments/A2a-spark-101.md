@@ -4,7 +4,7 @@ title: Assignment 2 Part A
 description: Big Data Spark 101
 ---
 
-== Spark 101
+## Spark 101
 
 The goal of assignment 2A is to get hands-on experience in using the 
 Spark Notebook to write your spark programs.
@@ -12,7 +12,7 @@ Spark Notebook to write your spark programs.
 Start the docker container (refer to [assignment A1.b](A1b-docker.html)
 if necessary).
 
-=== Using Notebook
+### Using Notebook
 
 You may navigate a notebook with the keyboard by pressing shift-enter 
 to execute a cell, and enter to add lines to a cell.
@@ -44,7 +44,7 @@ val tmpfiles = "ls /tmp" !!
 
 *Note: Myself, I did not succeed in using wildcards in commands issued.*
 
-=== Prepare container
+### Prepare container
 
 Copy the *Complete Shakespeare* in text provided at 
 [`/vol/practica/BigData/100.txt.utf-8`](file:///vol/practica/BigData/100.txt.utf-8)
@@ -65,7 +65,7 @@ Alternatively, download the data yourself from the Project Gutenberg website:
 cd /data ; wget http://www.gutenberg.org/ebooks/100.txt.utf-8
 ```
 
-=== Big Data Spark 101 notebook
+### Big Data Spark 101 notebook
 
 Download the course's notebook 
 [Big Data Spark 101](http://rubigdata.github.io/course/assignments/big-data-spark-101.snb).
@@ -87,7 +87,7 @@ at [localhost:4040](http://localhost:4040).
 
 **When you get stuck, use Piazza to find help from your fellow students and/or me!**
 
-=== Blog post (part A)
+### Blog post (part A)
 
 Imagine a reader who is interested in learning the very basics of Spark, 
 for whom you write a blog to get started (and enthousiastic about learning 
