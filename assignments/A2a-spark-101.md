@@ -52,6 +52,7 @@ Copy the *Complete Shakespeare* in text provided at
 into directory `/data` in the docker container.
 
 E.g.:
+
 ```
 mkdir -p /data
 scp USERNAME@lilo.science.ru.nl:/vol/practica/BigData/100.txt.utf-8 /data
