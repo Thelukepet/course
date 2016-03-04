@@ -70,4 +70,48 @@ Instructions (assignments A1a and A1b):
 
 #### March 4th: Spark 101
 
-*More to follow soon!*
+Start work on assignment 2A, to get a basic understanding of working with 
+the Spark Notebook.
+
+#### *Wednesday March 9th:
+Start work on assignment 2B, solving various counting problems over text.
+
+#### *Tuesday March 15th:*
+Deadline for handing in your blog on assignment 2 (parts A and B).
+**Any time of the day is fine.**
+
+#### Wednesday March 16th:
+Start peer review assignment 2 (detailed instructions will follow).
+Start on assignment 3, solving a more advanced data science problem.
+
+#### Tuesday March 22nd:
+End of peer review period for assignment 2.
+
+#### Tuesday March 29th:
+Deadline final version of blog for assignment 2, 
+updated based on input peer review.
+Deadline for handing in your blog on assignment 3.
+
+#### Wednesday March 30th:
+Start peer review assignment 3.
+
+#### Tuesday April 5th:
+Test A about all lectures and reading material Q3.
+
+Deadline peer review assigment 3.
+
+#### Tuesday April 12th:
+Deadline final version of blog for assignment 3.
+
+Note:
+Students who only follow Webscale AI have then completed the Big Data 
+component of their course.
+
+The Big Data students and the Webscale AI students who take the special 
+3 ECTS elective continue with the course, which includes one prepatory
+assignment 4 and a final project assignment 5.
+This final assignment will eventually entail running analysis jobs over
+the full CommonCrawl webcrawl, using Hathi, the national Hadoop cluster 
+maintained by SURFsara. Access to Hathi requires successful completion of
+assignments 2 - 4.
+
