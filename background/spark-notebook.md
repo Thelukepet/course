@@ -15,7 +15,7 @@ do so by issuing `docker images`.  If no image named `andypetrella/spark-noteboo
 then issue the following command to initialize a container that runs Spark Notebook:
 
 ```
-cat /vol/practica/BigData/cloudera-docker-image.tar | docker load
+cat /vol/practica/BigData/spark-notebook.tar | docker load
 ```
 
 Do not worry if processing this command takes a while, as about one gigabyte is transferred over the network;
