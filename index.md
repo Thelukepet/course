@@ -73,7 +73,9 @@ Instructions (assignments A1a and A1b):
 Start work on assignment 2A, to get a basic understanding of working with 
 the Spark Notebook.
 
-#### *Wednesday March 9th:
+* [Assignment 2a](assignments/A2a-spark-101.html)
+
+#### Wednesday March 9th:
 Start work on assignment 2B, solving various counting problems over text.
 
 #### *Tuesday March 15th:*
