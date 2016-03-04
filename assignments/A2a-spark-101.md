@@ -63,6 +63,7 @@ in the terminal rooms, use the local machine name:
 `hg023pcXX` instead of `lilo.science.ru.nl`.
 
 Alternatively, download the data yourself from the Project Gutenberg website:
+
 ```
 cd /data ; wget http://www.gutenberg.org/ebooks/100.txt.utf-8
 ```
