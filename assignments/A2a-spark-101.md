@@ -73,6 +73,7 @@ Download the course's notebook
 [Big Data Spark 101](http://rubigdata.github.io/course/assignments/big-data-spark-101.snb).
 
 Create a directory `notebooks/BigData` and copy the `.snb` file into that directory.
+
 ```
 mkdir -p /opt/docker/notebooks/BigData
 cd /opt/docker/notebooks/BigData
