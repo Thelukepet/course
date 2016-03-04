@@ -10,6 +10,7 @@ The goal of assignment 2A is to get hands-on experience in using the
 Spark Notebook to write your spark programs.
 
 Start the docker container (refer to [assignment A1.b](A1b-docker.html)
+and the [Spark Notebook background](../background/spark-notebook.html)
 if necessary).
 
 ### Using Notebook
