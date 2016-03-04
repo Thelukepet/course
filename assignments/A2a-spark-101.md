@@ -61,6 +61,9 @@ scp USERNAME@lilo.science.ru.nl:/vol/practica/BigData/100.txt.utf-8 /data
 You have to provide your username (in the Docker container, you are `root`);
 in the terminal rooms, use the local machine name: 
 `hg023pcXX` instead of `lilo.science.ru.nl`.
+You may need to first install the ssh client suite on ubuntu, use this command:
+
+    apt-get install openssh-client
 
 Alternatively, download the data yourself from the Project Gutenberg website:
 
