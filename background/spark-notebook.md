@@ -58,7 +58,7 @@ problems that you cannot resolve on your own, but then **please please** do that
 [Piazza](https://piazza.com/ru.nl/spring2016/nwiibc036/home); then every one in class can help out, and it is
 not my overflowing email box that will form the bottleneck for your progress.
 
-## See also:
+## See also
 
 After the first trials in the terminal rooms, I discoverd that the images should be relatively small for things 
 to work on the hardware provided in the Huygens building. 
