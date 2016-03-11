@@ -24,7 +24,7 @@ Simply select New from the notebook UI in the browser, or use `wget` from inside
 
 ```
 cd /opt/docker/notebooks/BigData
-wget http://rubigdata.github.io/course/assignments/big-data-execution-model.snb
+wget http://rubigdata.github.io/course/assignments/BigData-big-data-execution-model.snb
 ```
 
 Open [localhost:9000/tree/BigData](http://localhost:9000/tree/BigData) in your browser, 
