@@ -20,7 +20,8 @@ Download the course's notebook
 [Big Data Execution Model](http://rubigdata.github.io/course/assignments/BigData-big-data-execution-model.snb)
 copy it into `notebooks/BigData`.
 
-Simply select New from the notebook UI in the browser, or use `wget` from inside the docker engine:
+Simply open it using the notebook UI in the browser (where it states *or click here*), 
+or use `wget` from inside the docker engine:
 
 ```
 cd /opt/docker/notebooks/BigData
