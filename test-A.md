@@ -30,6 +30,7 @@ Lectures 6 and 7 introduced the more recent abstractions of Data Frame (lecture 
 The main source to study is the series of slides for the lectures.
 
 Additional information:
+
 - The background paper [on HDFS](https://blackboard.ru.nl/bbcswebdav/pid-2407975-dt-content-rid-6666363_4/xid-6666363_4).
 - Chapter 3 "MapReduce algorithm design" in Data-Intensive Text Processing with MapReduce, by Jimmy Lin and Chris Dyer 
 ([online version](https://lintool.github.io/MapReduceAlgorithms/ed1n.html)).
