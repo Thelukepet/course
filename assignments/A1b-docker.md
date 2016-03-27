@@ -58,6 +58,9 @@ and start with **step one** to get docker up and running on your own hardware:
 In the course, we will only use docker with images provided by others, so it is not necessary to continue to 
 step four, although I will not stop you if you are starting to get the hang of it!
 
+Students who install Docker on their own machine will need command `docker-machine ip`
+and are recommended to read the [docker machine docs](https://docs.docker.com/machine/get-started/).
+
 ## Starting a container for Spark Notebook
 
 In the assignments, we get hands-on experience with [Spark Notebook](http://spark-notebook.io).

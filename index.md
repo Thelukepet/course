@@ -13,9 +13,6 @@ The course on Blackboard:
 The course on Piazza:
 [Piazza](http://bit.ly/RUBigData)
 
-The course on (Classroom for) Github:
-[Classroom for Github](https://classroom.github.com/classrooms/17478409-ru-big-data-course/)
-
 Quizzes:
 [Socrative](https://b.socrative.com/login/student/), room BIGDATARU
 
@@ -78,7 +75,9 @@ the Spark Notebook.
 #### Wednesday March 9th:
 Start work on assignment 2B, solving various counting problems over text.
 
-#### *Tuesday March 15th:*
+* [Assignment 2b](assignments/A2b-execution-model.html)
+
+#### ~~Tuesday March 15th:~~ _Thursday March 17th_
 Deadline for handing in your blog on assignment 2 (parts A and B).
 **Any time of the day is fine.**
 

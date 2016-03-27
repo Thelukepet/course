@@ -75,15 +75,14 @@ cd /data ; wget http://www.gutenberg.org/ebooks/100.txt.utf-8
 ### Big Data Spark 101 notebook
 
 Download the course's notebook 
-[Big Data Spark 101](http://rubigdata.github.io/course/assignments/big-data-spark-101.snb).
+[Big Data Spark 101](http://rubigdata.github.io/course/assignments/BigData-big-data-spark-101.snb).
 
 Create a directory `notebooks/BigData` and copy the `.snb` file into that directory.
 
 ```
 mkdir -p /opt/docker/notebooks/BigData
 cd /opt/docker/notebooks/BigData
-wget http://rubigdata.github.io/course/assignments/big-data-spark-101.snb
-
+wget http://rubigdata.github.io/course/assignments/BigData-big-data-spark-101.snb
 ```
 
 Open [localhost:9000/tree/BigData](http://localhost:9000/tree/BigData) in your browser, 

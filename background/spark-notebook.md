@@ -30,7 +30,7 @@ docker pull andypetrella/spark-notebook:0.6.2-scala-2.11.7-spark-1.6.0-hadoop-2.
 
 Alternatively, you may also use the copy of the image provided in `/vol/practica/BigData`, using a command like
 ```
-ssh lilo cat /vol/practica/BigData/cloudera-docker-image.tar | pv | docker load
+ssh lilo cat /vol/practica/BigData/spark-notebook.tar | pv | docker load
 ```
 
 (You can ignore `pv` if you do not have it installed; I find it incredibly useful though.)
