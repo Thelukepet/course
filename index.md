@@ -81,27 +81,28 @@ Start work on assignment 2B, solving various counting problems over text.
 Deadline for handing in your blog on assignment 2 (parts A and B).
 **Any time of the day is fine.**
 
-#### Wednesday March 16th:
+#### ~~~Wednesday March 16th:~~~
 Start peer review assignment 2 (detailed instructions will follow).
 Start on assignment 3, solving a more advanced data science problem.
-
-#### Tuesday March 22nd:
-End of peer review period for assignment 2.
-
-#### Tuesday March 29th:
-Deadline final version of blog for assignment 2, 
-updated based on input peer review.
-Deadline for handing in your blog on assignment 3.
-
-#### Wednesday March 30th:
-Start peer review assignment 3.
 
 #### Tuesday April 5th:
 Test A about all lectures and reading material Q3.
 
-Deadline peer review assigment 3.
+#### ~~~Tuesday March 22nd:~~~
+End of peer review period for assignment 2.
 
-#### Tuesday April 12th:
+#### ~~~Tuesday March 29th:~~~
+Deadline final version of blog for assignment 2, 
+updated based on input peer review.
+Deadline for handing in your blog on assignment 3.
+
+#### ~~~Wednesday March 30th:~~~
+Start peer review assignment 3.
+
+### TBA
+~~~Deadline peer review assigment 3.~~~
+
+#### ~~~Tuesday April 12th:~~~
 Deadline final version of blog for assignment 3.
 
 Note:
