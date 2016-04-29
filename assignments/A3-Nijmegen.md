@@ -30,9 +30,9 @@ Our goal is to analyze these together - to investigate if we can say anything ab
 
 Specifically, we will integrate the following three data sets:
 
-* `vBoaEvents_all.csv` and `vBoaEventsLoc_all.csv` for events and their locations
-* `BAG_ADRES.csv` for streetnames and their quarters
-* `opendata_stadsgetallen.accdb` for a variety of statistics about the population
+* _Evenementen Kalender_ `vBoaEvents_all.csv` and _Evenementen Locaties_ `vBoaEventsLoc_all.csv` for events and their locations
+* _Adressen (BAG)_ `BAG_ADRES.csv` for streetnames and their quarters
+* _Statistische data_ `opendata_stadsgetallen.accdb` for a variety of statistics about the population
 
 Analyze the data and try to answer questions about the different quarters in the city;
 e.g., ask yourself which quarter has the highest income, which quarter has the largest number of young people,
