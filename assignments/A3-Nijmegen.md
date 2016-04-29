@@ -34,6 +34,70 @@ Specifically, we will integrate the following three data sets:
 * `BAG_ADRES.csv` for streetnames and their quarters
 * `opendata_stadsgetallen.accdb` for a variety of statistics about the population
 
+Analyze the data and try to answer questions about the different quarters in the city;
+e.g., ask yourself which quarter has the highest income, which quarter has the largest number of young people,
+where do the families live, etc. Can you determine the average age in the quarter where the highest number of
+events take place?
+
+Hints:
+* BAG is the Dutch national "basic registration" of addresses and buildings
+* You can match addresses in the different data sets by string or by their location (x,y)-coordinates, 
+see the notebook examples for inspiration
+
 Imagine writing about an open data project, where you want to explain how your
 findings are backed up.
 
+### Prepare container
+
+Copy the *Nijmegen* data into directory `/data` in the docker container.
+
+Download the course's notebook 
+[Big Data Nijmegen](http://rubigdata.github.io/course/assignments/BigData-Nijmegen.snb) and copy
+the `.snb` file into the `notebooks/Bigdata` folder.
+
+```
+mkdir -p /opt/docker/notebooks/BigData
+cd /opt/docker/notebooks/BigData
+wget http://rubigdata.github.io/course/assignments/BigData-Nijmegen.snb
+```
+
+The city distributes most data as CSV (Comma Seperated Values), but the statistics data only
+in the Microsoft Access format. Let us install helper classes to deal with both formats,
+by using open source tool `access2csv` for converting the Microsoft Access data.
+Building the `jar` requires installing `ant` if your container does not have it yet:
+
+```
+apt-get install ant
+git clone https://github.com/AccelerationNet/access2csv.git
+cd access2csv
+ant
+```
+
+Inspect the schema:
+
+```
+java -jar /opt/docker/notebooks/BigData/access2csv/access2csv.jar /data/opendata_stadsgetallen.accdb --schema
+```
+
+This gives a result like:
+```
+CREATE TABLE tbl_OPENDATA (
+  WaardeId LONG,
+  Waarde FLOAT,
+  WaardetypeNaam TEXT,
+  ThemaNaam TEXT,
+  OnderwerpNaam TEXT,
+  Labelgroepnaam TEXT,
+  LabelNaam TEXT,
+  GeografieType TEXT,
+  GeografieOmschrijving TEXT,
+  TijdOmschrijving TEXT,
+  TijdType TEXT,
+  BronOrganisatie TEXT,
+  BronNaam TEXT,
+)
+```
+
+Now convert the data to CSV to enable further analysis.
+
+**When you get stuck, use Piazza to find help from your fellow students and/or me!**
