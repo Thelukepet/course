@@ -34,6 +34,8 @@ Specifically, we will integrate the following three data sets:
 * _Adressen (BAG)_ `BAG_ADRES.csv` for streetnames and their quarters
 * _Statistische data_ `opendata_stadsgetallen.accdb` for a variety of statistics about the population
 
+For your convenience, I have put a copy of these data in the shared volume of the university computers, `/vol/practica/BigData`.
+
 Analyze the data and try to answer questions about the different quarters in the city;
 e.g., ask yourself which quarter has the highest income, which quarter has the largest number of young people,
 where do the families live, etc. Can you determine the average age in the quarter where the highest number of
