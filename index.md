@@ -77,6 +77,13 @@ Start work on assignment 2B, solving various counting problems over text.
 
 * [Assignment 2b](assignments/A2b-execution-model.html)
 
+#### Friday April 29th:
+
+* [Assignment 3](assignments/A3-Nijmegen.html)
+
+
+
+
 #### ~~Tuesday March 15th:~~ _Thursday March 17th_
 Deadline for handing in your blog on assignment 2 (parts A and B).
 **Any time of the day is fine.**
