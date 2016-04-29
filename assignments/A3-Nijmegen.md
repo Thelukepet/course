@@ -34,7 +34,7 @@ Specifically, we will integrate the following three data sets:
 * _Adressen (BAG)_ `BAG_ADRES.csv` for streetnames and their quarters
 * _Statistische data_ `opendata_stadsgetallen.accdb` for a variety of statistics about the population
 
-For your convenience, I have put a copy of these data in the shared volume of the university computers, `/vol/practica/BigData`.
+_Note:_ For your convenience, I have put a copy of these data in the shared volume of the university computers, `/vol/practica/BigData`.
 
 Analyze the data and try to answer questions about the different quarters in the city;
 e.g., ask yourself which quarter has the highest income, which quarter has the largest number of young people,
@@ -49,7 +49,9 @@ see the notebook examples for inspiration
 Imagine writing about an open data project, where you want to explain how your
 findings are backed up.
 
-### Prepare container
+### Additional Instructions
+
+#### Prepare container
 
 Copy the *Nijmegen* data into directory `/data` in the docker container.
 
@@ -75,7 +77,13 @@ cd access2csv
 ant
 ```
 
-Inspect the schema:
+How to use the conversion tool:
+
+```
+java -jar /opt/docker/notebooks/BigData/access2csv/access2csv.jar --help
+```
+
+E.g., to inspect the schema:
 
 ```
 java -jar /opt/docker/notebooks/BigData/access2csv/access2csv.jar /data/opendata_stadsgetallen.accdb --schema
