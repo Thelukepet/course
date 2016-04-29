@@ -24,6 +24,16 @@ and open the notebook you just installed inside your Spark Notebook container.
 
 ### Blog post 
 
+The city of Nijmegen provides a variety of resources as open data at [nijmegen.nl/opendata](http://www.nijmegen.nl/opendata).
+
+Our goal is to analyze these together - to investigate if we can say anything about the relation between population statistics in areas of the city and the activities that are organized there.
+
+Specifically, we will integrate the following three data sets:
+
+* `vBoaEvents_all.csv` and `vBoaEventsLoc_all.csv` for events and their locations
+* `BAG_ADRES.csv` for streetnames and their quarters
+* `opendata_stadsgetallen.accdb` for a variety of statistics about the population
+
 Imagine writing about an open data project, where you want to explain how your
 findings are backed up.
 
