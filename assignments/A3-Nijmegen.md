@@ -15,7 +15,7 @@ if necessary).
 ### Big Data Spark Nijmegen notebook
 
 Download the course's notebook 
-[Big Data Spark 101](http://rubigdata.github.io/course/assignments/BigData-Nijmegen.snb).
+[Big Data Nijmegen](http://rubigdata.github.io/course/assignments/BigData-Nijmegen.snb).
 
 Open [localhost:9000/tree/BigData](http://localhost:9000/tree/BigData) in your browser, 
 and open the notebook you just installed inside your Spark Notebook container.
