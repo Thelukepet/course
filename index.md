@@ -77,40 +77,25 @@ Start work on assignment 2B, solving various counting problems over text.
 
 * [Assignment 2b](assignments/A2b-execution-model.html)
 
-#### Friday April 29th:
-
-* [Assignment 3](assignments/A3-Nijmegen.html)
-
-
-
-
 #### ~~Tuesday March 15th:~~ _Thursday March 17th_
 Deadline for handing in your blog on assignment 2 (parts A and B).
 **Any time of the day is fine.**
 
-#### ~~~Wednesday March 16th:~~~
-Start peer review assignment 2 (detailed instructions will follow).
-Start on assignment 3, solving a more advanced data science problem.
-
 #### Tuesday April 5th:
 Test A about all lectures and reading material Q3.
 
-#### ~~~Tuesday March 22nd:~~~
-End of peer review period for assignment 2.
+#### Friday April 29th:
 
-#### ~~~Tuesday March 29th:~~~
-Deadline final version of blog for assignment 2, 
-updated based on input peer review.
-Deadline for handing in your blog on assignment 3.
+* [Assignment 3](assignments/A3-Nijmegen.html)
 
-#### ~~~Wednesday March 30th:~~~
-Start peer review assignment 3.
+#### Friday May 27th:
 
-### TBA
-~~~Deadline peer review assigment 3.~~~
+Deadline for handing in your blog on assignment 3
+**Any time of the day is fine.**
 
-#### ~~~Tuesday April 12th:~~~
-Deadline final version of blog for assignment 3.
+
+#### TBA
+Start peer review assignments 2 and 3 (detailed instructions will follow).
 
 Note:
 Students who only follow Webscale AI have then completed the Big Data 
