@@ -107,5 +107,5 @@ assignment 4 and a final project assignment 5.
 This final assignment will eventually entail running analysis jobs over
 the full CommonCrawl webcrawl, using Hathi, the national Hadoop cluster 
 maintained by SURFsara. Access to Hathi requires successful completion of
-assignments 2 - 4.
+assignments 2 - 3.
 
