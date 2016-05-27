@@ -8,9 +8,12 @@ description: Spark Data Frame API
 
 The goal of assignment 3 is to carry out an analysis on structured open data.
 
+Follow this link to the *Classroom for Github* [**Open Data** assignment](https://classroom.github.com/assignment-invitations/d74d229a25740c5743af699c18a1d93f), login with your github account, and accept the assignment.
+
 Start the docker container (refer to [assignment A1.b](A1b-docker.html)
 and the [Spark Notebook background](../background/spark-notebook.html)
 if necessary).
+
 
 ### Big Data Spark Nijmegen notebook
 
@@ -111,3 +114,4 @@ CREATE TABLE tbl_OPENDATA (
 Now convert the data to CSV to enable further analysis.
 
 **When you get stuck, use Piazza to find help from your fellow students and/or me!**
+
