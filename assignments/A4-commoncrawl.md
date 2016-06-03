@@ -25,6 +25,7 @@ The next step is to work through the basics as discussed on their
 Spark Notebook is not supported on the national hadoop cluster, but Spark is.
 
 Let us start by using the provided docker image.
+
 ```
 docker pull surfsara/hathi-client
 
