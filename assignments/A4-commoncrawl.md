@@ -40,7 +40,8 @@ hdfs dfs -ls /data/public/common-crawl/crawl-data/CC-MAIN-2016-07
 ```
 
 Next, go through the basics of running a Spark job on the cluster.
-Read the [Surfsara specific instructions](https://userinfo.surfsara.nl/systems/hadoop/software/spark), 
+Read the [Surfsara specific instructions](https://userinfo.surfsara.nl/systems/hadoop/software/spark);
+with the docker image, you do not have to download the Spark software though, it is already prepared.
 
 Finally, work your way through the steps in the official 
 [Spark documentation](http://spark.apache.org/docs/1.6.1/running-on-yarn.html#launching-spark-on-yarn)
