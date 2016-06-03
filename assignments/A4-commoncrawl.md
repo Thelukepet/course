@@ -37,6 +37,7 @@ Then use your credentials to get a Kerberos ticket, following the [SurfSara inst
 _Note that this did not work well when (by mistake) multiple `surfsara/hathi-client` docker containers were running on my machine._
 
 Try a simple directory listing of the most recent crawl:
+
 ```
 hdfs dfs -ls /data/public/common-crawl/crawl-data/CC-MAIN-2016-07
 ```
