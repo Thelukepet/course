@@ -47,6 +47,7 @@ Read the [Surfsara specific instructions](https://userinfo.surfsara.nl/systems/h
 to install Spark on the docker image, proceed however as follows:
 
 ```
+cd hathi-client
 perl -e 's/version=1.6.0/version=1.6.1/g' -npi bin/get.sh
 bin/get.sh spark
 ```
