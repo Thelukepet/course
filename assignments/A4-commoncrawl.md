@@ -53,9 +53,23 @@ perl -e 's/spark-assembly-1.6.1/spark-assembly-1.6.1/g' -npi conf/spark/spark-de
 bin/get.sh spark
 ```
 
+You initialize the right environment for working with Spark by issuing the following command:
 
+```
+bin/env.sh
+```
 
-Finally, work your way through the steps in the official 
+Try out the standard example to compute Pi through a random process. 
+(The SurfSara cluster requires jobs to be submitted through `yarn`.)
+
+```
+cd spark
+MASTER=yarn-cluster bin/run-example SparkPi
+```
+
+If this succeeded, we are ready for using the cluster for real!
+
+Now, start to work your way through the initial steps of the official 
 [Spark documentation](http://spark.apache.org/docs/1.6.1/running-on-yarn.html#launching-spark-on-yarn)
 to get a bit more experience on running a program on the cluster.
 
