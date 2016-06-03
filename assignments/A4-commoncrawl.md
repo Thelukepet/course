@@ -25,7 +25,14 @@ The next step is to work through the basics as discussed on their
 Spark Notebook is not supported on the national hadoop cluster, but Spark is.
 
 Let us start by using the provided docker image.
+```
+docker pull surfsara/hathi-client
+docker run -it surfsara/hathi-client
+```
 
+Then use your credentials to get a Kerberos ticket, following the [SurfSara instructions](https://userinfo.surfsara.nl/systems/hadoop/usage).
+
+_Note that this did not work well when (by mistake) multiple `surfsara/hathi-client` docker containers were running on my machine._
 
 
 ### Assignment
