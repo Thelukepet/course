@@ -49,6 +49,7 @@ to install Spark on the docker image, proceed however as follows:
 ```
 cd hathi-client
 perl -e 's/version=1.6.0/version=1.6.1/g' -npi bin/get.sh
+perl -e 's/spark-assembly-1.6.1/spark-assembly-1.6.1/g' -npi conf/spark/spark-defaults.conf
 bin/get.sh spark
 ```
 
