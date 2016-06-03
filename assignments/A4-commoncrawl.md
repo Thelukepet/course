@@ -40,10 +40,16 @@ hdfs dfs -ls /data/public/common-crawl/crawl-data/CC-MAIN-2016-07
 ```
 
 Next, go through the basics of running a Spark job on the cluster.
-Read the [Surfsara specific instructions](https://userinfo.surfsara.nl/systems/hadoop/software/spark), and work your way through the steps in
-the official [Spark documentation](http://spark.apache.org/docs/1.6.1/running-on-yarn.html#launching-spark-on-yarn).
+Read the [Surfsara specific instructions](https://userinfo.surfsara.nl/systems/hadoop/software/spark), 
 
-**Do not run immediately a program on the full Commoncrawl, even if you now know where to find the data!**
+Finally, work your way through the steps in the official 
+[Spark documentation](http://spark.apache.org/docs/1.6.1/running-on-yarn.html#launching-spark-on-yarn)
+to get a bit more experience on running a program on the cluster.
+
+**Do not yet run a program on the Commoncrawl at this point!**
+
+I suggest to extract a few spark exercises from the notebooks we used in [assignment 2a](A2a-spark-101.md) 
+and [assignment 2b](A2b-execution-model.md) before continuing to the next step.
 
 ### Assignment
 
