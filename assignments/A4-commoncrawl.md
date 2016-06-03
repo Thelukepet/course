@@ -40,11 +40,12 @@ Try a simple directory listing of the most recent crawl:
 
 ```
 hdfs dfs -ls /data/public/common-crawl/crawl-data/CC-MAIN-2016-07
+hdfs dfs -ls -h /data/public/common-crawl/crawl-data/CC-MAIN-2016-07/segments/1454702039825.90/warc
 ```
 
-Next, go through the basics of running a Spark job on the cluster.
-Read the [Surfsara specific instructions](https://userinfo.surfsara.nl/systems/hadoop/software/spark);
-to install Spark on the docker image, proceed however as follows:
+Next, let us go through the basics of running a Spark job on the cluster.
+Quickly scan the [Surfsara specific instructions](https://userinfo.surfsara.nl/systems/hadoop/software/spark);
+to install Spark on the docker image, proceed however with the specific instructions given here:
 
 ```
 cd hathi-client
@@ -53,7 +54,7 @@ perl -e 's/spark-assembly-1.6.1/spark-assembly-1.6.1/g' -npi conf/spark/spark-de
 bin/get.sh spark
 ```
 
-You initialize the right environment for working with Spark by issuing the following command:
+From now on, initialize the right environment for working with Spark by issuing the following command:
 
 ```
 bin/env.sh
@@ -69,14 +70,17 @@ MASTER=yarn-cluster bin/run-example SparkPi
 
 If this succeeded, we are ready for using the cluster for real!
 
-Now, start to work your way through the initial steps of the official 
-[Spark documentation](http://spark.apache.org/docs/1.6.1/running-on-yarn.html#launching-spark-on-yarn)
-to get a bit more experience on running a program on the cluster.
+Start to work your way through the initial steps of the official 
+[Spark documentation](http://spark.apache.org/docs/1.6.1/quick-start.html#self-contained-applications)
+to learn how to create a standalone Spark application using `spark-submit`.
+For running an application, you need the instructions to use
+[`spark-submit` for a yarn cluster](http://spark.apache.org/docs/1.6.1/running-on-yarn.html#launching-spark-on-yarn).
 
 **Do not yet run a program on the Commoncrawl at this point!**
 
 I suggest to extract a few spark exercises from the notebooks we used in [assignment 2a](A2a-spark-101.md) 
 and [assignment 2b](A2b-execution-model.md) before continuing to the next step.
+Create your own version of the notebook, and access the code by saving it as scala code (_save as_ in the file menu).
 
 ### Assignment
 
