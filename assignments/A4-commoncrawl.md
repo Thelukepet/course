@@ -32,22 +32,16 @@ docker run -it surfsara/hathi-client
 
 #### Kerberos authentication
 
-Because the national cluster serves many users, authentication is arranged through Kerberos.
-Use your credentials to get a Kerberos ticket, following the [SurfSara instructions](https://userinfo.surfsara.nl/systems/hadoop/usage).
+Because the national cluster serves many users that not all have access to the same data, authentication is kind-a strict, provided
+through MIT's Kerberos.
 
-_Note that this did not work well when (by mistake) multiple `surfsara/hathi-client` docker containers were running on my machine._
+Inside a Docker container, this works smoothly: 
+use your credentials (obtained from me) to get a Kerberos ticket, 
+by following the [SurfSara instructions](https://userinfo.surfsara.nl/systems/hadoop/usage).
 
-To authenticate through Kerberos _on a Linux machine_ outside the Docker image (necessary to use the ResourceManager from firefox):
-
-First copy the config file from the Docker image, or, alternatively, download this [`surfsara.krb5.conf`](surfsara.krb5.conf),
-and set the following environment variable:
-
-```
-cp /path/to/surfsara.krb5.conf $HOME/.surfsara.krb5.conf
-export KRB5_CONFIG=$HOME/.surfsara.krb5.conf
-```
-
-TODO: OS/X and Windows
+To authenticate through Kerberos _on a Linux or Windows machine_ **outside** the Docker image,
+which will be necessary to use the ResourceManager from your web-browser, 
+please [follow these steps](kerberos.html) (provided without warranty, by me).
 
 #### First steps on Hathi
 
