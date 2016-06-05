@@ -31,38 +31,39 @@ first install the Kerberos client software. On a Redhat machine, you would issue
 sudo dnf install krb5-workstation krb5-libs krb5-auth-dialog
 ```
 
-First copy the config file from the Docker image, or, alternatively, download this [`surfsara.krb5.conf`](surfsara.krb5.conf),
-and set the following environment variable:
+Copy the config file from the Docker image, or, alternatively, download [`surfsara.krb5.conf`](surfsara.krb5.conf),
+put it in your home directory and set the `KRB5_CONFIG` environment variable:
 
 ```
 cp /path/to/surfsara.krb5.conf $HOME/.surfsara.krb5.conf
 export KRB5_CONFIG=$HOME/.surfsara.krb5.conf
 ```
 
-Modify the Firefox variables according to the instructions given by SurfSara (on the
-[usage page](https://userinfo.surfsara.nl/systems/hadoop/usage).
+Configure Firefox by setting its settings according to the instructions given by SurfSara on the
+[usage page](https://userinfo.surfsara.nl/systems/hadoop/usage.
 
-You should now be able to access the [ResourceManager](http://head05.hathi.surfsara.nl/cluster).
+You should now be able to access the [ResourceManager](http://head05.hathi.surfsara.nl/cluster) in the configured Firefox browser.
 
 ### Windows
 
 On Windows, it takes a few more steps, but I managed to make it work on my own laptop using the instructions provided by
 the Edinburgh University systems people: [Kerberos on Windows](http://computing.help.inf.ed.ac.uk/kerberos-windows).
-First install _Heimdal Kerberos for Windows_ and the _Network Identity Manager_ according to their instructions.
 
-Then, replace the default `krb5.conf` file in `C:\ProgramData\Kerberos` by the file provided by SurfSara in the docker image,
-or, alternatively, by downloading [`surfsara.krb5.conf`](surfsara.krb5.conf) (and rename the file to `krb5.conf`).
+First, install _Heimdal Kerberos for Windows_ and the _Network Identity Manager_ following the Edinburgh instructions.
+
+Then, replace the default `krb5.conf` file in `C:\ProgramData\Kerberos` by the file provided by SurfSara in the Docker image;
+or, alternatively, by downloading [`surfsara.krb5.conf`](surfsara.krb5.conf); make sure to rename the file to `krb5.conf`.
 
 Next, add your credentials to the Network Identity Manager, and obtain a Kerberos ticket.
 
-Now modify the Firefox settings like above (as given on the [hathi usage page](https://userinfo.surfsara.nl/systems/hadoop/usage)).
-Additionally, for Windows, you should also switch the following variable from true to false (again, from `about:setup`):
+Finally, configure Firefox using the settings given on the [hathi usage page](https://userinfo.surfsara.nl/systems/hadoop/usage).
+Additionally, for Windows, you should also switch the following variable from `true` to `false` (again, from `about:setup`):
 
 ```
 network.auth.use-sspi false
 ```
 
-You should now be able to view the [ResourceManager](http://head05.hathi.surfsara.nl/cluster) _(in Firefox only)_.
+You should now be able to view the [ResourceManager](http://head05.hathi.surfsara.nl/cluster) _(works in configured Firefox only)_.
 
 ### OS/X
 
