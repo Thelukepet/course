@@ -17,14 +17,12 @@ desktops emulating a cluster.
 We work on the national [Hadoop cluster](https://userinfo.surfsara.nl/systems/hadoop/description).
 Instead of following the _Obtaining an account_ instructions, you have to receive your account info from me.
 
-The next step is to work through the basics as discussed on their
+#### Initial setup
+
+Let us work through the basics discussed on the
 [Hadoop cluster usage page](https://userinfo.surfsara.nl/systems/hadoop/usage).
 
-...
-
-Spark Notebook is not supported on the national hadoop cluster, but Spark is.
-
-Let us start by using the provided docker image.
+Start by using the provided docker image.
 
 ```
 docker pull surfsara/hathi-client
@@ -32,9 +30,26 @@ docker pull surfsara/hathi-client
 docker run -it surfsara/hathi-client
 ```
 
-Then use your credentials to get a Kerberos ticket, following the [SurfSara instructions](https://userinfo.surfsara.nl/systems/hadoop/usage).
+#### Kerberos authentication
+
+Because the national cluster serves many users, authentication is arranged through Kerberos.
+Use your credentials to get a Kerberos ticket, following the [SurfSara instructions](https://userinfo.surfsara.nl/systems/hadoop/usage).
 
 _Note that this did not work well when (by mistake) multiple `surfsara/hathi-client` docker containers were running on my machine._
+
+To authenticate through Kerberos _on a Linux machine_ outside the Docker image (necessary to use the ResourceManager from firefox):
+
+First copy the config file from the Docker image, or, alternatively, download this [`surfsara.krb5.conf`](surfsara.krb5.conf),
+and set the following environment variable:
+
+```
+cp /path/to/surfsara.krb5.conf $HOME/.surfsara.krb5.conf
+export KRB5_CONFIG=$HOME/.surfsara.krb5.conf
+```
+
+TODO: OS/X and Windows
+
+#### First steps on Hathi
 
 Try a simple directory listing of the most recent crawl:
 
@@ -42,6 +57,10 @@ Try a simple directory listing of the most recent crawl:
 hdfs dfs -ls /data/public/common-crawl/crawl-data/CC-MAIN-2016-07
 hdfs dfs -ls -h /data/public/common-crawl/crawl-data/CC-MAIN-2016-07/segments/1454702039825.90/warc
 ```
+
+#### Spark
+
+Spark Notebook is not supported on the national hadoop cluster, but Spark is.
 
 Next, let us go through the basics of running a Spark job on the cluster.
 Quickly scan the [Surfsara specific instructions](https://userinfo.surfsara.nl/systems/hadoop/software/spark);
