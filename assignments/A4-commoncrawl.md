@@ -52,7 +52,7 @@ hdfs dfs -ls /data/public/common-crawl/crawl-data/CC-MAIN-2016-07
 hdfs dfs -ls -h /data/public/common-crawl/crawl-data/CC-MAIN-2016-07/segments/1454702039825.90/warc
 ```
 
-#### Spark
+#### Setting up Spark environment
 
 Spark Notebook is not supported on the national hadoop cluster, but Spark is.
 
@@ -87,9 +87,12 @@ the application state in the Resource Manager, very similar to this screenshot:
 
 If this succeeded, we are ready for using the cluster for real!
 
+#### Using Spark on the cluster
+
 Start to work your way through the initial steps of the official 
 [Spark documentation](http://spark.apache.org/docs/1.6.1/quick-start.html#self-contained-applications)
 to learn how to create a standalone Spark application using `spark-submit`.
+
 For running an application, you need the instructions to use
 [`spark-submit` for a yarn cluster](http://spark.apache.org/docs/1.6.1/running-on-yarn.html#launching-spark-on-yarn).
 
