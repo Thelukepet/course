@@ -81,6 +81,10 @@ cd spark
 MASTER=yarn-cluster bin/run-example SparkPi
 ```
 
+If you managed to get a Kerberos ticket and configured your Firefox correctly, you can view
+the application state in the Resource Manager, very similar to this screenshot:
+![ResourceManager](screenshot-hathi-resourcemanager.png)
+
 If this succeeded, we are ready for using the cluster for real!
 
 Start to work your way through the initial steps of the official 
@@ -91,9 +95,9 @@ For running an application, you need the instructions to use
 
 **Do not yet run a program on the Commoncrawl at this point!**
 
-I suggest to extract a few spark exercises from the notebooks we used in [assignment 2a](A2a-spark-101.md) 
-and [assignment 2b](A2b-execution-model.md) before continuing to the next step.
-Create your own version of the notebook, and access the code by saving it as scala code (_save as_ in the file menu).
+I suggest to start out with a few spark exercises from the notebooks we used in [assignment 2a](A2a-spark-101.md) 
+and [assignment 2b](A2b-execution-model.md), before continuing to the next step.
+(You can save any notebook as just its Scala code by using _save as_ in the file menu.)
 
 ### Assignment
 
