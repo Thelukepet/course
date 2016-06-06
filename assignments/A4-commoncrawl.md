@@ -9,8 +9,9 @@ description: Commoncrawl
 Assignment 4 is an open assignment, where we will work with data on the national supercomputer infrastructure managed by SurfSara.
 
 We have to see how far we get - the main objective is not so much to prepare a winning submission for the next Norvig Award, but 
-merely to get some handson experience in running _and debugging_ jobs on a shared managed cluster, instead of our own laptops or
-desktops emulating a cluster.
+merely to get hands-on experience in running _and debugging_ jobs on a shared managed cluster, instead of our own laptops or
+desktops (that at best emulate a real cluster, and in the worse case will mislead you to underestimating the problems of working 
+on actual __Big Data__).
 
 ### Preparations
 
@@ -90,32 +91,33 @@ If this succeeded, we are ready for using the cluster for real!
 
 #### Using Spark on the cluster
 
-Start to work your way through the initial steps of the official 
-[Spark documentation](http://spark.apache.org/docs/1.6.1/quick-start.html#self-contained-applications)
-to learn how to create a standalone Spark application using `spark-submit`.
-
-For running an application, you need the instructions to use
-[`spark-submit` for a yarn cluster](http://spark.apache.org/docs/1.6.1/running-on-yarn.html#launching-spark-on-yarn).
-
-**Do not yet run a program on the Commoncrawl at this point!**
-
-I suggest to start out with a few spark exercises from the notebooks we used in [assignment 2a](A2a-spark-101.md) 
-and [assignment 2b](A2b-execution-model.md), before continuing to the next step.
-(You can save any notebook as just its Scala code by using _save as_ in the file menu.)
+Before moving on the final project work, carry out the course instructions on 
+[executing self-contained Spark applications](sbt.html).
+This helps you run a simple Spark application on the cluster from inside your 
+SurfSara Docker container.
 
 ### Assignment
 
-The assignment is to "do something with the Commoncrawl data" and write-up your experience in
-a final blog post.
+Now that you got this far, it is time to be creative and modify the setup and files provided 
+for your own project's sake.
 
-More details to follow; this page will be updated Monday June 6th.
+The assignment is very open-ended: 
+"do something with the Commoncrawl data" and write-up your experience in a final blog post.
 
-
-**When you get stuck, use Piazza to find help from your fellow students and/or me!**
-
-### Blog post 
+#### Blog post 
 
 Imagine a reader that has followed your previous experiences with Spark.
 The goal of this post is to share your work on the Commoncrawl data with them,
 emphasizing the differences between running locally a prepared notebook versus
 a real project on a more unfamiliar remote environment.
+
+Readers will be curious to learn basic statistics about the crawl, but also how
+long it takes to make a pass over the data, both on average, and under peak loads.
+
+Ideally, your analysis teaches us something about the Web we did not yet know;
+but that is not a requirement for completing the assignment.
+
+_Wishing you good big data vibes!_
+
+Oh, and do not forget:
+**use Piazza to find help from your fellow students and/or me!**
