@@ -41,7 +41,8 @@ Glance over the documentation on creating [self-contained Spark apps](http://spa
 to learn how to create a standalone Spark application and subsequently run it using 
 [`spark-submit` for a yarn cluster](http://spark.apache.org/docs/1.6.1/running-on-yarn.html#launching-spark-on-yarn).
 
-The documentation is a little too concise to be convenient, so let us walk through the process with an actual _overly simple_ example.
+The official documentation is a little too concise to be convenient, so let us walk through the process with an actual (but _overly simple_) 
+example of a Spark application written in Scala.
 
 Download compressed archive [`rubigdata.tgz`](rubigdata.tgz) from the course website into your Docker container, and unpack the archive.
 
@@ -52,16 +53,33 @@ tar xzvfp rubigdata.tgz
 cd rubigdata
 ```
 
-Now, we copy a small text file into your home directory on the cluster; feel free to first modify the sample file.
+Now, we copy a small text file into your home directory on the cluster; feel free to first modify the sample textfile before copying it to HDFS.
 
 ```
-
-
+hdfs dfs -put rubigdata-test.txt
 ```
 
+Build the stand-alone application (_do not forget to first inspect the code, so you know what to expect!_)
+The two inputs to this process are the `rubigdata.sbt` file and the actual code provided in `rubigdata.scala`.
+The directory structure provided through the compressed archive is important; 
+for the details, look into the `sbt` documentation.
 
+```
+sbt package
+```
 
+The result is a `jar` file that we can execute on `hathi` using Spark's `spark-submit` command:
 
+```
+spark-submit --master yarn --deploy-mode cluster /hathi-client/spark-1.6.1-bin-hadoop2.6/rubigdata/target/scala-2.11/rubigdataapp_2.11-1.0.jar
+```
+
+Follow the output by opening the URL that is given on `stdout` 
+(this URL looks like `http://head05.hathi.surfsara.nl:8088/proxy/application_1458320004153_68201/`).
+
+While the application runs, you will see the already familiar Spark UI (visible in standalone mode at `localhost:4040`); 
+once the application is finished, you get a summary page, from which you can inspect the logs.
+In our simple example program, these logs contain the output: character counts in the textfile we stored in our home directory on HDFS.
 
 ### Next steps
 
