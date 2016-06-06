@@ -87,11 +87,11 @@ If you managed to get a Kerberos ticket and configured your Firefox correctly, y
 the application state in the Resource Manager, very similar to this screenshot:
 ![ResourceManager](screenshot-hathi-resourcemanager.png)
 
+### Using Spark on the cluster
+
 If this succeeded, we are ready for using the cluster for real!
 
-#### Using Spark on the cluster
-
-Before moving on the final project work, carry out the course instructions on 
+Before moving on the final project work, carry out the course provided instructions on 
 [executing self-contained Spark applications](sbt.html).
 This helps you run a simple Spark application on the cluster from inside your 
 SurfSara Docker container.
