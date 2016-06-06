@@ -40,9 +40,10 @@ export KRB5_CONFIG=$HOME/.surfsara.krb5.conf
 ```
 
 Configure Firefox by setting its settings according to the instructions given by SurfSara on the
-[usage page](https://userinfo.surfsara.nl/systems/hadoop/usage.
+[usage page](https://userinfo.surfsara.nl/systems/hadoop/usage).
 
 You should now be able to access the [ResourceManager](http://head05.hathi.surfsara.nl/cluster) in the configured Firefox browser.
+_Note: this may involve a restart of Firefox from a terminal in which the `KRB5_CONFIG` variable is set as given above._
 
 ### Windows
 
