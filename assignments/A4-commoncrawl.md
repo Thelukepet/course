@@ -8,8 +8,9 @@ description: Commoncrawl
 
 Assignment 4 is an open assignment, where we will work with data on the national supercomputer infrastructure managed by SurfSara.
 
-We have to see how far we get - the main objective is not so much to prepare a winning submission for the next Norvig Award, but 
-merely to get hands-on experience in running _and debugging_ jobs on a shared managed cluster, instead of our own laptops or
+We have to see how far we get - 
+the main objective is not so much to prepare a winning submission for the next [Norvig Award](http://norvigaward.github.io/), 
+but merely to get hands-on experience in running _and debugging_ jobs on a shared managed cluster, instead of our own laptops or
 desktops (that at best emulate a real cluster, and in the worse case will mislead you to underestimating the problems of working 
 on actual __Big Data__).
 
@@ -104,6 +105,33 @@ for your own project's sake.
 The assignment is very open-ended: 
 "do something with the Commoncrawl data" and write-up your experience in a final blog post.
 
+Do not forget to check out the Commoncrawl foundation's excellent 
+[get started](http://commoncrawl.org/the-data/get-started/) and
+[other tutorials](http://commoncrawl.org/the-data/tutorials/).
+
+To identify test data of interest, I recommend to use the public
+[CDX Index service](http://index.commoncrawl.org/CC-MAIN-2016-07) to locate a few
+WARC files to download for analysis and code development on your local machine:
+for example, find the [BBC captures in the crawl](http://index.commoncrawl.org/CC-MAIN-2016-07-index?url=www.bbc.com&output=json),
+and check out the corresponding WARC files from the crawl on `hathi`, e.g.,
+
+```
+hdfs dfs -ls /data/public/common-crawl/crawl-data/CC-MAIN-2016-07/segments/1454701165302.57/warc/CC-MAIN-20160205193925-00246-ip-10-236-182-209.ec2.internal.warc.gz
+```
+
+Refer to the [use case slides](https://blackboard.ru.nl/bbcswebdav/xid-6973793_4),
+the second part of the dimensionality reduction lecture,
+that discussed in detail the case study of how to run SVD on Wikipedia dump,
+and revisit the use of the `XMLInputFormat` classes.
+You will need a similar strategy to tackle the problem of accessing crawl 
+information inside the Web Archive files (WARC files).
+SurfSara and the Commoncrawl foundation have provided useful utility code on
+the [Norvig Award github repository](https://github.com/norvigaward/warcutils).
+(including classes for a `WARCInputFormat`).
+Alternative pointers to help you get going include Jimmy Lin's 
+[Warcbase project](https://github.com/lintool/warcbase) and
+L3S's recent [ArchiveSpark](https://github.com/helgeho/ArchiveSpark).
+
 #### Blog post 
 
 Imagine a reader that has followed your previous experiences with Spark.
@@ -119,5 +147,12 @@ but that is not a requirement for completing the assignment.
 
 _Wishing you good big data vibes!_
 
+#### Final words
+
 Oh, and do not forget:
 **use Piazza to find help from your fellow students and/or me!**
+
+_By the way_, before I forget: students from a previous version of this course _did_ win the Norvig Award in 2014! 
+If you plan on winning the next edition, I would love to hear from you!
+
+
