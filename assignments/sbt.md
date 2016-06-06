@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Self Contained Apps 
-description: Getting Spark applications in Scala to work
+description: Run your own Spark applications written in Scala on Hathi 
 ---
 
-## Self Contained Apps
+## Running Self Contained Apps on Hathi
 
 So far, we have only used Spark in an interactive setting, making best use of the Spark Notebook.
 
@@ -37,11 +37,12 @@ apt-get install sbt
 
 ### `RUBigDataApp`
 
-Glance over the documentation on creating [self-contained Spark apps](http://spark.apache.org/docs/1.6.1/quick-start.html#self-contained-applications)
-to learn how to create a standalone Spark application and subsequently run it using 
+Glance over the Spark project's documentation on creating 
+[self-contained Spark apps](http://spark.apache.org/docs/1.6.1/quick-start.html#self-contained-applications)
+to find out how to create a standalone Spark application and subsequently run the application using 
 [`spark-submit` for a yarn cluster](http://spark.apache.org/docs/1.6.1/running-on-yarn.html#launching-spark-on-yarn).
 
-The official documentation is a little too concise to be convenient, so let us walk through the process with an actual (but _overly simple_) 
+The official documentation is a little too concise to be very useful, so let us walk through the process with an actual (but _overly simple_) 
 example of a Spark application written in Scala.
 
 Download compressed archive [`rubigdata.tgz`](rubigdata.tgz) from the course website into your Docker container, and unpack the archive.
