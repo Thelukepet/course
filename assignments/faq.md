@@ -19,5 +19,5 @@ The scala version (and the specific JVM) are printed right under the logo when s
 
 ### See also:
 
-TBD
+* Additional info on [`spark-shell`](https://jaceklaskowski.gitbooks.io/mastering-apache-spark/content/spark-shell.html)
 
