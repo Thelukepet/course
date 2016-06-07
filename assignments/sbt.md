@@ -25,6 +25,7 @@ First install `sbt` on SurfSara's Docker image.
 Hereto, follow the instructions from [`scala-sbt.org`](http://www.scala-sbt.org/0.13/docs/Installing-sbt-on-Linux.html).
 
 ```
+apt-get update
 apt-get install apt-transport-https
 
 echo "deb https://dl.bintray.com/sbt/debian /" | tee -a /etc/apt/sources.list.d/sbt.list
