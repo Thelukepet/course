@@ -91,6 +91,7 @@ Test A about all lectures and reading material Q3.
 #### Friday May 27th:
 
 Deadline for handing in your blog on assignment 3
+
 **Any time of the day is fine.**
 
 #### July 3rd:
