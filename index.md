@@ -94,7 +94,7 @@ Deadline for handing in your blog on assignment 3
 
 **Any time of the day is fine.**
 
-#### July 3rd:
+#### June 7th - July 3rd:
 
 The final assignment using with a recent Web crawl:
 
