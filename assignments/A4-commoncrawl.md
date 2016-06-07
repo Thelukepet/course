@@ -8,13 +8,13 @@ description: Commoncrawl
 
 Assignment 4 is an open assignment, where we will work with data on the national supercomputer infrastructure managed by SurfSara.
 
-We have to see how far we get - 
+Follow this link to the *Classroom for Github* [**Commoncrawl** assignment](https://classroom.github.com/assignment-invitations/9f76c2053bc4f00a3d790253a44f22f3), login with your github account, and accept the assignment.
+
+We have yet to see how far we will get - 
 the main objective is not so much to prepare a winning submission for the next [Norvig Award](http://norvigaward.github.io/), 
 but merely to get hands-on experience in running _and debugging_ jobs on a shared managed cluster, instead of our own laptops or
 desktops (that at best emulate a real cluster, and in the worse case will mislead you to underestimating the problems of working 
 on actual __Big Data__).
-
-Follow this link to the *Classroom for Github* [**Commoncrawl** assignment](https://classroom.github.com/assignment-invitations/9f76c2053bc4f00a3d790253a44f22f3), login with your github account, and accept the assignment.
 
 ### Preparations
 
