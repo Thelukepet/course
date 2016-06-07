@@ -135,6 +135,9 @@ the [Norvig Award github repository](https://github.com/norvigaward/warcutils).
 Alternative pointers to help you get going include Jimmy Lin's 
 [Warcbase project](https://github.com/lintool/warcbase) and
 L3S's recent [ArchiveSpark](https://github.com/helgeho/ArchiveSpark).
+Finally, before developing your own code for specific tasks, check the
+[SparkPackages community index](https://spark-packages.org/) to see if
+your problem has already been solved (partially) before.
 
 #### Blog post 
 
