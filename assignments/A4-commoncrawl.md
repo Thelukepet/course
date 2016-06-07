@@ -10,7 +10,7 @@ Assignment 4 is an open assignment, where we will work with data on the national
 
 Follow this link to the *Classroom for Github* [**Commoncrawl** assignment](https://classroom.github.com/assignment-invitations/9f76c2053bc4f00a3d790253a44f22f3), login with your github account, and accept the assignment.
 
-### Disclaimer (a.k.a. "no worries")
+#### Disclaimer (a.k.a. "no worries")
 
 We have yet to see how far we will get - 
 the main objective is not so much to prepare a winning submission for the next [Norvig Award](http://norvigaward.github.io/), 
