@@ -14,6 +14,8 @@ but merely to get hands-on experience in running _and debugging_ jobs on a share
 desktops (that at best emulate a real cluster, and in the worse case will mislead you to underestimating the problems of working 
 on actual __Big Data__).
 
+Follow this link to the *Classroom for Github* [**Commoncrawl** assignment](https://classroom.github.com/assignment-invitations/9f76c2053bc4f00a3d790253a44f22f3), login with your github account, and accept the assignment.
+
 ### Preparations
 
 We work on the national [Hadoop cluster](https://userinfo.surfsara.nl/systems/hadoop/description).
