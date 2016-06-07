@@ -93,6 +93,24 @@ Test A about all lectures and reading material Q3.
 Deadline for handing in your blog on assignment 3
 **Any time of the day is fine.**
 
+#### July 3rd:
+
+The final assignment using with a recent Web crawl:
+
+* [Assignment 4](assignments/A4-commoncrawl.html)
+
+This final assignment challenges you to run analysis jobs over
+the full CommonCrawl webcrawl, using Hathi, the national Hadoop cluster 
+maintained by SURFsara.
+
+Access to Hathi requires successful completion of assignments 2 - 3;
+please come and request account info in class on June 7th.
+
+_Informal_ presentations to the teacher and to each other,
+of the results obtained, have been _tentatively_ scheduled for **July 5th**.
+
+(This _tentative date_ is yet to be confirmed!)
+
 
 #### TBA
 Start peer review assignments 2 and 3 (detailed instructions will follow).
@@ -104,8 +122,4 @@ component of their course.
 The Big Data students and the Webscale AI students who take the special 
 3 ECTS elective continue with the course, which includes one prepatory
 assignment 4 and a final project assignment 5.
-This final assignment will eventually entail running analysis jobs over
-the full CommonCrawl webcrawl, using Hathi, the national Hadoop cluster 
-maintained by SURFsara. Access to Hathi requires successful completion of
-assignments 2 - 3.
 
