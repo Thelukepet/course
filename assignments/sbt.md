@@ -54,16 +54,20 @@ tar xzvfp rubigdata.tgz
 cd rubigdata
 ```
 
-Now, we copy a small text file into your home directory on the cluster; feel free to first modify the sample textfile before copying it to HDFS.
+Now, we copy the included (very small) [text file](rubigdata/rubigdata-test.txt) into your home directory 
+on the cluster; feel free to first modify the sample textfile before copying it to HDFS.
 
 ```
 hdfs dfs -put rubigdata-test.txt
 ```
 
-Build the stand-alone application (_do not forget to first inspect the code, so you know what to expect!_)
-The two inputs to this process are the `rubigdata.sbt` file and the actual code provided in `rubigdata.scala`.
+The two inputs to building trivial sample app `RUBigDataApp` are the 
+[`rubigdata.sbt`](rubigdata/rubigdata.sbt) build file and the actual code, 
+provided in [`rubigdata.scala`](rubigdata/src/main/scala/org/rubigdata/RUBigDataApp.scala).
 The directory structure provided through the compressed archive is important; 
 for the details, look into the `sbt` documentation.
+
+Build the stand-alone application: 
 
 ```
 sbt package
@@ -75,7 +79,11 @@ The result is a `jar` file that we can execute on `hathi` using Spark's `spark-s
 spark-submit --master yarn --deploy-mode cluster /hathi-client/spark-1.6.1-bin-hadoop2.6/rubigdata/target/scala-2.10/rubigdataapp_2.10-1.0.jar
 ```
 
-Follow the output by opening the URL that is given on `stdout` 
+(_Do not forget to first inspect the 
+[`RUBigDataApp.scala` code](rubigdata/src/main/scala/org/rubigdata/RUBigDataApp.scala), 
+so you know what to expect as output!_)
+
+Follow the Spark application's output by opening the URL that is given on `stdout` 
 (this URL looks like `http://head05.hathi.surfsara.nl:8088/proxy/application_1458320004153_68201/`).
 
 While the application runs, you will see the already familiar Spark UI (visible in standalone mode at `localhost:4040`); 
