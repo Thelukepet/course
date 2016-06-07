@@ -72,7 +72,7 @@ sbt package
 The result is a `jar` file that we can execute on `hathi` using Spark's `spark-submit` command:
 
 ```
-spark-submit --master yarn --deploy-mode cluster /hathi-client/spark-1.6.1-bin-hadoop2.6/rubigdata/target/scala-2.11/rubigdataapp_2.11-1.0.jar
+spark-submit --master yarn --deploy-mode cluster /hathi-client/spark-1.6.1-bin-hadoop2.6/rubigdata/target/scala-2.10/rubigdataapp_2.10-1.0.jar
 ```
 
 Follow the output by opening the URL that is given on `stdout` 

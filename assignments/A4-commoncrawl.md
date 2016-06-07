@@ -129,10 +129,14 @@ that discussed in detail the case study of how to run SVD on Wikipedia dump,
 and revisit the use of the `XMLInputFormat` classes.
 You will need a similar strategy to tackle the problem of accessing crawl 
 information inside the Web Archive files (WARC files).
+
 SurfSara and the Commoncrawl foundation have provided useful utility code on
 the [Norvig Award github repository](https://github.com/norvigaward/warcutils).
 (including classes for a `WARCInputFormat`).
-Alternative pointers to help you get going include Jimmy Lin's 
+The [International Internet Preservation Consortium (IIPC)](http://www.netpreserve.org/) 
+provides [utility code](https://github.com/iipc/webarchive-commons)
+for `OpenWayback`, an open version of the Internet Archive's Wayback machine.
+Other related pointers to help you get going include Jimmy Lin's 
 [Warcbase project](https://github.com/lintool/warcbase) and
 L3S's recent [ArchiveSpark](https://github.com/helgeho/ArchiveSpark).
 Finally, before developing your own code for specific tasks, check the
