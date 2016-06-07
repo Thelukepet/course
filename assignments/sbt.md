@@ -62,8 +62,8 @@ hdfs dfs -put rubigdata-test.txt
 ```
 
 The two inputs to building trivial sample app `RUBigDataApp` are the 
-[`rubigdata.sbt`](rubigdata/rubigdata.sbt) build file and the actual code, 
-provided in [`rubigdata.scala`](rubigdata/src/main/scala/org/rubigdata/RUBigDataApp.scala).
+[`rubigdata.sbt`](rubigdata/rubigdata.sbt.txt) build file and the actual code, 
+provided in [`rubigdata.scala`](rubigdata/src/main/scala/org/rubigdata/RUBigDataApp.scala.txt).
 The directory structure provided through the compressed archive is important; 
 for the details, look into the `sbt` documentation.
 
@@ -80,7 +80,7 @@ spark-submit --master yarn --deploy-mode cluster /hathi-client/spark-1.6.1-bin-h
 ```
 
 (_Do not forget to first inspect the 
-[`RUBigDataApp.scala` code](rubigdata/src/main/scala/org/rubigdata/RUBigDataApp.scala), 
+[`RUBigDataApp.scala` code](rubigdata/src/main/scala/org/rubigdata/RUBigDataApp.scala.txt), 
 so you know what to expect as output!_)
 
 Follow the Spark application's output by opening the URL that is given on `stdout` 
