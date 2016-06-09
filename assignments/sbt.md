@@ -93,8 +93,8 @@ In our simple example program, these logs contain the output: character counts i
 
 ### Next steps
 
-Before trying to analyze Commoncrawl data, I suggest to run a few spark exercises from [assignment 2a](A2a-spark-101.md) 
-and [assignment 2b](A2b-execution-model.md). You can save any notebook as just its Scala code by using the _save as_ option
+Before trying to analyze Commoncrawl data, I suggest to run a few spark exercises from [assignment 2a](A2a-spark-101.html) 
+and [assignment 2b](A2b-execution-model.html). You can save any notebook as just its Scala code by using the _save as_ option
 from the file menu.
 
 _Include a brief discussion, perhaps using a concerete example, in the introductory part of your blog post, 
