@@ -124,8 +124,9 @@ hdfs dfs -ls /data/public/common-crawl/crawl-data/CC-MAIN-2016-07/segments/14547
 ```
 
 You can initially work on a small WARC file that you create yourself, e.g.,
-[using a recent `wget` with WARC output](http://www.archiveteam.org/index.php?title=Wget_with_WARC_output) 
-to crawl a selected site:
+using [webrecorder.io](https://webrecorder.io/) or
+[a recent `wget` with WARC output](http://www.archiveteam.org/index.php?title=Wget_with_WARC_output) 
+(included in the SurfSara docker image):
 
 ```
 wget -r -l 3 "http://rubigdata.github.io/course/" --warc-file="course"
