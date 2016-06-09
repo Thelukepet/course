@@ -91,15 +91,16 @@ While the application runs, you will see the already familiar Spark UI (visible 
 once the application is finished, you get a summary page, from which you can inspect the logs.
 In our simple example program, these logs contain the output: character counts in the textfile we stored in our home directory on HDFS.
 
-### Including External Libraries
+### Packaging and Including External Libraries
 
 It makes no sense to write code for subtasks like parsing WARC files from scratch.
-To including external libraries, two relevant tools are 
+To including external libraries, two [`sbt` plugins](http://www.scala-sbt.org/release/docs/Community-Plugins.html) 
+are very useful to simplify the workflow: 
 [`sbt-assembly`](https://github.com/sbt/sbt-assembly)
 and 
-[`sbt-pack`](https://github.com/xerial/sbt-pack) (follow the links for their respective repositories).
+[`sbt-pack`](https://github.com/xerial/sbt-pack) (follow the links for their github repositories).
 
-Using `sbt-assembly`, you can easily create a single large `jar` that includes all dependencies, without having to worry about setting
+With `sbt-assembly`, you easily create a single large `jar` that includes all dependencies, without having to worry about setting
 the right `CLASSPATH` and/or adding all the correct parameters for including libraries when issuing `spark-submit`.
 The `sbt-pack` plugin gathers all dependent libraries in a single location, useful for copying these into the Spark Notebook docker
 container, for example.
