@@ -123,6 +123,13 @@ and check out the corresponding WARC files from the crawl on `hathi`, e.g.,
 hdfs dfs -ls /data/public/common-crawl/crawl-data/CC-MAIN-2016-07/segments/1454701165302.57/warc/CC-MAIN-20160205193925-00246-ip-10-236-182-209.ec2.internal.warc.gz
 ```
 
+You can initially work on a small WARC file that you create yourself, e.g.,
+using a recent `wget` version to crawl a selected site:
+
+```
+wget -r -l 3 "http://rubigdata.github.io/course/" --warc-file="course"
+```
+
 Refer to the [use case slides](https://blackboard.ru.nl/bbcswebdav/xid-6973793_4),
 the second part of the dimensionality reduction lecture,
 that discussed in detail the case study of how to run SVD on Wikipedia dump,
