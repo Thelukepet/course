@@ -124,7 +124,8 @@ hdfs dfs -ls /data/public/common-crawl/crawl-data/CC-MAIN-2016-07/segments/14547
 ```
 
 You can initially work on a small WARC file that you create yourself, e.g.,
-using a recent `wget` version to crawl a selected site:
+[using a recent `wget` with WARC output](http://www.archiveteam.org/index.php?title=Wget_with_WARC_output) 
+to crawl a selected site:
 
 ```
 wget -r -l 3 "http://rubigdata.github.io/course/" --warc-file="course"
