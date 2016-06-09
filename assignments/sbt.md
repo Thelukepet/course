@@ -102,8 +102,8 @@ and
 
 With `sbt-assembly`, you easily create a single large `jar` that includes all dependencies, without having to worry about setting
 the right `CLASSPATH` and/or adding all the correct parameters for including libraries when issuing `spark-submit`.
-The `sbt-pack` plugin gathers all dependent libraries in a single location, useful for copying these into the Spark Notebook docker
-container, for example.
+The `sbt-pack` plugin gathers all dependent libraries in a single location under `target/pack`, to ease copying these jars 
+into the Spark Notebook docker container, for example.
 
 ### Next steps
 
