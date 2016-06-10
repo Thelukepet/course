@@ -96,8 +96,10 @@ the application state in the Resource Manager, very similar to this screenshot:
 
 If this succeeded, we are ready for using the cluster for real!
 
+#### Self-contained Spark applications
+
 Before moving on the final project work, carry out the course provided instructions on 
-[executing self-contained Spark applications](sbt.html).
+[**executing self-contained Spark applications**](sbt.html).
 This helps you run a simple Spark application on the cluster from inside your 
 SurfSara Docker container.
 
@@ -132,12 +134,20 @@ using [webrecorder.io](https://webrecorder.io/) or
 wget -r -l 3 "http://rubigdata.github.io/course/" --warc-file="course"
 ```
 
+#### WARC for Spark
+
+The [WARC for Spark notebook](BigData-CC.snb) will be helpful to play with
+WARC files in a Spark Notebook, to give a more flexible and efficient approach to 
+develop new code _and debug it_, independent of the large cluster.
+
+
+#### Other references
+
 Refer to the [use case slides](https://blackboard.ru.nl/bbcswebdav/xid-6973793_4),
 the second part of the dimensionality reduction lecture,
 that discussed in detail the case study of how to run SVD on Wikipedia dump,
-and revisit the use of the `XMLInputFormat` classes.
-You will need a similar strategy to tackle the problem of accessing crawl 
-information inside the Web Archive files (WARC files).
+and revisit the use of the `XMLInputFormat` classes and turning noisy data
+into a cleaner version to work on.
 
 SurfSara and the Commoncrawl foundation have provided useful utility code on
 the [Norvig Award github repository](https://github.com/norvigaward/warcutils).
