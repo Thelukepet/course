@@ -136,7 +136,7 @@ wget -r -l 3 "http://rubigdata.github.io/course/" --warc-file="course"
 
 #### WARC for Spark
 
-The [WARC for Spark notebook](BigData-CC.snb) will be helpful to play with
+The [WARC for Spark notebook](BigData-WARC-for-Spark.snb) will be helpful to play with
 WARC files in a Spark Notebook, to give a more flexible and efficient approach to 
 develop new code _and debug it_, independent of the large cluster.
 
