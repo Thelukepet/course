@@ -21,7 +21,7 @@ the Docker image provided by SurfSara.
 
 ### Preparation
 
-First install `sbt` on SurfSara's Docker image.
+First install the _Simple Build Tool_ `sbt` on SurfSara's Docker image.
 Hereto, follow the instructions from [`scala-sbt.org`](http://www.scala-sbt.org/0.13/docs/Installing-sbt-on-Linux.html).
 
 ```
@@ -35,6 +35,8 @@ apt-get install sbt
 ```
 
 (While at it, I issued `apt-get install vim` as well, but feel free to skip this.)
+
+I found [this blog post on `sbt`](http://xerial.org/blog/2014/03/24/sbt/) a useful read.
 
 ### `RUBigDataApp`
 
