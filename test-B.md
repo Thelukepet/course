@@ -11,7 +11,8 @@ description: Detailed information of the material examined in Test B
 
 The objective of Test B is a summative assessment of your understanding of the course material for the _final 6 lectures_ of the course.
 
-Lecture 14 gave a brief recap of part two of the course, including a _learning guide_ of what is important for the test.
+Lecture 14 gave a brief recap of part two of the course, including a _learning guide_ of what is important for the test:
+[slides (.pdf)](https://blackboard.ru.nl/bbcswebdav/pid-2489806-dt-content-rid-7055557_4/xid-7055557_4) from Blackboard.
 
 ### Systems
 
