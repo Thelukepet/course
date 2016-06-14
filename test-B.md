@@ -31,7 +31,7 @@ The main source to study is the series of slides for the lectures.
 
 Additional information to help understand the slides and provide extra background:
 
-- The paper on Google Bigtable (and HBase), http://research.google.com/archive/bigtable.html
+- The paper on Google Bigtable (and HBase), [research.google.com/archive/bigtable.html](http://research.google.com/archive/bigtable.html)
 - The chapter on [Locality Sensitive Hashing](https://blackboard.ru.nl/bbcswebdav/pid-2439395-dt-content-rid-6830516_4/xid-6830516_4) in [Mining of Massive Datasets](http://www.mmds.org/), by Jure Leskovec, Anand Rajaraman, Jeff Ullman
 The relevant part of the chapter consists of the Jaccard related material, i.e., Chapter 3 until (inclusive) section 3.4, pp 73-92.
 - Chapter 4 "Inverted Indexing" in Data-Intensive Text Processing with MapReduce, by Jimmy Lin and Chris Dyer 
