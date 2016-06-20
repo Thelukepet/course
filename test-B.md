@@ -24,7 +24,7 @@ Lectures 9 and 10 introduced Locality Sensitive Hashing and Inverted Files.
 
 ### Dimensionality reduction
 
-Lectures 11 and 12 introduced the topic of dimensionality reduction, and specifically looked into SVD and CUR.
+Lectures 12 and 13 introduced the topic of dimensionality reduction, and specifically looked into SVD and CUR.
 
 ### Course Information
 
