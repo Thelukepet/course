@@ -23,7 +23,7 @@ scp target/RUBigDataApp-1.0.tar.gz ${USERNAME}@lilo
 In the `spark-notebook` docker container do:
 
 ```
-scp arjen@apc:RUBig* .
+scp ${USERNAME}@lilo.science.ru.nl:RUBig* .
 tar xzvfp RUBigDataApp-1.0.tar.gz ./lib
 rm ./lib/rubigdataapp_2.10-1.0.jar
 ```
