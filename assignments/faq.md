@@ -17,7 +17,7 @@ cd rubigdata
 sbt pack
 cd target/pack
 make archive
-scp target/RUBigDataApp-1.0.tar.gz ${USERNAME}@lilo
+scp target/RUBigDataApp-1.0.tar.gz ${USERNAME}@lilo.science.ru.nl
 ```
 
 In the `spark-notebook` docker container do:
