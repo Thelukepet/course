@@ -153,6 +153,9 @@ into a cleaner version to work on.
 SurfSara and the Commoncrawl foundation have provided useful utility code on
 the [Norvig Award github repository](https://github.com/norvigaward/warcutils).
 (including classes for a `WARCInputFormat`).
+Their code is based on the [`jwat` libraries](https://bitbucket.org/nclarkekb/jwat)
+(inspecting the code may be useful to understand the `WarcRecord` classes).
+
 The [International Internet Preservation Consortium (IIPC)](http://www.netpreserve.org/) 
 provides [utility code](https://github.com/iipc/webarchive-commons)
 for `OpenWayback`, an open version of the Internet Archive's Wayback machine.
