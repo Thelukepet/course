@@ -142,6 +142,8 @@ develop new code _and debug it_, independent of the large cluster.
 _You can view the notebook almost correctly with the IPython 
 [notebook viewer](http://nbviewer.jupyter.org/url/rubigdata.github.io/course/assignments/BigData-WARC-for-Spark.snb)_
 
+_Note: The [required jars](http://rubigdata.github.io/course/assignments/rubigdata/jars/) all in one place..._
+
 #### Other references
 
 Refer to the [use case slides](https://blackboard.ru.nl/bbcswebdav/xid-6973793_4),
