@@ -76,10 +76,9 @@ bin/get.sh spark
 From now on, initialize the right environment for working with Spark by issuing the following command:
 
 ```
-bin/env.sh
+eval $(/hathi-client/bin/env.sh)
 ```
 
-Copy-paste the printed `export` commands that set environment variables into the shell.
 Then try out the standard example to compute Pi through a random process. 
 (The SurfSara cluster requires jobs to be submitted through `yarn`.)
 
