@@ -47,7 +47,7 @@ of the course to bootstrap new blog posts, one for every *real* course assignmen
 When you have finished your test blog post, finalize the assignment by pushing it to the correct 
 assignment repository - I distribute this URL via a Blackboard announcement.
 
-Follow this link to the *Classroom for Github* [**Test Blog** assignment](https://classroom.github.com/assignment-invitations/e01b5c08bdc10543868d2fa133c0a722), login with your github account, and accept the assignment.
+Follow this link to the *Classroom for Github* [**Test Blog 2017** assignment](https://classroom.github.com/assignment-invitations/TODO), login with your github account, and accept the assignment.
 
 This creates a private repository under the `rubigdata` "organization", specifically for this assignment. 
 Push the blog post that you wrote as the result of Assignment 1a using the commands "to push an existing 
