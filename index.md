@@ -29,11 +29,11 @@ Refer to [assignment 1a](assignments/A1a-blogging.html) for more details about t
 
 ### Development environment
 
-Development environment customization: next week.
+Development environment customization: more next week.
 
 ### Assignments Schedule
 
-#### February 9th: Setup
+#### February 23rd: Setup
 
 Completing the first assignment is not evaluated. However, I expect that every student will be able 
 to create their assignment reports in Markdown and have these converted to HTML at their github page,
