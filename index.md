@@ -15,6 +15,7 @@ The course on Blackboard:
 ### Objectives
 
 The practical work for the course serves two main objectives:
+
 1. Get to know the emerging Big Data platforms in more detail by using them, with a focus on data analysis using Spark.
 2. Gain hands-on experience using modern development tools and services, including `git`, `github`, `docker`, `Jupyter notebooks`, *etc.*.
 
