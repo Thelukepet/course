@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Course Information
-tagline: RU Big Data NWI-IBC036-2016
+tagline: RU Big Data 2017 (NWI-IBC036-2016)
 description: RU Big Data course information and overall structure
 ---
 
