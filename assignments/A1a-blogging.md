@@ -20,7 +20,7 @@ Did you already request your github student pack?
 Please go to [github for education](https://education.github.com/pack/join) to get benefits like private repositories.
 
 If you are not yet fluent in `git` and Github, then go ahead and study the 
-[online training material](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
+[online training material](https://help.github.com/articles/git-and-github-learning-resources/)
 provided by Github. If you are unhappy working with the command line (*a skill which I do recommend taking the 
 effort to acquire*), consider Github's [OS X](http://mac.github.com) or [Windows](http://windows.github.com)
 tool suites (the Windows one *is* convenient).
