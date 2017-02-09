@@ -32,10 +32,10 @@ git push -u origin gh-pages
 In the `git remote add` command, use the details of your `github` repository instead of the course's when you 
 post the blog post for a completed practical assignment.
 
-When working on actual assignments, I will invite you through Blackboard to each assignment,
-that will guide you to a Github provided Web application called Classroom for Github.
-You then use the repository named `https://github.com/rubigdata/{AssignmentName}-{USERNAME}.git` (with the assignment
-name handed out by me, and the username your own github username.
+To get the repository to push your blog to, I post a link on Blackboard for every assignment.
+Following this link guides you to a Github provided Web application called __Github Classroom__.
+You then use the repository named `https://github.com/rubigdata/{AssignmentName}-{USERNAME}.git` 
+with the `AssignmentName` handed out by me, and the `USERNAME` your own github username.
 
 ## See also
 
