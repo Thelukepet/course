@@ -1,15 +1,22 @@
 ---
 layout: page
-title: Assignment 1a FAQ
+title: Assignment 1a
 tagline: Blogging environment
 description: Frequently asked questions
 ---
 
 ## FAQ
 
-+ 
++  Where do I find my Github page?
 
-+  Updates to my repository are not rendered
+   The markdown files are processed and rendered as HTML at `https://rubigdata.github.io/{AssignmentName}-{UserName}`.
+
++  Why is the stylefile ignored?
+
+   Did you use the correct url at `production_url` and `BASE_PATH` in the `_config.yml` file?  
+   _If those urls start with `http:` instead of `https:`, only the `http` version will be rendered._
+
++  Why are updates to my repository not processed?
 
    Are you sending your updates to the `gh-pages` branch?  
    Try `git status` to check.
