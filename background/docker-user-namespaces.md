@@ -16,8 +16,9 @@ This can be fixed by remapping the user namespace, a pretty default option on mo
 
 See also:
 
-+ https://docs.docker.com/engine/reference/commandline/dockerd/#/starting-the-daemon-with-user-namespaces-enabled
-+ https://blog.yadutaf.fr/2016/04/14/docker-for-your-users-introducing-user-namespace/
++ The Docker documentation on 
+  [enabling user namespaces](https://docs.docker.com/engine/reference/commandline/dockerd/#/starting-the-daemon-with-user-namespaces-enabled);
++ An [insightful blogpost](https://blog.yadutaf.fr/2016/04/14/docker-for-your-users-introducing-user-namespace/) about this feature.
 
 ## Setup
 
@@ -35,6 +36,20 @@ Maybe necessary:
 Then restart the docker daemon:
 
     sudo systemctl restart docker
+
+## Validation
+
+Checked the feature using Docker on my Redhat FC25 machine:
+
+    [arjen@apc ~]$ sudo ls -al /etc/help.txt
+    -rw-------. 1 root root 8 Feb 13 11:48 /etc/help.txt
+
+    [arjen@apc ~]$  docker run -v /:/mnt -it --rm busybox
+    / # cat /mnt/etc/help.txt
+    cat: can't open '/mnt/etc/help.txt': Permission denied
+    / #
+
+I.e., because the root inside the image is mapped on a normal user (`dockremap`) that cannot access the file.
 
 ## Kernel
 
