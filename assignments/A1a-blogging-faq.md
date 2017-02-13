@@ -22,4 +22,12 @@ description: Frequently asked questions
    Are you sending your updates to the `gh-pages` branch?  
    Try `git status` to check.
 
+4. Why do I have multiple repositories named `{AssignmentName}-{UserName}`, `{AssignmentName}-{UserName}-1`, ...?
+
+   Accepting the same assignment twice (via Github Classroom) generates two different repositories for that assignment.
+   Maybe, but this is as yet _unconfirmed_, the Github Eduction creates multiple repositories by mistake, every now and then.
+
+   Please only use the repository named `{AssignmentName}-{UserName}`; I will remove the other repositories when I come across them,
+   or you can send me a mail with the url and the request to do so on your behalf.
+
 
