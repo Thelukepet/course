@@ -12,7 +12,7 @@ Mounting the filesystem inside a docker image should not be allowed:
 
     docker run -v /:/mnt -it --rm busybox
 
-This can be fixed by remapping the user namespace, a pretty default option on modern kernels.
+This can be fixed by remapping the user namespace, a feature considered stable on modern Linux kernels (4.3 and newer).
 
 See also:
 
