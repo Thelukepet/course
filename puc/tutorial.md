@@ -15,10 +15,11 @@ Welkom bij de pre-university college (PUC) les over Big Data.
 
 1. Maak [een nieuw Twitter account](https://twitter.com/signup), of login met je eigen account.
 
-2. Maak een app: https://apps.twitter.com/
-   Laat de callback url leeg, en gebruik als url https://rubigdata.github.io/puc/
+2. Maak [een app](https://apps.twitter.com/) aan.
 
-   Zet de access rights voor de zekerheid maar op "Read only", en "Regenerate Consumer Key and Secret".
+   Laat de callback url leeg, en gebruik als url `https://rubigdata.github.io/course/puc/`
+
+   Zet de access rights, voor de zekerheid, op "Read only", en "Regenerate Consumer Key and Secret".
 
 
 
