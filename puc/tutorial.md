@@ -1,12 +1,11 @@
 ---
 layout: page
-title: PUC Big Data
+title: PUC 
+tagline: Radboud Pre-University College Big Data 
 description: Pre-University College, Radboud.
 ---
 
-# PUC RU Big Data
-
-Pre-university college les over Big Data
+Welkom bij de pre-university college (PUC) les over Big Data.
 
 ## Getting started
 

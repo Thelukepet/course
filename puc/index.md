@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PUC
-tagline: Big Data 
+tagline: Radboud Pre-University College Big Data 
 description: Pre-University College, Radboud.
 ---
 
