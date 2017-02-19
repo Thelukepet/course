@@ -31,9 +31,8 @@ We gaan met de Twitter Streaming API aan de slag.
    Zet de access rights, voor de zekerheid, op "Read only", en druk op "Regenerate Consumer Key and Secret". 
    Genereer ook een "Access Token".
 
-   Bewaar deze tokens nu in een tekstfile `private.py`, hou ze wel geheim;
-   save en edit deze file, of pas het template aan:
-
+   Copieer deze tokens nu in tekstfile `private.py`; hou ze wel goed geheim,
+   save en edit de file maar plaats deze niet onder versiebeheer.
 
 ```   
 # Application Settings:
@@ -45,30 +44,48 @@ TWITTER_KEY        = "YOUR Access Token"
 TWITTER_SECRET     = "YOUR Access Token Secret"
 ```
 
-#### Verzamel Tweets
+#### Tweepy
 
 [Tweepy](http://docs.tweepy.org/en/v3.5.0/streaming_how_to.html) is een veelgebruikte `python` library om
 met de Twitter Streaming API te werken, zonder veel te hoeven programmeren.
 
-Eerst gaan we een klassieke oplossing volgen: sla de tweets op in een (eenvoudige) database.
+We beginnen met een "klassieke" aanpak: sla de verzamelde tweets op in een (eenvoudige) database,
+en voer analyses uit met behulp van database queries.
 
+Voeg eerst nog aan `private.py` het pad toe naar jouw user directory op een lokale drive,
+bv. `/scratch/${USERNAME}/`.
 
+```
+DATA_DIR           = "/YOUR DATA DIRECTORY/"
+```
 
+Copieer nu deze file alvast naar directory `queries/`:
 
+```
+cp private.py queries/
+```
 
+#### Verzamel Tweets
 
+Nu kun je programma `scraper.py` uitvoeren en achtereenvolgens de resultaten analyseren. 
+Laat het eerst een tijdje draaien, en druk op `Ctrl-C` om het scrapen te stoppen:
 
+```
+python scraper.py
+```
 
+Bekijk de verzamelde data door de database te dumpen als CSV, of er enkele SQL queries op uit te voeren:
 
+```
+python queries/usercounts.py
+python queries/query.py
+```
 
+Je kunt de database ook dumpen als CSV, een "comma-separated file":
+```
+python queries/dump.py
+```
 
-
-
-
-
-
-
-
-
-
+Als je wilt weten hoe de `scraper.py` precies werkt, de code is gebaseerd op de uitleg van blog post
+[Working with streaming data: Using the Twitter API to capture tweets](https://www.dataquest.io/blog/streaming-data-python/).
 
