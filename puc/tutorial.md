@@ -7,11 +7,11 @@ description: Pre-University College, Radboud.
 
 Welkom bij de pre-university college (PUC) les over Big Data.
 
-## Getting started
+### Getting started
 
 
 
-### Twitter API
+#### Twitter API
 
 1. Maak [een nieuw Twitter account](https://twitter.com/signup), of login met je eigen account.
 
@@ -26,14 +26,13 @@ Welkom bij de pre-university college (PUC) les over Big Data.
 
 
 
-### PUC Repository
+#### PUC Repository
 
 Een snelle start dankzij versiebeheer met `git`:
 
     git clone git@github.com:rubigdata/puc.git
 
 
-_(Alternatief: gebruik Github Education)_
 
 
 
