@@ -105,7 +105,7 @@ Als je wilt weten hoe de `scraper.py` precies werkt, de code is gebaseerd op de 
 
 De uitdaging is nu om de tweets niet eerst op te slaan, maar al streaming te analyseren.
 
-Bekijk de code van functie `MJRTY` in [`streaming.py`](https://github.com/rubigdata/puc/blob/master/streamer.py).
+Bekijk de code van functie `MJRTY` in [`streaming.py`](https://raw.github.com/rubigdata/puc/blob/master/streamer.py).
 
 
 
