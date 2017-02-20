@@ -9,6 +9,16 @@ Welkom bij de pre-university college (PUC) les over Big Data.
 
 ### Getting started
 
+#### Python settings
+
+Voordat we beginnen, moeten we (eenmalig) de `python` omgeving upgraden
+naar een recentere versie. Start een terminal met Ctrl-t en voer de volgende
+commando's uit:
+
+    wget https://bootstrap.pypa.io/get-pip.py
+    python get-pip.py --user
+    pip install --user --upgrade urllib3[secure]
+
 #### PUC Repository
 
 Een snelle start dankzij versiebeheer met `git`; doe achtereenvolgens:
