@@ -106,8 +106,42 @@ is gebaseerd op de uitleg in blog post
 
 De uitdaging is nu om de tweets niet eerst op te slaan, maar al streaming te analyseren.
 
+##### Majority
+
 Bekijk de code van functie `MJRTY` in [`streamer.py`](https://raw.githubusercontent.com/rubigdata/puc/master/streamer.py).
 
+Meer details: []()
 
+##### Query
 
+[Bloom Filters](https://www.jasondavies.com/bloomfilter/)
+
+Meer weten?
+
++ Nog een voorbeeld: [Bloom Filters by Example](https://llimllib.github.io/bloomfilter-tutorial/)
+
++ Implementation: [A Toy Bloom Filter](http://glowingpython.blogspot.nl/2013/01/bloom-filter.html)
+
++ Een serieuze implementatie met zeer veel low level optimalisaties: [PyBloomFilter](https://axiak.github.io/pybloomfiltermmap/)
+
+##### Count
+
+[Count Min Sketch]()
+
+Meer weten? 
+
++ [Sketching data structures](http://lkozma.net/blog/sketching-data-structures/) is een aanrader!
+
++ Count-Min Sketch in python:
+  [blog post](https://tech.shareaholic.com/2012/12/03/the-count-min-sketch-how-to-count-over-large-keyspaces-when-about-right-is-good-enough/)
+
+##### Verder lezen
+
++ Een uitbreiding op Bloom Filters om te tellen, en ook deletions toe te laten:
+  [The Invertible Bloom Filter](http://www.i-programmer.info/programming/theory/4641-the-invertible-bloom-filter.html)
+
++ Een nieuwere techniek, iets lastiger maar met mooie visualisatie:
+  [Cuckoo Hashing](http://www.lkozma.net/cuckoo_hashing_visualization/)
+
++ Zeer snelle hash functie: [xxHash](https://cyan4973.github.io/xxHash/)
 
