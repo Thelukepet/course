@@ -63,15 +63,16 @@ We beginnen met een "klassieke" aanpak: sla de verzamelde tweets op in een (eenv
 en voer analyses uit met behulp van database queries.
 
 Voeg eerst nog aan `private.py` het pad toe naar jouw user directory op een lokale drive,
-bv. `/scratch/${USERNAME}/`.
+bv. `/tmp/${USER}/`.
 
 ```
 DATA_DIR           = "/YOUR DATA DIRECTORY/"
 ```
 
-Copieer nu deze file alvast naar directory `queries/`:
+Maak deze directory aan en copieer nu deze file alvast naar directory `queries/`:
 
 ```
+mkdir -p /tmp/${USER}
 cp private.py queries/
 ```
 
@@ -91,11 +92,21 @@ python queries/usercounts.py
 python queries/query.py
 ```
 
-Je kunt de database ook dumpen als CSV, een "comma-separated file":
+Je kunt de database ook dumpen als CSV, een "comma-separated file", en vervolgens (bijvoorbeeld) als spreadsheet 
+importeren in Google Docs.
 ```
-python queries/dump.py
+python dump.py
 ```
 
 Als je wilt weten hoe de `scraper.py` precies werkt, de code is gebaseerd op de uitleg van blog post
 [Working with streaming data: Using the Twitter API to capture tweets](https://www.dataquest.io/blog/streaming-data-python/).
+
+#### Stream Tweets
+
+De uitdaging is nu om de tweets niet eerst op te slaan, maar al streaming te analyseren.
+
+Bekijk de code van functie `MJRTY` in [`streaming.py`](https://github.com/rubigdata/puc/blob/master/streamer.py).
+
+
+
 
