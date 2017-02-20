@@ -13,7 +13,7 @@ Welkom bij de pre-university college (PUC) les over Big Data.
 
 Een snelle start dankzij versiebeheer met `git`; doe achtereenvolgens:
 
-    git clone git@github.com:rubigdata/puc.git
+    git clone https://github.com/rubigdata/puc.git
     cd puc
     pip install --user -r requirements.txt
     cp private-template.py private.py
