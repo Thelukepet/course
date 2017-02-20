@@ -106,11 +106,40 @@ is gebaseerd op de uitleg in blog post
 
 De uitdaging is nu om de tweets niet eerst op te slaan, maar al streaming te analyseren.
 
+In informatica-termen: _How would you find the quantiles of a stream of numbers in O(N) with limited memory?_.
+
 ##### Majority
 
 Bekijk de code van functie `MJRTY` in [`streamer.py`](https://raw.githubusercontent.com/rubigdata/puc/master/streamer.py).
 
-Meer details: []()
+Wat als we nu de median willen vinden?
+
+```
+median_est = 0
+for val in stream:
+    if val > median_est:
+        median_est += 1
+    elif val < median_est:
+        median_est -= 1
+```
+
+En als je het 75th percentiel wilt weten is de basis als volgt:
+
+```
+quantile_75 = 0
+for val in stream:
+    r = random()
+    if val > quantile_75 and r > 1 - 0.75:
+        quantile_75 += 1
+    elif val < quantile_75 and r > 0.75:
+        quantile_75 -= 1
+```
+
+Meer details: 
+
++ [Sketch of the Day: Frugal Streaming](https://research.neustar.biz/2013/09/16/sketch-of-the-day-frugal-streaming/)
+
++ Demo bij deze blog: [Frugal Sketching demo](http://content.research.neustar.biz/blog/frugal.html)
 
 ##### Query
 
@@ -119,6 +148,8 @@ Meer details: []()
 Meer weten?
 
 + Nog een voorbeeld: [Bloom Filters by Example](https://llimllib.github.io/bloomfilter-tutorial/)
+
++ Bloom Filters bij [Medium](https://blog.medium.com/what-are-bloom-filters-1ec2a50c68ff#.i6jjy9yh9), een "dinner conversation"
 
 + Implementation: [A Toy Bloom Filter](http://glowingpython.blogspot.nl/2013/01/bloom-filter.html)
 
@@ -142,6 +173,8 @@ Meer weten?
 
 + Een nieuwere techniek, iets lastiger maar met mooie visualisatie:
   [Cuckoo Hashing](http://www.lkozma.net/cuckoo_hashing_visualization/)
+
++ [Cuckoo Hashing vs. Counting Bloom Filters](http://blog.fastforwardlabs.com/2016/11/23/probabilistic-data-structure-showdown-cuckoo.html)
 
 + Zeer snelle hash functie: [xxHash](https://cyan4973.github.io/xxHash/)
 
