@@ -98,14 +98,15 @@ importeren in Google Docs.
 python dump.py
 ```
 
-Als je wilt weten hoe de `scraper.py` precies werkt, de code is gebaseerd op de uitleg van blog post
+Als je wilt weten hoe de `scraper.py` precies werkt, de [code](https://raw.githubusercontent.com/rubigdata/puc/master/scraper.py)
+is gebaseerd op de uitleg in blog post 
 [Working with streaming data: Using the Twitter API to capture tweets](https://www.dataquest.io/blog/streaming-data-python/).
 
 #### Stream Tweets
 
 De uitdaging is nu om de tweets niet eerst op te slaan, maar al streaming te analyseren.
 
-Bekijk de code van functie `MJRTY` in [`streaming.py`](https://raw.github.com/rubigdata/puc/blob/master/streamer.py).
+Bekijk de code van functie `MJRTY` in [`streamer.py`](https://raw.githubusercontent.com/rubigdata/puc/master/streamer.py).
 
 
 
