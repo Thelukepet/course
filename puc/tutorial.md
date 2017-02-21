@@ -143,7 +143,9 @@ Meer details:
 
 ##### Query
 
-[Bloom Filters](https://www.jasondavies.com/bloomfilter/)
+7 minute video about [arrays and hash tables](https://www.youtube.com/watch?v=h2d9b_nEzoA).
+
+[Bloom Filters](https://www.jasondavies.com/bloomfilter/).
 
 Meer weten?
 
