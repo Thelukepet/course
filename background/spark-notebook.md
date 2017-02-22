@@ -8,7 +8,7 @@ description: How to use the Spark Notebook Docker Image on the machines in the H
 
 ## Install
 
-At home, you can pull the same image directly from [Spark Notebook](http://spark-notebook.io), e.g.
+Pull an image directly from [Spark Notebook](http://spark-notebook.io):
 ```
 docker pull andypetrella/spark-notebook:0.7.0-scala-2.11.8-spark-2.1.0-hadoop-2.7.3-with-hive
 ```
@@ -20,7 +20,7 @@ We can now run a container using this image.
     docker run -p 9001:9001 -p 4040-4045:4040-4045 \ 
       andypetrella/spark-notebook:0.7.0-scala-2.11.8-spark-2.1.0-hadoop-2.7.3-with-hive
 
-(You could also use the image's hash, which you copy from `docker images`.)
+(You could also use the image's hash, which you would have to copy-paste from `docker images`.)
 
 The port options tell docker to expose ports 4040-4045 and port 9001.
 
