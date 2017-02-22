@@ -20,20 +20,48 @@ anyone can decide to reboot the machine, and all machines are shutdown at the en
 Alternatively, install Docker on your own laptop or home computer.
 While this route is **not officially supported**, I will provide a few pointers to get you started, see below.
 
-## Docker in HG00.023
+## Docker in HG00.137
 
-Docker has been installed and is ready for use in terminal room HG00.023.
+Unfortunately, Docker is not supported in the machine itself -
+this may or may not change during the semester (security concerns).
 
-Using the client will however *only* work correctly if your account is part of group `docker`; 
-check this by issuing the `groups` command.
-If you do not see group `docker` listed in the output, you may check the following:
+As a workaround, for now, we will work inside a virtual machine that we manage using `vagrant`.
 
-    [[ -n "`grep $USER /etc/group | grep docker`" ]] && echo yes
+### Vagrant
 
-If you do not see "yes", you still have to be added to the group - please send mail to `arjen@cs.ru.nl` with your username ($USER).
-If you do see a "yes", the proper solution is to logout and login again; 
-a workaround is to issue the following command in the terminal you want to run docker from:
-    exec su -l $USER
+Vagrant has been installed and is ready for use in the terminal room HG00.137. 
+
+You will first want to do the [getting started](https://www.vagrantup.com/docs/getting-started/)
+if you never worked with vagrant before.
+
+We use vagrant with the `virtualbox` provisioner, and a configuration that stores your virtual
+machines in directory `/var/tmp/${USER}`. 
+
+_Leaving a single virtual machine in the terminal rooms is okay!_
+But, we do request that you:
+
++ `vagrant destroy` unused virtual machines;
++ use the same computer every week (whenever possible).
+
+Virtual machines consume considerable disk and that volume has only 16G available (`df --si /var/tmp`).
+
+### Vagrant setup
+
+Create the project directory and `cd` into it:
+
+    mkdir bigdata
+    cd bigdata
+
+Download the [`Vagrantfile`](https://raw.githubusercontent.com/rubigdata/course/gh-pages/assignments/Vagrantfile) that I prepared, and save it to the project directory you just created, or issue:
+
+    wget https://raw.githubusercontent.com/rubigdata/course/gh-pages/assignments/Vagrantfile
+
+Start the virtual machine and `ssh` into it:
+
+    vagrant up
+    vagrant ssh
+
+When you are finished, you exit the shell, and may want to `vagrant suspend` the virtual machine - you can always restart it with `vagrant up`.
 
 ## Using Docker
 
@@ -61,18 +89,19 @@ step four, although I will not stop you if you are starting to get the hang of i
 Students who install Docker on their own machine will need command `docker-machine ip`
 and are recommended to read the [docker machine docs](https://docs.docker.com/machine/get-started/).
 
-## Starting a container for Spark Notebook
+## Spark Notebook
 
 In the assignments, we get hands-on experience with [Spark Notebook](http://spark-notebook.io).
 
+### Setup (first time only)
+
 If this is the first time that you will start Spark Notebook, you need to use its image and initialize a container:
 follow the instructions given in [Spark Notebook for the big data course](../background/spark-notebook.html).
+
+### Starting the Spark Notebook container
+
 Otherwise, start up a container with `docker run` (only if it is not running of course);
 and simply open [localhost:9000](http://localhost:9000/) in your browser.
-
-(Use `docker images` and `docker ps` to find out if another student has taken these steps before on the same machine
-you choose to use; in that case, just skip ahead to start the container without loading the image, 
-or simply open the browser as above.)
 
 If you successfully started the Spark Notebook container, then opening [localhost:9000](http://localhost:9000/) will
 show you the Spark Notebook UI in the browser. 
