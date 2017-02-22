@@ -6,41 +6,19 @@ description: How to use the Spark Notebook Docker Image on the machines in the H
 
 # Spark Notebook
 
-## Install at the university
-
-Docker images can still be kind-a large, therefore I prepared a saved image on the shared volumes, for more efficient distribution.
-
-First check if by any chance, somebody already used the docker client on your machine, and took these steps already;
-do so by issuing `docker images`.  If no image named `andypetrella/spark-notebook` (with a long tag) is listed, 
-then issue the following command to initialize a container that runs Spark Notebook:
-
-```
-cat /vol/practica/BigData/spark-notebook.tar | docker load
-```
-
-Do not worry if processing this command takes a while, as about one gigabyte is transferred over the network;
-not dramatic, but not instant either.
-
-## Install at home
+## Install
 
 At home, you can pull the same image directly from [Spark Notebook](http://spark-notebook.io), e.g.
 ```
-docker pull andypetrella/spark-notebook:0.6.2-scala-2.11.7-spark-1.6.0-hadoop-2.7.1-with-hive-with-parquet
+docker pull andypetrella/spark-notebook:0.7.0-scala-2.11.8-spark-2.1.0-hadoop-2.7.3-with-hive
 ```
-
-Alternatively, you may also use the copy of the image provided in `/vol/practica/BigData`, using a command like
-```
-ssh lilo cat /vol/practica/BigData/spark-notebook.tar | pv | docker load
-```
-
-(You can ignore `pv` if you do not have it installed; I find it incredibly useful though.)
 
 ## Run the container
 
 We can now run a container using this image.
 
     docker run -p 9000:9000 -p 4040-4045:4040-4045 \ 
-      andypetrella/spark-notebook:0.6.2-scala-2.11.7-spark-1.6.0-hadoop-2.7.1-with-hive-with-parquet
+      andypetrella/spark-notebook:0.7.0-scala-2.11.8-spark-2.1.0-hadoop-2.7.3-with-hive
 
 (You could also use the image's hash, which you copy from `docker images`.)
 

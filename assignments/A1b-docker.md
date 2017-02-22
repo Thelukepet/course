@@ -101,13 +101,13 @@ follow the instructions given in [Spark Notebook for the big data course](../bac
 ### Starting the Spark Notebook container
 
 Otherwise, start up a container with `docker run` (only if it is not running of course);
-and simply open [localhost:9000](http://localhost:9000/) in your browser.
+and simply open [localhost:9001](http://localhost:9001/) in your browser.
 
-If you successfully started the Spark Notebook container, then opening [localhost:9000](http://localhost:9000/) will
+If you successfully started the Spark Notebook container, then opening [localhost:9001](http://localhost:9001/) will
 show you the Spark Notebook UI in the browser. 
 
 (It is possible to run the docker container remotely, and open the Spark Notebook in a browser on your laptop, provided
-that you know how to tunnel ports 4040 and 9000 to the laptop; for example using `ssh -L` or the right tunneling 
+that you know how to tunnel ports 4040 and 9001 to the laptop; for example using `ssh -L` or the right tunneling 
 settings to `Putty`.)
 
 ## Clean up
