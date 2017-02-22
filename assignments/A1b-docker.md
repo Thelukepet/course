@@ -11,7 +11,7 @@ We will use [Docker](https://docs.docker.com/linux/) to remove the burden on uni
 
 ## Introduction
 
-First, go over the [quickstart](https://docs.docker.com/engine/quickstart/) to gain familiarity with Docker usage.
+First, go over the [basic tutorial](https://docs.docker.com/engine/getstarted/) to gain familiarity with Docker usage.
 
 The easiest solution is to use Docker on the computers in the terminal room; the only drawback that you
 have to be in the terminal room to boot the machine in Linux (note that you can use `ssh` once it is booted, but,
