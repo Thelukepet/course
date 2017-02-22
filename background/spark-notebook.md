@@ -35,8 +35,10 @@ You can execute a shell inside the running container by looking up its hash usin
 
 If you are lucky, you reached this point without any problems. Do not worry to ask questions if you encounter
 problems that you cannot resolve on your own, but then **please please** do that using
-the github issue tracker on [the forum](https://github.com/rubigdata/forum/); then every one in class can help out, 
+the github issue tracker on [the forum](https://github.com/rubigdata/forum-2017/); then every one in class can help out, 
 and it is not my overflowing email box that will form the bottleneck for your progress.
+
+See also: [First welcome issue](https://github.com/rubigdata/forum-2017/issues/1)
 
 [Back to Assignment A1b](../assignments/A1b-docker.html)
 
