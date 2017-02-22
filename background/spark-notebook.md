@@ -22,9 +22,9 @@ We can now run a container using this image.
 
 (You could also use the image's hash, which you copy from `docker images`.)
 
-The port options tell docker to expose ports 4040-4045 and port 9000.
+The port options tell docker to expose ports 4040-4045 and port 9001.
 
-Now open [localhost:9000](http://localhost:9000/) in your browser to access the Spark Notebook.
+Now open [localhost:9001](http://localhost:9001/) in your browser to access the Spark Notebook.
 
 You can execute a shell inside the running container by looking up its hash using `docker ps`
 (different from the images' hash!), followed by
