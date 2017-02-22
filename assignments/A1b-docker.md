@@ -29,10 +29,21 @@ As a workaround, for now, we will work inside a virtual machine that we manage u
 
 ### Vagrant
 
-Vagrant has been installed and is ready for use in the terminal room HG00.137.
+Vagrant has been installed and is ready for use in the terminal room HG00.137. 
 
 You will first want to do the [getting started](https://www.vagrantup.com/docs/getting-started/)
 if you never worked with vagrant before.
+
+We use vagrant with the `virtualbox` provisioner, and a configuration that stores your virtual
+machines in directory `/var/tmp/${USER}`. 
+
+_Leaving a single virtual machine in the terminal rooms is okay!_
+But, we do request that you:
+
++ `vagrant destroy` unused virtual machines;
++ use the same computer every week (whenever possible).
+
+Virtual machines consume considerable disk and that volume has only 16G available (`df --si /var/tmp`).
 
 ### Vagrant setup
 
@@ -41,14 +52,20 @@ Create the project directory and `cd` into it:
     mkdir bigdata
     cd bigdata
 
-Download the [`Vagrantfile`](https://
-that I prepared, and save it to the project directory you just created.
+Download the [`Vagrantfile`](https://raw.githubusercontent.com/rubigdata/course/gh-pages/assignments/Vagrantfile) that I prepared, and save it to the project directory you just created, or issue:
 
-    wget 
+    wget https://raw.githubusercontent.com/rubigdata/course/gh-pages/assignments/Vagrantfile
 
+Start the virtual machine, `ssh` into it, and update Ubuntu:
 
-    
+    vagrant up
+    vagrant ssh
 
+Continue inside the virtual machine to update Ubuntu and install Docker:
+
+    sudo apt-get update
+    sudo apt-get upgrade
+    sudo apt-get install docker.io
 
 ## Using Docker
 
