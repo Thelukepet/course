@@ -125,12 +125,6 @@ Next, you may remove all inactive, exited containers that you do not plan to res
     docker ps -f status=exited -q | \
       xargs docker rm
 
-When we complete the first phase of the course, we will not use these docker images any more.
-You may for example remove an unused cloudera image from your machine:
-
-    docker images -q docker.io/cloudera/quickstart | \
-      xargs docker rmi
-
 ## See also
 
 Optional extra reading (not required for the course):
