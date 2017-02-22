@@ -11,7 +11,7 @@ We will use [Docker](https://docs.docker.com/linux/) to remove the burden on uni
 
 ## Introduction
 
-First, go over the [quickstart](https://docs.docker.com/engine/quickstart/) to gain familiarity with Docker usage.
+First, go over the [basic tutorial](https://docs.docker.com/engine/getstarted/) to gain familiarity with Docker usage.
 
 The easiest solution is to use Docker on the computers in the terminal room; the only drawback that you
 have to be in the terminal room to boot the machine in Linux (note that you can use `ssh` once it is booted, but,
@@ -20,12 +20,12 @@ anyone can decide to reboot the machine, and all machines are shutdown at the en
 Alternatively, install Docker on your own laptop or home computer.
 While this route is **not officially supported**, I will provide a few pointers to get you started, see below.
 
-## Docker in HG00.137
+## Setting up Docker and Vagrant
 
-Unfortunately, Docker is not supported in the machine itself -
+Unfortunately, Docker is not supported in the HG00.137 machines -
 this may or may not change during the semester (security concerns).
 
-As a workaround, for now, we will work inside a virtual machine that we manage using `vagrant`.
+As a workaround, for now, we work inside a virtual machine that we manage using `vagrant`.
 
 ### Vagrant
 
