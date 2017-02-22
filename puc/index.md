@@ -7,4 +7,6 @@ description: Pre-University College, Radboud.
 
 Pre-university college les over Big Data.
 
-Ga naar [de tutorial](tutorial.html).
+Introductie [slides](https://www.slideshare.net/arjenpdevries/puc-masterclass-big-data).
+
+[Tutorial](tutorial.html).
