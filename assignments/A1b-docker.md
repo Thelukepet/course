@@ -56,16 +56,12 @@ Download the [`Vagrantfile`](https://raw.githubusercontent.com/rubigdata/course/
 
     wget https://raw.githubusercontent.com/rubigdata/course/gh-pages/assignments/Vagrantfile
 
-Start the virtual machine, `ssh` into it, and update Ubuntu:
+Start the virtual machine and `ssh` into it:
 
     vagrant up
     vagrant ssh
 
-Continue inside the virtual machine to update Ubuntu and install Docker:
-
-    sudo apt-get update
-    sudo apt-get upgrade
-    sudo apt-get install docker.io
+When you are finished, you exit the shell, and may want to `vagrant suspend` the virtual machine - you can always restart it with `vagrant up`.
 
 ## Using Docker
 
@@ -93,18 +89,19 @@ step four, although I will not stop you if you are starting to get the hang of i
 Students who install Docker on their own machine will need command `docker-machine ip`
 and are recommended to read the [docker machine docs](https://docs.docker.com/machine/get-started/).
 
-## Starting a container for Spark Notebook
+## Spark Notebook
 
 In the assignments, we get hands-on experience with [Spark Notebook](http://spark-notebook.io).
 
+### Setup (first time only)
+
 If this is the first time that you will start Spark Notebook, you need to use its image and initialize a container:
 follow the instructions given in [Spark Notebook for the big data course](../background/spark-notebook.html).
+
+### Starting the Spark Notebook container
+
 Otherwise, start up a container with `docker run` (only if it is not running of course);
 and simply open [localhost:9000](http://localhost:9000/) in your browser.
-
-(Use `docker images` and `docker ps` to find out if another student has taken these steps before on the same machine
-you choose to use; in that case, just skip ahead to start the container without loading the image, 
-or simply open the browser as above.)
 
 If you successfully started the Spark Notebook container, then opening [localhost:9000](http://localhost:9000/) will
 show you the Spark Notebook UI in the browser. 
