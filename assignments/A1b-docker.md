@@ -37,8 +37,10 @@ if you never worked with vagrant before.
 We use vagrant with the `virtualbox` provisioner, and a configuration that stores your virtual
 machines in directory `/var/tmp/${USER}`. 
 
-_Leaving a single virtual machine in the terminal rooms is okay!_
-But, we do request that you:
+_Leaving **a single virtual machine** in the terminal rooms is okay!_
+
+Use `vagrant suspend` to do that, and `vagrant resume` to continue where you left off.
+We do request that you:
 
 + `vagrant destroy` unused virtual machines;
 + use the same computer every week (whenever possible).
