@@ -39,7 +39,9 @@ machines in directory `/var/tmp/${USER}`.
 
 _Leaving **a single virtual machine** in the terminal rooms is okay!_
 
-Use `vagrant suspend` to do that, and `vagrant resume` to continue where you left off.
+Use `vagrant suspend` to do that, and `vagrant up` to continue where you left off.
+(Note: after resuming, you may need to resume docker containers that ran in the suspended VM,
+use `docker start HASH` to do so.)
 We do request that you:
 
 + `vagrant destroy` unused virtual machines;
