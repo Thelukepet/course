@@ -20,20 +20,35 @@ anyone can decide to reboot the machine, and all machines are shutdown at the en
 Alternatively, install Docker on your own laptop or home computer.
 While this route is **not officially supported**, I will provide a few pointers to get you started, see below.
 
-## Docker in HG00.023
+## Docker in HG00.137
 
-Docker has been installed and is ready for use in terminal room HG00.023.
+Unfortunately, Docker is not supported in the machine itself -
+this may or may not change during the semester (security concerns).
 
-Using the client will however *only* work correctly if your account is part of group `docker`; 
-check this by issuing the `groups` command.
-If you do not see group `docker` listed in the output, you may check the following:
+As a workaround, for now, we will work inside a virtual machine that we manage using `vagrant`.
 
-    [[ -n "`grep $USER /etc/group | grep docker`" ]] && echo yes
+### Vagrant
 
-If you do not see "yes", you still have to be added to the group - please send mail to `arjen@cs.ru.nl` with your username ($USER).
-If you do see a "yes", the proper solution is to logout and login again; 
-a workaround is to issue the following command in the terminal you want to run docker from:
-    exec su -l $USER
+Vagrant has been installed and is ready for use in the terminal room HG00.137.
+
+You will first want to do the [getting started](https://www.vagrantup.com/docs/getting-started/)
+if you never worked with vagrant before.
+
+### Vagrant setup
+
+Create the project directory and `cd` into it:
+
+    mkdir bigdata
+    cd bigdata
+
+Download the [`Vagrantfile`](https://
+that I prepared, and save it to the project directory you just created.
+
+    wget 
+
+
+    
+
 
 ## Using Docker
 
