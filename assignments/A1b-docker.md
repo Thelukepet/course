@@ -20,12 +20,12 @@ anyone can decide to reboot the machine, and all machines are shutdown at the en
 Alternatively, install Docker on your own laptop or home computer.
 While this route is **not officially supported**, I will provide a few pointers to get you started, see below.
 
-## Docker in HG00.137
+## Setting up Docker and Vagrant
 
-Unfortunately, Docker is not supported in the machine itself -
+Unfortunately, Docker is not supported in the HG00.137 machines -
 this may or may not change during the semester (security concerns).
 
-As a workaround, for now, we will work inside a virtual machine that we manage using `vagrant`.
+As a workaround, for now, we work inside a virtual machine that we manage using `vagrant`.
 
 ### Vagrant
 
