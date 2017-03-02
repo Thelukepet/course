@@ -50,10 +50,12 @@ Instructions (assignment A1a):
 
 The rest of the course depends on a working Spark-notebook setup.
 Follow the instructions and get yourself acquainted with Docker and Vagrant.
+
 Once you have the Spark-notebook in your browser, you can practice your Scala by issuing
 commands in a newly started notebook.
 
 Instructions (assignment A1b):
 
 * [Assignment 1b](assignments/A1b-docker.html)
+* [Scala environment](background/scala.html) __optional__
 
