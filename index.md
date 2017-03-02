@@ -35,7 +35,7 @@ Development environment customization: more next week.
 
 ### Assignments Schedule
 
-#### February 23rd: Setup
+#### February 23rd: Setup blogs
 
 Completing the first assignment is not evaluated. However, I expect that every student will be able 
 to create their assignment reports in Markdown and have these converted to HTML at their github page,
@@ -45,4 +45,15 @@ a PC in HG 00.137).
 Instructions (assignment A1a):
 
 * [Assignment 1a](assignments/A1a-blogging.html)
+
+#### March 8th: Setup Spark-notebook
+
+The rest of the course depends on a working Spark-notebook setup.
+Follow the instructions and get yourself acquainted with Docker and Vagrant.
+Once you have the Spark-notebook in your browser, you can practice your Scala by issuing
+commands in a newly started notebook.
+
+Instructions (assignment A1b):
+
+* [Assignment 1b](assignments/A1b-docker.html)
 
