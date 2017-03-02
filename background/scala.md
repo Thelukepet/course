@@ -6,9 +6,18 @@ description: Scala in the Spark Notebook Docker Image on the machines in the Huy
 
 # Scala
 
+## Scala Docker container
+
+The first option is to install a different Docker container that comes with Scala pre-installed:
+
+```
+docker run -it --rm williamyeh/scala
+```
+
 ## Spark-notebook container
 
-Start a spark-notebook container, and open a shell inside the container (replace HASH by the right value):
+You can _also_ install Scala in the Spark-Notebook container.
+Start the container and open a shell (replace HASH by the right value):
 
 ```
 docker exec -it $HASH /bin/bash
