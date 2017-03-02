@@ -14,6 +14,9 @@ The first option is to install a different Docker container that comes with Scal
 docker run -it --rm williamyeh/scala
 ```
 
+Of course, you can first start a shell in that container, by appending `/bin/bash` to the command above;
+then start a Scala interpreter using `scala` from the commandline.
+
 ## Spark-notebook container
 
 You can _also_ install Scala in the Spark-Notebook container.
