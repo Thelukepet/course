@@ -6,6 +6,8 @@ description: Scala in the Spark Notebook Docker Image on the machines in the Huy
 
 # Scala
 
+If you want to practice your Scala, you can try out any Scala command through the Spark-notebook. However, for some tutorials, it may work out better if you have a separate Scala environment to work in.
+
 ## Scala Docker container
 
 The first option is to install a different Docker container that comes with Scala pre-installed:
@@ -14,7 +16,7 @@ The first option is to install a different Docker container that comes with Scal
 docker run -it --rm williamyeh/scala
 ```
 
-Of course, you can first start a shell in that container, by appending `/bin/bash` to the command above;
+The container starts up by automatically running the Scala interpreter (or REPL). Of course, you can first start a shell in that container, by appending `/bin/bash` to the command above;
 then start a Scala interpreter using `scala` from the commandline.
 
 ## Spark-notebook container

@@ -57,5 +57,5 @@ commands in a newly started notebook.
 Instructions (assignment A1b):
 
 * [Assignment 1b](assignments/A1b-docker.html)
-* [Scala environment](background/scala.html) __optional__
+* [Scala environment](background/scala.html) __(optional)__
 
