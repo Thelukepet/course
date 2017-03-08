@@ -86,10 +86,17 @@ export USERNAME=<your-science-account>
 scp share/hadoop/mapreduce/sources/hadoop-mapreduce-examples-2.7.3-sources.jar ${USERNAME}@lilo.science.ru.nl:bigdata
 ```
 
-An even better alternative is to run the _docker container_ with command options to mount a directory from the 
+A perhaps better alternative is to _run_ the _docker container_ with the options to mount a directory from the 
 host filesystem inside the container; passing the desired location using `-v /vagrant:/mnt/bigdata`.
- 
-Both example commands use directory `$HOME/bigdata`, where I suggested to put your `Vagrantfile`; 
+If you decide to go this route, then you need to start a new container and redo the above commands (my apologies).
+In that case, I recommend to open two more ports, and use the following command 
+(you need to take the _HASH_ from `docker images`):
+
+```
+docker run -p 9001:9001 -p 4040-4045:4040-4045 -p 50070:50070 -p 8088:8088 -v /vagrant:/mnt/bigdata HASH
+```
+
+Both examples assume that we use directory `$HOME/bigdata`, the location where I suggested to put your `Vagrantfile`; 
 this directory is automatically mounted by `vagrant` under `/vagrant`, as described in 
 [vagrant's _getting started_ documentation](https://www.vagrantup.com/docs/getting-started/synced_folders.html).
 
