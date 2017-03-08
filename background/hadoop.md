@@ -7,13 +7,11 @@ description: Explanations to install and run Hadoop
 
 ## Map Reduce on HDFS
 
-Lectures 3 to 5 discussed distributed filesystems and Map-Reduce, that in practice today are almost equivalent to "Hadoop".
-
-In this assignment, we install Hadoop on our own "pseudo-cluster", and use Map-Reduce to do some basic count operations.
+We will install Hadoop on our own "pseudo-cluster", and use Map-Reduce to do some basic count operations.
 
 The tutorial was tested inside the Docker container for Spark-Notebook that we setup in the previous lab sessions;
-you would use the `docker exec` command to start a shell inside the image first.
-The HDFS filesystem that you create and use in this tutorial, can be re-used in the later lab sessions on Spark.
+you would use the `docker exec` command to start a shell inside the image first. The HDFS filesystem that you create 
+and use in this tutorial, can be re-used in the later lab sessions on Spark.
 
 ### Setup
 
@@ -182,4 +180,4 @@ you could try the additional steps from the Hadoop documentation to
 [run Yarn on a single node](https://hadoop.apache.org/docs/r2.7.3/hadoop-project-dist/hadoop-common/SingleCluster.html#YARN_on_a_Single_Node)
 
 
-
+[Back to Map-Reduce assignment](../assignments/mapreduce.html)
