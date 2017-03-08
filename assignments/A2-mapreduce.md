@@ -24,7 +24,14 @@ Setup distributed filesystem `HDFS` and the Map-Reduce tools using [these Hadoop
 The assignment is to write a blog post about your experience with HDFS and Map-Reduce.
 
 Assume the reader knows what a distributed filesystem is, and why you would use it.
-Walk your readers through a simple Map-Reduce example like counting the words in a file.
+Walk your readers through a simple Map-Reduce example, and address the following questions:
++ What happens when you ran the commands in the _Standalone_ part of the tutorial?
++ What is different in the _Pseudo-Distributed_ case?
++ How can we see that it is different from the generated output?
+
+
+
+
 
 [Back to assignments overview](index.html)
 
