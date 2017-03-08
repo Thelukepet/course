@@ -13,7 +13,7 @@ In this assignment, we install Hadoop on our own "pseudo-cluster", and use Map-R
 
 The tutorial was tested inside the Docker container for Spark-Notebook that we setup in the previous lab sessions;
 you would use the `docker exec` command to start a shell inside the image first.
-The HDFS filesystem that you create and use in this tutorial, will be re-used in the later lab sessions on Spark.
+The HDFS filesystem that you create and use in this tutorial, can be re-used in the later lab sessions on Spark.
 
 ### Setup
 
@@ -35,6 +35,49 @@ chmod 0600 ~/.ssh/authorized_keys
 ## Add JAVA_HOME to .bashrc
 echo export JAVA_HOME=${JAVA_HOME} >> ${HOME}/.bashrc
 ```
+
+### Intermezzo
+
+If you are not yet (!) fluent in a UNIX environment, view and edit files inside the Docker container using `nano` 
+(that we installed in the first command in this tutorial).
+
+Maybe you need to set the `TERM` variable for `nano` before this works; e.g.
+
+```
+export TERM=xterm
+```
+
+_If that is the case, now use `nano` to add this command as the last line of `$HOME/.bashrc`._ 
+
+If you are exploring the source of the Hadoop examples later on in the lab session, I recommend doing these steps 
+on your host machine, and not inside the docker image (or even the vagrant virtual machine); much easier for working 
+with your favourite GUI, editors, copy-paste support, _etc. etc._
+
+You can use `scp` to secure copy files into and from your `$HOME/bigdata` directory on the machine you work at.
+In Huygens, you can rely on NFS (the Network File System), and copy the file to Linux login server `lilo` 
+or `lilo.science.ru.nl` (the file used in this example does however not yet exist):
+
+```
+export USERNAME=<your-science-account>
+scp share/hadoop/mapreduce/sources/hadoop-mapreduce-examples-2.7.3-sources.jar ${USERNAME}@lilo.science.ru.nl:bigdata
+```
+
+A perhaps better alternative is to run the _docker container_ using Docker options to mount a directory from the 
+host filesystem inside the container; passing the desired location using `-v /vagrant:/mnt/bigdata`.
+If you decide to go this route, then you need to start a new container and redo the above commands (my apologies).
+In that case, I recommend to open two more ports, and use the following command 
+(you need to take the _HASH_ from `docker images`):
+
+```
+docker run -p 9001:9001 -p 4040-4045:4040-4045 -p 50070:50070 -p 8088:8088 -v /vagrant:/mnt/bigdata HASH
+```
+
+Both examples assume that we use directory `$HOME/bigdata`, the location where I suggested to put your `Vagrantfile`; 
+this directory is automatically mounted by `vagrant` under `/vagrant`, as described in 
+[vagrant's _getting started_ documentation](https://www.vagrantup.com/docs/getting-started/synced_folders.html).
+
+
+### Installing HDFS
 
 Install the necessary basic tools, download Hadoop version 2.7.3, and unpack the code:
 
@@ -58,47 +101,6 @@ jar tvf share/hadoop/mapreduce/sources/hadoop-mapreduce-examples-2.7.3-sources.j
 ```
 
 You unpack the `.jar` file (for "java archive") using `jar xvf` instead.
-
-### Intermezzo
-
-If you are not yet (!) fluent in a UNIX environment, view and edit files inside the Docker container using `nano` 
-(that we installed in the first command in this tutorial).
-
-Maybe you need to set the `TERM` variable for `nano` before this works; e.g.
-
-```
-export TERM=xterm
-```
-
-_If that is the case, now use `nano` to add this command as the last line of `$HOME/.bashrc`._ 
-
-If you are exploring the source of the Hadoop examples however, I recommend doing these steps on your host machine,
-and not inside the docker image or even the vagrant virtual machine; much easier for working with your favourite 
-editor, proper copy-paste support, _etc. etc._
-
-You could for example use `scp` to secure copy the file to your `$HOME/bigdata` directory on the machine you work at.
-
-In Huygens, you can rely on NFS (the Network File System), and copy the file to Linux login server `lilo` 
-or `lilo.science.ru.nl`, as follows:
-
-```
-export USERNAME=<your-science-account>
-scp share/hadoop/mapreduce/sources/hadoop-mapreduce-examples-2.7.3-sources.jar ${USERNAME}@lilo.science.ru.nl:bigdata
-```
-
-A perhaps better alternative is to _run_ the _docker container_ with the options to mount a directory from the 
-host filesystem inside the container; passing the desired location using `-v /vagrant:/mnt/bigdata`.
-If you decide to go this route, then you need to start a new container and redo the above commands (my apologies).
-In that case, I recommend to open two more ports, and use the following command 
-(you need to take the _HASH_ from `docker images`):
-
-```
-docker run -p 9001:9001 -p 4040-4045:4040-4045 -p 50070:50070 -p 8088:8088 -v /vagrant:/mnt/bigdata HASH
-```
-
-Both examples assume that we use directory `$HOME/bigdata`, the location where I suggested to put your `Vagrantfile`; 
-this directory is automatically mounted by `vagrant` under `/vagrant`, as described in 
-[vagrant's _getting started_ documentation](https://www.vagrantup.com/docs/getting-started/synced_folders.html).
 
 ### Pseudo Distributed
 
