@@ -1,7 +1,8 @@
 ---
 layout: page
 title: User namespaces
-description: How to get docker to run in user namespace
+tagline: Securing Docker by enabling User Namespaces
+description: How to get Docker to run in User Namespaces
 ---
 
 # Docker

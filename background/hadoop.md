@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Hadoop
-description: How to install and run Hadoop
+tagline: Running Hadoop in your Docker container
+description: Explanations to install and run Hadoop
 ---
 
 ## Hadoop
@@ -10,8 +11,9 @@ Lectures 3 to 5 discussed distributed filesystems and Map-Reduce, that in practi
 
 In this assignment, we install Hadoop on our own "pseudo-cluster", and use Map-Reduce to do some basic count operations.
 
-This tutorial was tested inside the Docker image that we setup in the previous lab sessions;
+The tutorial was tested inside the Docker container for Spark-Notebook that we setup in the previous lab sessions;
 you would use the `docker exec` command to start a shell inside the image first.
+The HDFS filesystem that you create and use in this tutorial, will be re-used in the later lab sessions on Spark.
 
 ### Setup
 
