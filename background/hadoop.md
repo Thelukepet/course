@@ -7,7 +7,7 @@ description: Explanations to install and run Hadoop
 
 ## Map Reduce on HDFS
 
-We will install Hadoop on our own "pseudo-cluster", and use Map-Reduce to do some basic count operations.
+We will install Hadoop on our own "pseudo-cluster" and run a few default Map-Reduce operations.
 
 The tutorial was tested inside the Docker container for Spark-Notebook that we setup in the previous lab sessions;
 you would use the `docker exec` command to start a shell inside the image first. The HDFS filesystem that you create 
