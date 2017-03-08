@@ -100,7 +100,7 @@ Note: the sources are included in the release, e.g.,
 jar tvf share/hadoop/mapreduce/sources/hadoop-mapreduce-examples-2.7.3-sources.jar
 ```
 
-You unpack the `.jar` file (for "java archive") using `jar xvf` instead.
+(You unpack the `.jar` file (for "java archive") using `jar xf`.)
 
 ### Pseudo Distributed
 
