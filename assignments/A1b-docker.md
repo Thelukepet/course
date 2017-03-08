@@ -37,8 +37,12 @@ if you never worked with vagrant before.
 We use vagrant with the `virtualbox` provisioner, and a configuration that stores your virtual
 machines in directory `/var/tmp/${USER}`. 
 
-_Leaving a single virtual machine in the terminal rooms is okay!_
-But, we do request that you:
+_Leaving **a single virtual machine** in the terminal rooms is okay!_
+
+Use `vagrant suspend` to do that, and `vagrant up` to continue where you left off.
+(Note: after resuming, you may need to resume docker containers that ran in the suspended VM,
+use `docker start HASH` to do so.)
+We do request that you:
 
 + `vagrant destroy` unused virtual machines;
 + use the same computer every week (whenever possible).
@@ -107,16 +111,16 @@ follow the instructions given in [Spark Notebook for the big data course](../bac
 
 ### Starting the Spark Notebook container
 
-Start up a container with `docker run` (only if it is not running of course);
-and simply open [localhost:9000](http://localhost:9000/) in your browser.
+Otherwise, start up a container with `docker run` (only if it is not running of course);
+and simply open [localhost:9001](http://localhost:9001/) in your browser.
 
-If you successfully started the Spark Notebook container, then opening [localhost:9000](http://localhost:9000/) will
+If you successfully started the Spark Notebook container, then opening [localhost:9001](http://localhost:9001/) will
 show you the Spark Notebook UI in the browser. 
 
 _Why don't you try out some of the scala things you worked with in the first week!_
 
 (It is possible to run the docker container remotely, and open the Spark Notebook in a browser on your laptop, provided
-that you know how to tunnel ports 4040 and 9000 to the laptop; for example using `ssh -L` or the right tunneling 
+that you know how to tunnel ports 4040 and 9001 to the laptop; for example using `ssh -L` or the right tunneling 
 settings to `Putty`.)
 
 ## Clean up
@@ -133,12 +137,6 @@ Next, you may remove all inactive, exited containers that you do not plan to res
 
     docker ps -f status=exited -q | \
       xargs docker rm
-
-When we complete the first phase of the course, we will not use these docker images any more.
-You may for example remove an unused cloudera image from your machine:
-
-    docker images -q docker.io/cloudera/quickstart | \
-      xargs docker rmi
 
 ## See also
 
