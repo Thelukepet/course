@@ -180,4 +180,4 @@ you could try the additional steps from the Hadoop documentation to
 [run Yarn on a single node](https://hadoop.apache.org/docs/r2.7.3/hadoop-project-dist/hadoop-common/SingleCluster.html#YARN_on_a_Single_Node)
 
 
-[Back to Map-Reduce assignment](../assignments/mapreduce.html)
+[Back to Map-Reduce assignment](../assignments/A2-mapreduce.html)
