@@ -5,7 +5,7 @@ tagline: Running Hadoop in your Docker container
 description: Explanations to install and run Hadoop
 ---
 
-## Hadoop
+## Map Reduce on HDFS
 
 Lectures 3 to 5 discussed distributed filesystems and Map-Reduce, that in practice today are almost equivalent to "Hadoop".
 
