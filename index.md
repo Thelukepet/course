@@ -59,3 +59,15 @@ Instructions (assignment A1b):
 * [Assignment 1b](assignments/A1b-docker.html)
 * [Scala environment](background/scala.html) __(optional)__
 
+#### March 23rd: Map-Reduce
+
+The assignment is to write a blog post reflecting on using HDFS and running simple Map-Reduce programs.
+Hands-on experience with using Hadoop Map-Reduce will help you appreciate the advantages of Spark for the
+subsequent lab sessions :-)
+
+_This assignment will be evaluated using peer review._
+
+Instructions (assignment 2):
+
+* [Assignment 2](https://rubigdata.github.io/course/assignments/A2-mapreduce.html)
+
