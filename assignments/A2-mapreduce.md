@@ -55,7 +55,6 @@ If you clone your assignment repository, you find the example `WordCount.java` a
 Address at least the following questions:
 + What happens when you ran the commands in the _Standalone_ part of the tutorial?
 + What is different in the _Pseudo-Distributed_ case?
-  Can we infer what is different from the generated output?
 + How do you use mapreduce to count the number of lines/words/characters/... in the *Complete Shakespeare*?
 + Does Romeo or Juliet appear more often in the plays?
   Can you answer this question making only one pass over the corpus?
