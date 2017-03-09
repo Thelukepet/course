@@ -63,10 +63,18 @@ If things go smooth, try to compute the average number of words or characters pe
 
 If things go _really_ smoothly, you can try to use a combiner and discuss the improvement achieved.
 
+### Done
+
 When you completed the assignment, push your blog post to the first assignment's repository
 (in the `gh-pages` branch or it will not render);
 and include a link to the published blog post in the README of the assignment repository,
 and commit the README as well as your code to the assignment repository.
+
+### Help?!
+
+Feel free to ask for help, but please do that by using the github issue tracker on [the forum](https://github.com/rubigdata/forum-2017/); 
+see the [welcome issue](https://github.com/rubigdata/forum-2017/issues/1) as an example of how to proceed.
+Every student may help out, please contribute and share your knowledge! 
 
 [Back to assignments overview](index.html)
 
