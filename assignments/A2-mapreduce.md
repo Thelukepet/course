@@ -45,7 +45,7 @@ Walk your readers through a simple Map-Reduce example to count the number of lin
 (or something more interesting, it is really up to you).
 
 Use the Map-Reduce documentation to get started:
-[tutorial WordCount v1.0](https://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html#Example%3A+WordCount+v1.0)
+[tutorial WordCount v1.0](https://hadoop.apache.org/docs/r2.7.3/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html#Example:_WordCount_v1.0)
 
 Address at least the following questions:
 + What happens when you ran the commands in the _Standalone_ part of the tutorial?
