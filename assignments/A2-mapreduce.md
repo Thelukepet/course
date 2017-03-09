@@ -27,7 +27,7 @@ Start the docker container (refer to [assignment A1.b](A1b-docker.html)
 and the [Spark Notebook background](../background/spark-notebook.html)
 if necessary).
 
-Setup distributed filesystem `HDFS` and the Map-Reduce tools using [these Hadoop instructions](../background/hadoop.html).
+Setup distributed filesystem `HDFS` and the Map-Reduce tools using [__this course''s Hadoop instructions__](../background/hadoop.html).
 
 ### Blog post
 
