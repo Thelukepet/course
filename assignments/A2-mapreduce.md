@@ -5,17 +5,24 @@ tagline: Hands-on session with Hadoop and Map-Reduce
 description: Learn how the abstract concepts from the lectures so far work out in practice.
 ---
 
-## Map Reduce on HDFS
-
 Lectures 3 to 5 discussed distributed filesystems and Map-Reduce, that in practice today are almost equivalent to "Hadoop".
 
 In this assignment, we install Hadoop on our own "pseudo-cluster", and use Map-Reduce to do some basic count operations.
 
 The tutorial was tested inside the Docker container for Spark-Notebook that we setup in the previous lab sessions;
-you would use the `docker exec` command to start a shell inside the image first.
+you would use the `docker exec` command to start a shell inside the image first:
+
+```
+docker exec -it HASH /bin/bash
+```
+
 The HDFS filesystem that you create and use in this tutorial, can be re-used in the later lab sessions on Spark.
 
 ### Setup
+
+Start the docker container (refer to [assignment A1.b](A1b-docker.html)
+and the [Spark Notebook background](../background/spark-notebook.html)
+if necessary).
 
 Setup distributed filesystem `HDFS` and the Map-Reduce tools using [these Hadoop instructions](../background/hadoop.html).
 
