@@ -45,12 +45,12 @@ Walk your readers through a simple Map-Reduce example to count the number of lin
 (or something more interesting, it is really up to you).
 
 Use the Map-Reduce documentation to get started:
-[tutoira WordCount v1.0](https://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html#Example%3A+WordCount+v1.0)
+[tutorial WordCount v1.0](https://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html#Example%3A+WordCount+v1.0)
 
 Address at least the following questions:
 + What happens when you ran the commands in the _Standalone_ part of the tutorial?
 + What is different in the _Pseudo-Distributed_ case?
-  How can we see that it is different from the generated output?
+  Can we infer what is different from the generated output?
 + How do you use mapreduce to count the number of lines/words/characters/... in the *Complete Shakespeare*?
 + Does Romeo or Juliet appear more often in the plays?
   Can you answer this question making only one pass over the corpus?
