@@ -28,9 +28,17 @@ Assume the reader knows what a distributed filesystem is, and why you would use 
 Copy the *Complete Shakespeare* in text provided at 
 [`/vol/practica/BigData/100.txt.utf-8`](file:///vol/practica/BigData/100.txt.utf-8)
 into directory `/mnt/bigdata` in the docker container.
+Alternatively, download it directly from the _Project Gutenburg_ website:
+
+```
+wget http://www.gutenberg.org/ebooks/100.txt.utf-8
+```
 
 Walk your readers through a simple Map-Reduce example to count the number of lines, words or characters 
 (or something more interesting, it is really up to you).
+
+Use the Map-Reduce documentation to get started:
+[tutoira WordCount v1.0](https://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html#Example%3A+WordCount+v1.0)
 
 Address at least the following questions:
 + What happens when you ran the commands in the _Standalone_ part of the tutorial?
