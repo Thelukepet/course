@@ -24,14 +24,25 @@ Setup distributed filesystem `HDFS` and the Map-Reduce tools using [these Hadoop
 The assignment is to write a blog post about your experience with HDFS and Map-Reduce.
 
 Assume the reader knows what a distributed filesystem is, and why you would use it.
-Walk your readers through a simple Map-Reduce example, and address the following questions:
+
+Copy the *Complete Shakespeare* in text provided at 
+[`/vol/practica/BigData/100.txt.utf-8`](file:///vol/practica/BigData/100.txt.utf-8)
+into directory `/mnt/bigdata` in the docker container.
+
+Walk your readers through a simple Map-Reduce example to count the number of lines, words or characters 
+(or something more interesting, it is really up to you).
+
+Address at least the following questions:
 + What happens when you ran the commands in the _Standalone_ part of the tutorial?
 + What is different in the _Pseudo-Distributed_ case?
-+ How can we see that it is different from the generated output?
+  How can we see that it is different from the generated output?
++ How do you use mapreduce to count the number of lines/words/characters/... in the *Complete Shakespeare*?
++ Does Romeo or Juliet appear more often in the plays?
+  Can you answer this question making only one pass over the corpus?
 
+If things go smooth, try to compute the average number of words or characters per line.
 
-
-
+If things go _really_ smoothly, you can try to use a combiner and discuss the improvement achieved.
 
 [Back to assignments overview](index.html)
 
