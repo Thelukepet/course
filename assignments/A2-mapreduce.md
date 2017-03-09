@@ -64,7 +64,7 @@ If things go smooth, try to compute the average number of words or characters pe
 
 If things go _really_ smoothly, you can try to use a combiner and discuss the improvement achieved.
 
-When you completed the assignment, push your blog post to the first assignment''s repository
+When you completed the assignment, push your blog post to the first assignment's repository
 (in the `gh-pages` branch or it will not render);
 and include a link to the published blog post in the README of the assignment repository,
 and commit the README as well as your code to the assignment repository.
