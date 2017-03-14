@@ -76,6 +76,6 @@ Feel free to ask for help, but please do that by using the github issue tracker 
 see the [welcome issue](https://github.com/rubigdata/forum-2017/issues/1) as an example of how to proceed.
 Every student may help out, please contribute and share your knowledge! 
 
-[Back to assignments overview](index.html)
+[Back to assignments overview](../index.html)
 
 
