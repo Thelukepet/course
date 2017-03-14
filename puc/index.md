@@ -11,7 +11,7 @@ Pre-university college les over Big Data.
 
 Introductie slides voor leerlingen (TODO).
 
-Tutorial voor leerlingen (TODO).
+[Tutorial voor leerlingen](leerlingen.html).
 
 ### Docenten (20 februari 2017)
 
