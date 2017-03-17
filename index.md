@@ -69,5 +69,6 @@ _This assignment will be evaluated using peer review._
 
 Instructions (assignment 2):
 
-* [Assignment 2](https://rubigdata.github.io/course/assignments/A2-mapreduce.html)
+* [Assignment 2](assignments/A2-mapreduce.html)
+* History of [command-line instructions](background/exact.html) for assignment 2 __(Thanks Wietse)__
 
