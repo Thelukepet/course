@@ -103,7 +103,7 @@ You can then use nano or another program to inspect the output.
 ```Bash
 bin/hadoop com.sun.tools.javac.Main WordCount.java
 jar cf wc.jar WordCount*.class
-bin/hadoop jar wc.jar WordCount input out
+bin/hadoop jar wc.jar WordCount input output
 bin/hdfs dfs -get output/part-r-00000
 bin/hdfs dfs -rm -r output
 nano part-r-00000
