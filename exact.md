@@ -21,22 +21,22 @@ The same thing happens for `/mnt/vagrant` inside your docker container, so any f
 ```Bash
 vagrant ssh
 docker pull andypetrella/spark-notebook:0.7.0-scala-2.11.8-spark-2.1.0-hadoop-2.7.3-with-hive
-docker create -p 9001:9001 -p 4040-4045:4040-4045 -v /vagrant:/mnt/bigdata andypetrella/spark-notebook:0.7.0-scala-2.11.8-spark-2.1.0-hadoop-2.7.3-with-hive
+CHASH=$(docker create -p 9001:9001 -p 4040-4045:4040-4045 -v /vagrant:/mnt/bigdata andypetrella/spark-notebook:0.7.0-scala-2.11.8-spark-2.1.0-hadoop-2.7.3-with-hive)
 ```
-This command outputs a container id, of which you should write down first four characters. 
-The first four characters are now referred to as the container hash
+The `docker create` command creates a container and returns its container id, that is assigned to variable `CHASH`.
 ```Bash
-docker start container_hash
-docker logs container_hash
+docker start $CHASH
+docker logs $CHASH
 ```
-You now have a running docker container, and you should be able to access the spark notebok at http://localhost:9001
+You now have a running docker container, and you should be able to access the spark notebook at [localhost:9001](http://localhost:9001).
+
 ## Setting up inside the container
 First you need to open an interactive bash shell inside your docker container.
 Next some missing software needs to be installed and the ssh server needs to be
 started and configured.
 Next we download the hadoop distributed file system and set it up.
 ```Bash
-docker exec -it container_hash /bin/bash
+docker exec -it $CHASH /bin/bash
 apt-get install wget rsync ssh nano
 export TERM=xterm
 service ssh start
