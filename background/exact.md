@@ -37,8 +37,11 @@ started and configured.
 Next we download the hadoop distributed file system and set it up.
 ```Bash
 docker exec -it $CHASH /bin/bash
+
+echo export JAVA_HOME=${JAVA_HOME} >> ${HOME}/.bashrc
 apt-get install -y wget rsync ssh nano
 export TERM=xterm
+
 service ssh start
 ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
 cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
@@ -88,7 +91,6 @@ a file into the filesystem.
 wget http://www.gutenberg.org/ebooks/100.txt.utf-8
 wget https://gist.githubusercontent.com/WKuipers/87a1439b09d5477d21119abefdb84db0/raw/c327b9f74d30684b1ad2a0087a6de805503379d3/WordCount.java
 bin/hdfs dfs -put 100.txt.utf-8 input
-echo export JAVA_HOME=${JAVA_HOME} >> ${HOME}/.bashrc
 export PATH=${JAVA_HOME}/bin:${PATH}
 export HADOOP_CLASSPATH=${JAVA_HOME}/lib/tools.jar
 ```
