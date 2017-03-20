@@ -118,7 +118,7 @@ nano part-r-00000
 ```
 
 ## Gracefully shutting down your setup
-*Inside your virtual machine*
+*Inside your virtual machine* (so exit the shell that you started using `docker exec`)
 ```Bash
 docker stop $CHASH
 ```
