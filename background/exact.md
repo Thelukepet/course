@@ -100,7 +100,7 @@ Next, we compile `WordCount.java` to `.class` files, and then pack those
 export PATH=${JAVA_HOME}/bin:${PATH}
 export HADOOP_CLASSPATH=${JAVA_HOME}/lib/tools.jar
 bin/hadoop com.sun.tools.javac.Main WordCount.java
-jar cf wc.jar WordCount*.class`
+jar cf wc.jar WordCount*.class
 ```
 
 We can run the program using `bin/hadoop` and give it as parameters the input file 
