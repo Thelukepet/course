@@ -37,7 +37,7 @@ started and configured.
 Next we download the hadoop distributed file system and set it up.
 ```Bash
 docker exec -it $CHASH /bin/bash
-apt-get install wget rsync ssh nano
+apt-get install -y wget rsync ssh nano
 export TERM=xterm
 service ssh start
 ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
