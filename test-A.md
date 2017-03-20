@@ -5,8 +5,6 @@ tagline: RU Big Data Midterm Exam 2016-2017
 description: Detailed information of the material examined in Test A
 ---
 
-## Test A
-
 ### Objectives
 
 The objective of Test A is a summative assessment of your understanding of the course material for the _first 7 lectures_ of the course.
