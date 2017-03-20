@@ -120,7 +120,7 @@ nano part-r-00000
 ## Gracefully shutting down your setup
 *Inside your virtual machine*
 ```Bash
-docker stop container_hash
+docker stop $CHASH
 ```
 Inside your bigdata folder on the host machine
 ```Bash
