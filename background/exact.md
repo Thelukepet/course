@@ -72,8 +72,8 @@ Make sure this file looks like
 </configuration>
 ```
 ## Running Hadoop 
-Format a Hadoop File System(hdfs), start it up and create a directory for your
-user on the hdfs. Keep in mind the hdfs is completely seperate from your container
+Format a Hadoop File System (HDFS), start it up and create a directory for your
+user on the hdfs. Keep in mind the HDFS is completely separate from your container
 filesystem.
 ```Bash
 bin/hdfs namenode -format
@@ -85,26 +85,32 @@ Next we need to do some setup for the wordcount.
 Download the shakespeare collection and WordCount program, then set up some
 environment variables to make sure you can compile and run Java programs
 on hadoop.
-Using the `bin/hdfs` program we can interact with our Hadoop filesystem, here we put
-a file into the filesystem.
+Using the `bin/hdfs` program we can interact with our Hadoop filesystem, here we 
+create a directory `input`and put the collection file into the filesystem.
 ```Bash
 wget http://www.gutenberg.org/ebooks/100.txt.utf-8
 wget https://gist.githubusercontent.com/WKuipers/87a1439b09d5477d21119abefdb84db0/raw/c327b9f74d30684b1ad2a0087a6de805503379d3/WordCount.java
+bin/hdfs dfs -mkdir input
 bin/hdfs dfs -put 100.txt.utf-8 input
+```
+Next, we compile `WordCount.java` to `.class` files, and then pack those
+`.class` files into a `wc.jar`.
+
+```Bash
 export PATH=${JAVA_HOME}/bin:${PATH}
 export HADOOP_CLASSPATH=${JAVA_HOME}/lib/tools.jar
+bin/hadoop com.sun.tools.javac.Main WordCount.java
+jar cf wc.jar WordCount*.class`
 ```
-Next we need to compile `WordCount.java` to `.class` files, and then pack those
-`.class` files into a `wc.jar`.
-Next we can run the program using `bin/hadoop` and give it an input file and a 
-output directory.
+
+We can run the program using `bin/hadoop` and give it as parameters the input file 
+and an output directory.
 The output directory must not exist or the program will refuse to generate output.
 To ensure we can easily run the program again we use `bin/hdfs` to retrieve our
 results and then delete the output directory.
 You can then use nano or another program to inspect the output.
+
 ```Bash
-bin/hadoop com.sun.tools.javac.Main WordCount.java
-jar cf wc.jar WordCount*.class
 bin/hadoop jar wc.jar WordCount input output
 bin/hdfs dfs -get output/part-r-00000
 bin/hdfs dfs -rm -r output
