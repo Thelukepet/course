@@ -10,8 +10,6 @@ description: RU Big Data course information and overall structure
 The course on Blackboard:
 [Blackboard](http://bit.ly/RUBigDataBB-2017)
 
-Did you already fill out the [course admin webform](https://goo.gl/forms/FHkUZeZWe1By4rDk2)?
-
 ## Practical Assignments
 
 ### Objectives
