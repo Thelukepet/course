@@ -15,7 +15,7 @@ The blog post is the primary target of evaluation. If the blog was posted correc
 
 Enter your review by posting an issue on the blog repository (you should have been assigned the rights to do so), in which you evaluate the blog post using the following rubric:
 
-    Trait     | Unsatisfactory | Acceptable | Excellent
+Trait         | Unsatisfactory | Acceptable | Excellent
      ---      |    -------     |   -----    |  ----
 Originality   | Plain copy-paste from assignment      | Presentation follows closely the assignment text      | Blog presents an original story, inspired by but not literally following the assignment
 Completeness  | Large portions of assignments missing | The blog covers most of the aspects of the assignment | Blog discusses main concepts beyond the original assignment
