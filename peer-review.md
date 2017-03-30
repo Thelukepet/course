@@ -1,8 +1,7 @@
 ﻿---
 layout: page
-title: Peer Review
-tagline: RU Big Data 2017 (NWI-IBC036-2016)
-description: RU Big Data Peer Review Instruction
+title: Peer review
+tagline: Assignment 2, Map Reduce
 ---
 
 ### Peer review of assignment 2 blog
