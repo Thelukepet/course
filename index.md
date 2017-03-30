@@ -70,3 +70,8 @@ Instructions (assignment 2):
 * [Assignment 2](assignments/A2-mapreduce.html)
 * History of [command-line instructions](background/exact.html) for assignment 2 __(Thanks Wietse)__
 
+#### April 10th: Peer Review assignment 2
+
+Every student reviews the assignment 2 blog for two of their peers;
+follow the [instructions for the peer review](peer-review.html).
+
