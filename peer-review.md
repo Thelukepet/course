@@ -7,7 +7,7 @@ description: RU Big Data Peer Review Instruction
 
 ### Peer review of assignment 2 blog
 
-Each student in team rubigdata-students-2017 has been assigned two peer review assignments, that you find in the [peer review overview](assignment/peer-review-A2.html).
+Each student in team rubigdata-students-2017 has been assigned two peer review assignments, that you find in the [peer review overview](assignments/peer-review-A2.html).
 
 Every line lists the github account of the reviewer and two pairs of links, that correspond to the two results for assignment two that are to be reviewed.
 
