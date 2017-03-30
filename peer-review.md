@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 title: Peer review
 tagline: Assignment 2, Map Reduce
@@ -27,8 +27,7 @@ and excellent (2). When you entered your review, please fill out the [online for
 with the scores resulting from the rubric and the link to the github issue where you entered the evaluation.
 (You should do this for both peer reviews independently.)
 
-The peer review process is new this year, so feel free to leave any questions or comments on 
+The peer review process is new this year, so feel free to leave any questions or comments on
 [the forum](https://github.com/rubigdata/forum-2017/issues),
-or, if you prefer not to share your feedback with the other students, 
-by sending me a private email with “Big Data” in the subject.
-
+or, if you prefer not to share your feedback with the other students,
+by sending me a private email with "Big Data" in the subject.
