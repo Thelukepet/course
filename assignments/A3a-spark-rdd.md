@@ -38,7 +38,8 @@ and use `scp`, `wget` or `git clone` commands to copy the files needed.
 
 ### Prepare container
 
-Create the following directory and copy the __course notebook__ into that directory:
+Create the following directory and copy the __course notebook__ 
+[BigData-big-data-spark-rdd.snb](http://rubigdata.github.io/course/assignments/BigData-big-data-spark-rdd.snb) into that directory:
 
     mkdir -p /opt/docker/notebooks/BigData
     cd /opt/docker/notebooks/BigData
