@@ -36,22 +36,6 @@ docker exec -it HASH /bin/bash
 Inside the shell, you can simply `cd` to move to the directory you need,
 and use `scp`, `wget` or `git clone` commands to copy the files needed.
 
-Alternatively, you can run commands from inside a running notebook; 
-making use of the functionality provided by the `sys.process` package and/or 
-shell escapes; experiment yourself using:
-
-```
-:sh ls /tmp
-```
-
-or
-
-```
-val tmpfiles = "ls /tmp" !!
-```
-
-*Note: Myself, I did not succeed in using wildcards in commands issued.*
-
 ### Prepare container
 
 Create the following directory:
@@ -64,12 +48,12 @@ Either checkout the repository from inside the container, or copy the file into 
     cd /opt/docker/notebooks/BigData
     wget http://rubigdata.github.io/course/assignments/BigData-big-data-spark-rdd.snb
 
-Open [localhost:9000/tree/BigData](http://localhost:9000/tree/BigData) in your browser, 
-and open the notebook you just installed inside your Spark Notebook container.
+Navigate to [localhost:9001/tree/BigData](http://localhost:9001/tree/BigData) in your browser 
+to open the notebook you just installed inside your Spark Notebook container.
 
 Follow the steps in the course notebook to get at ease with using spark, scala;
-and try to understand what you find in the Spark UI, that is available 
-at [localhost:4040](http://localhost:4040).
+and make sure that you understand what you find in the Spark UI, 
+available at [localhost:4040](http://localhost:4040).
 
 **When you get stuck, open an issue in the 
 [Forum](https://github.com/rubigdata/forum-2017)
@@ -77,7 +61,8 @@ to find help from your fellow students and/or me!**
 
 ### Blog post assignment 3
 
-Write the blog post after carrying out assignment 3B (to be released next week).
+Take notes while working on the notebook for assignment 3A, but only
+write your blog post after carrying out assignment 3B (next week).
 
 While assignment 3A looks into RDDs, the data representation and query processing
 internals of using Spark, assignment 3B will be focused on the use of Dataframes and Spark SQL.
