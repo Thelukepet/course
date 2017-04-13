@@ -78,7 +78,7 @@ follow the [instructions for the peer review](peer-review.html).
 #### May 1st: Spark
 
 Instructions:
-* [Assignment 3A](assignments/A3-spark-rdd.html)
+* [Assignment 3A](assignments/A3a-spark-rdd.html)
 * Assignment 3B (follows next week)
 
 
