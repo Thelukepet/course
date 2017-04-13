@@ -14,7 +14,13 @@ Start the docker container (refer to [assignment A1.b](A1b-docker.html)
 and the [Spark Notebook background](../background/spark-notebook.html)
 if necessary).
 
+Note: if you need to restart from scratch, the easiest is to follow 
+[the detailed instructions from assignment 2](../background/exact.html),
+where you can skip the middle part (the instructions that setup Hadoop).
+
 ### Using Notebook
+
+Access Spark Notebook in your browser by navigating to [localhost:9001](http://localhost:9001/).
 
 You may navigate a notebook with the keyboard by pressing shift-enter 
 to execute a cell, and enter to add lines to a cell.
@@ -47,10 +53,6 @@ val tmpfiles = "ls /tmp" !!
 *Note: Myself, I did not succeed in using wildcards in commands issued.*
 
 ### Prepare container
-
-Build on the setup we created for the Map Reduce assignment.
-If you need to restart from scratch, the easiest is to follow 
-[these detailed instructions](../background/exact.html).
 
 Create the following directory:
 
