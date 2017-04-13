@@ -38,13 +38,9 @@ and use `scp`, `wget` or `git clone` commands to copy the files needed.
 
 ### Prepare container
 
-Create the following directory:
+Create the following directory and copy the __course notebook__ into that directory:
 
     mkdir -p /opt/docker/notebooks/BigData
-
-When you accept assignment 3, you find the course notebook in the github repository for the assignment.
-Either checkout the repository from inside the container, or copy the file into the container.
-
     cd /opt/docker/notebooks/BigData
     wget http://rubigdata.github.io/course/assignments/BigData-big-data-spark-rdd.snb
 
