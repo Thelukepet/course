@@ -75,10 +75,10 @@ Instructions (assignment 2):
 Every student reviews the assignment 2 blog for two of their peers;
 follow the [instructions for the peer review](peer-review.html).
 
-#### May 1st: Spark
+#### May 8th: Spark
 
 Instructions:
 * [Assignment 3A](assignments/A3a-spark-rdd.html)
-* Assignment 3B (follows next week)
+* Assignment 3B (follows in a few days...)
 
 
