@@ -7,25 +7,24 @@ description: Access to CSV
 The city distributes most data as CSV (Comma Seperated Values), but the statistics data only
 in the Microsoft Access format. You can install open source tool `access2csv` for converting 
 the Microsoft Access data.
-Building the `jar` requires installing `ant` if your container does not have it yet:
+
+_Install git using `apt-get install git` if you do not have it yet. Building the `jar` would require installing `mvn` if your container does not have it yet._
 
 ```
-apt-get install ant
 git clone https://github.com/AccelerationNet/access2csv.git
 cd access2csv
-ant
 ```
 
 How to use the conversion tool:
 
 ```
-java -jar /opt/docker/notebooks/BigData/access2csv/access2csv.jar --help
+./access2csv --help
 ```
 
 E.g., to inspect the schema:
 
 ```
-java -jar /opt/docker/notebooks/BigData/access2csv/access2csv.jar /data/opendata_stadsgetallen.accdb --schema
+./access2csv /data/bigdata/opendata_stadsgetallen.accdb --schema
 ```
 
 This gives a result like:
