@@ -21,10 +21,10 @@ How to use the conversion tool:
 ./access2csv --help
 ```
 
-E.g., to inspect the schema:
+E.g., to convert the data to CSV:
 
 ```
-./access2csv /data/bigdata/opendata_stadsgetallen.accdb --schema
+./access2csv --input /data/bigdata/opendata_stadsgetallen.accdb --output /tmp
 ```
 
 This gives a result like:
