@@ -22,10 +22,7 @@ Copy the course's notebook from your assignment 3 repo, or from the course repos
 into the docker container in directory `/opt/docker/notebooks/BigData`
 (just like you did in assignment 3 Part A).
 
-Download the course's notebook 
-[Big Data Nijmegen](http://rubigdata.github.io/course/assignments/BigData-Nijmegen.snb).
-
-Open [localhost:9000/tree/BigData](http://localhost:9000/tree/BigData) in your browser, 
+Open [localhost:9001/tree/BigData](http://localhost:9001/tree/BigData) in your browser, 
 and open the notebook you just installed inside your Spark Notebook container.
 
 Follow the instructions in the notebook, and do not just click through every single cell - experiment with
@@ -34,3 +31,5 @@ alternatives, you will need the experience when you write your blog post!
 **When you get stuck, open an issue in the
 [Forum](https://github.com/rubigdata/forum-2017)
 to find help from your fellow students and/or me!**
+
+Back to [Assignment 3 overview](A3-spark.html).

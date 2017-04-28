@@ -56,19 +56,4 @@ available at [localhost:4040](http://localhost:4040).
 [Forum](https://github.com/rubigdata/forum-2017)
 to find help from your fellow students and/or me!**
 
-### Blog post assignment 3
-
-Take notes while working on the notebook for assignment 3A, but only
-write your blog post after carrying out assignment 3B (next week).
-
-While assignment 3A looks into RDDs, the data representation and query processing
-internals of using Spark, assignment 3B will be focused on the use of Dataframes and Spark SQL.
-You will be free to choose your preferred angle for the blog post: 
-whether you focus on the information from assignment 3A (looking into the details of 
-query processing in Spark) or 3B (focusing more on carrying out a data analysis).
-
-Whatever you choose, include in your blog post the insights you gain from inspecting 
-the Spark UI after issuing commands from the notebook.
-Interesting aspects you might want to address include the lazy evaluation, the effect 
-of caching RDDs, partitioning of the RDDs, etc.
-
+Back to [Assignment 3 overview](A3-spark.html).

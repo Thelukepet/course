@@ -11,6 +11,11 @@ using the core RDD API as well as the newer and more high-level DataFrames.
 You accept the assignment via Github for Education, using 
 [__this invitation link__](https://classroom.github.com/assignment-invitations/ba5deb387f2b05e70253cf91e478d076).
 
+Detailed instructions for parts A and B:
+
+* [Assignment 3A](assignments/A3a-spark-rdd.html)
+* [Assignment 3B](assignments/A3b-spark-df.html)
+
 ### Blog Post
 
 The assignment is to write a blog post about your experience with Spark.
