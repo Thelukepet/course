@@ -13,8 +13,8 @@ You accept the assignment via Github for Education, using
 
 Detailed instructions for parts A and B:
 
-* [Assignment 3A](assignments/A3a-spark-rdd.html)
-* [Assignment 3B](assignments/A3b-spark-df.html)
+* [Assignment 3A](A3a-spark-rdd.html)
+* [Assignment 3B](A3b-spark-df.html)
 
 ### Blog Post
 
