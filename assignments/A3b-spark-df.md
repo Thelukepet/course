@@ -11,9 +11,6 @@ by carrying out an analysis on structured open data.
 
 The repository for the assignment contains the course's notebook and three extra data files.
 
-Before you start, I recommend to go briefly over the
-[Spark SQL and DataFrame documentation](http://spark.apache.org/docs/latest/sql-programming-guide.html).
-
 
 ### Big Data Spark Nijmegen notebook
 
@@ -31,5 +28,9 @@ alternatives, you will need the experience when you write your blog post!
 **When you get stuck, open an issue in the
 [Forum](https://github.com/rubigdata/forum-2017)
 to find help from your fellow students and/or me!**
+
+Useful background information:
+[Spark SQL and DataFrame documentation](http://spark.apache.org/docs/latest/sql-programming-guide.html).
+
 
 Back to [Assignment 3 overview](A3-spark.html).
