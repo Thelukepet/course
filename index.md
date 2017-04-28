@@ -80,7 +80,7 @@ follow the [instructions for the peer review](peer-review.html).
 Instructions:
 
 * [Assignment 3](assignments/A3-spark.html)
-** [Assignment 3A](assignments/A3a-spark-rdd.html)
-** [Assignment 3B](assignments/A3b-spark-df.html)
+* [Assignment 3A](assignments/A3a-spark-rdd.html)
+* [Assignment 3B](assignments/A3b-spark-df.html)
 
 
