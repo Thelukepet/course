@@ -9,7 +9,7 @@ Assignment 3 consists of two parts that focus on query processing and data analy
 using the core RDD API as well as the newer and more high-level DataFrames.
 
 You accept the assignment via Github for Education, using 
-[__this invitation link__]().
+[__this invitation link__](https://classroom.github.com/assignment-invitations/ba5deb387f2b05e70253cf91e478d076).
 
 ### Blog Post
 
@@ -19,18 +19,24 @@ While assignment 3A looks into RDDs, the data representation and query processin
 assignment 3B is focused on the use of Dataframes and Spark SQL. It is up to you to choose the preferred angle
 for your blog post: you may focus on the Spark internals where the emphasis is assignment 3A (looking into the
 details of query processing in Spark, perhaps using some of the queries in the 3B notebook to illustrate your
-point) or it is assignment 3B (focusing more on the analytical side, by analyzing a different dataset).
+point) or assignment 3B (focusing on the analytical side, e.g. by analyzing a different dataset).
 Whatever you choose, include in your blog post the insights you gain from inspecting the Spark UI after
 issuing commands from the notebooks.
 
 #### Option A
 
-Interesting aspects you might want to address include the lazy evaluation, the effect of caching RDDs,
+If you choose the query processing angle, I suggest you use data we already worked with in the notebooks
+for assignments 3A and 3B.
+
+Interesting aspects of Spark you might want to address include the lazy evaluation, the effect of caching RDDs,
 partitioning of the RDDs, etc. Ideally, you would experiment with a few alternative solutions for the same
 high-level objective, and/or different choices in the setup of the dataset (like number of partitions, how
 to avoid shuffles, relationship between number of shuffles and overall processing cost, etc.).
 
 #### Option B
+
+If you choose the data analysis angle, I suggest to choose one idea from the three directions discussed next,
+and reflect in the blog post on the process that you followed to analyze the data.
 
 The most basic version for a blog post from the angle of assignment 3B would be to continue the analysis of the
 data we already used in the notebook. Can you provide a more complete list of dated quarters or improve the estimated
@@ -40,17 +46,17 @@ Alternatively, you could decide to carry out a small analysis of a different ope
 and present to your readers some basic properties of that data. _You will notice that it is harder than following
 instructions, and you run the risk of getting stuck because the data does not parse well, etc._
 
-As a third and final suggestion, the assignment repo gives you three different datasets that you can use to solve
+As a third and final suggestion, the assignment repo gives you three different datasets involved in 
 a task I recently encountered myself, in the context of the organization of the ACM SIGIR conference in 2017.
 The provided data consists of the following three files:
 
-* `SIGIR2017-invitees.csv` is the spreadsheet we used in September to invite committee members;
+* `SIGIR2017-invitees.csv` is the spreadsheet we used in September to invite program committee members;
 * `committee.csv` is a recent (April) dump of the committee member metadata from the conference system we use;
-* `committee_topic.csv` contains additional information about the committee members' interest.
+* `committee_topic.csv` contains additional information, about the committee members' expertise.
 
-We would like to pass on the original spreadsheet to the PC Chairs of SIGIR 2018, because it has a pointer to
-their DBLP page (basically their CV). However, some of the PC members have moved institute, or changed their
-contact details like email address; this is only reflected in the dump of the conference system.
+We would like to pass on the original spreadsheet to the PC Chairs of SIGIR 2018; it includes a manually curated
+field with their DBLP page (their publications). However, some of the PC members have moved institute, or changed their
+contact details like email address; this is only reflected in the dump taken from the conference system.
 Perhaps we would also want to enrich the data to be passed on with additional columns like personal webpage
 and topics of interest.
 
