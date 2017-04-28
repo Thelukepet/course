@@ -64,6 +64,9 @@ The assignment for you would then be to (use Spark to) combine the three dataset
 that we could hand over to the 2018 chairs. Your blog post would discuss the choices you make (I would expect
 that the blog post is supported by a new Spark Notebook that you should push to the assignment repo).
 
+__If you choose the data integration problem for your blog post, do make sure that you do not publish the datasets
+themselves publically, and only describe the analysis.__
+
 ### Done
 
 When you completed the assignment, push your blog post to the first assignment's repository
