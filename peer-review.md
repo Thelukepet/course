@@ -6,10 +6,10 @@ tagline: Assignments 2 (Map Reduce) and 3 (Spark)
 
 ### Peer review of assignment 2 and 3 blogs
 
-Each student in team rubigdata-students-2017 has been assigned two peer review assignments, that you find in the peer review overview for each assignment:
+Each student in team rubigdata-students-2017 has been assigned two peer review assignments, that you find in the peer review overview (one for each assignment):
 
-* (assignments/peer-review-A2.html)
-* (assignments/peer-review-A3.html) _(thanks to Joris for the new looks!)_
+* Peer reviews for [assignment 2](assignments/peer-review-A2.html)
+* Peer reviews for [assignment 3](assignments/peer-review-A3.html) _(thanks to Joris for the new looks!)_
 
 Every line lists the github account of the reviewer and two pairs of links, that correspond to the two results for assignment two that are to be reviewed.
 
