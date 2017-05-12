@@ -1,15 +1,21 @@
 ---
 layout: page
 title: Peer review
-tagline: Assignment 2, Map Reduce
+tagline: Assignments 2 (Map Reduce) and 3 (Spark)
 ---
 
-### Peer review of assignment 2 blog
+### Peer review of assignment 2 and 3 blogs
 
-Each student in team rubigdata-students-2017 has been assigned two peer review assignments, that you find in the [peer review overview](assignments/peer-review-A2.html).
+Each student in team rubigdata-students-2017 has been assigned two peer review assignments, that you find in the peer review overview for each assignment:
+
+* (assignments/peer-review-A2.html)
+* (assignments/peer-review-A3.html) _(thanks to Joris for the new looks!)_
+
 Every line lists the github account of the reviewer and two pairs of links, that correspond to the two results for assignment two that are to be reviewed.
 
-The blog post is the primary target of evaluation. If the blog was posted correctly, you can navigate there via the first link in each pair. Otherwise, please check if the repository for assignment 2 lists a location for the blogpost, e.g. in the README file. (The blog post might refer to new code that was checked in into the assignment repository.)
+The blog post is the primary target of evaluation. If the blog was posted correctly, you can navigate there via the first link in each pair. 
+Otherwise, please check if the repository for the assignment lists a location for the blogpost, e.g. in the README file.
+(The blog post might refer to new code that was checked in into the assignment repository.)
 
 #### How to review
 
@@ -28,8 +34,12 @@ and excellent (2).
 
 #### Completing the Peer Review
 
-After you entered your review as issue on the blog repository, fill out the [online form](https://goo.gl/forms/XnKSzTgw7WPnkiXO2)
-with the rubric scores and the link to the github issue where you entered the evaluation.
+After you entered your review as issue on the blog repository, fill out the appropriate online form from the list:
+
+* [Assignment 2](https://goo.gl/forms/XnKSzTgw7WPnkiXO2)
+* [Assignment 3](https://goo.gl/forms/yWLyWIA1C525AEMI3)
+
+Enter the rubric scores and the link to the github issue where you entered the evaluation.
 (You should do this independently for each of the two peer reviews assigned to you.)
 
 #### Final Comment
