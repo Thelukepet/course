@@ -30,7 +30,7 @@ Accuracy      | Inaccurate or incorrect statements    | Mostly correct          
 Readability   | Poorly organised, difficult to read   | The blog is only readable if you know the assignments | The blog is well organised and easy to read
 
 Write at least one sentence of feedback for every trait (dimension) of the rubric, and score every dimension using three grades, unsatisfactory (0), acceptable (1),
-and excellent (2).
+and excellent (2). Also include the url of the blog you reviewed in the issue.
 
 #### Completing the Peer Review
 
