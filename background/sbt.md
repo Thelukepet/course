@@ -22,16 +22,21 @@ the Docker image provided by SurfSara.
 ### Preparation
 
 First install the _Simple Build Tool_ `sbt` on SurfSara's Docker image.
-Hereto, follow the instructions from [`scala-sbt.org`](http://www.scala-sbt.org/0.13/docs/Installing-sbt-on-Linux.html).
+Hereto, follow the instructions from [`scala-sbt.org`](http://www.scala-sbt.org/0.13/docs/Installing-sbt-on-Linux.html);
+you are root in the docker container, so do not need to `sudo` these commands:
+
+```
+echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
+apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823
+apt-get update
+apt-get install sbt
+```
+
+You may need the following two commands as well:
 
 ```
 apt-get update
 apt-get install apt-transport-https
-
-echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823
-sudo apt-get update
-sudo apt-get install sbt
 ```
 
 (While at it, I issued `apt-get install vim` as well, but feel free to skip this.)
