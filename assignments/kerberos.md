@@ -69,5 +69,5 @@ You should now be able to view the [ResourceManager](http://head05.hathi.surfsar
 ### OS/X
 
 Sorry, you are on your own!
-If you figure out how to modify the Linux instructions to work on OS/X, please share on Piazza and I will add those here.
+If you figure out how to modify the Linux instructions to work on OS/X, please share on the Forum and I will add those here.
 
