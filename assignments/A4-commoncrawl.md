@@ -189,7 +189,7 @@ When you completed the assignment:
 2. Include a link to the published blog post in the README of the A4 assignment repository.
 3. Push the updated README as well as your own code or notebook to the A4 assignment repository.
 
-### Help?!
+#### Need help?!
 
 Feel free to ask for help, but please do that by using the github issue tracker on [the forum](https://github.com/rubigdata/forum-2017/);
 see the [welcome issue](https://github.com/rubigdata/forum-2017/issues/1) as an example of how to proceed.
