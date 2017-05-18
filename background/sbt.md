@@ -51,7 +51,10 @@ and [submitting applications](http://spark.apache.org/docs/2.1.1/submitting-appl
 The official documentation remains rather concise, so let us walk through the process with an actual (but _overly simple_) 
 example of a Spark application written in Scala.
 
-Download compressed archive [`rubigdata.tgz`](rubigdata.tgz) from the course website into your Docker container, and unpack the archive.
+You can find the sample application in your assignment repository (after accepting it in the classroom).
+
+Alternatively, download a compressed archive [`rubigdata.tgz`](rubigdata.tgz) with the same code from the 
+course website into your Docker container, and unpack the archive.
 
 ```
 cd /hathi-client/spark
