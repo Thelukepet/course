@@ -82,15 +82,15 @@ sbt package
 The result is a `jar` file that we can execute on `hathi` using Spark's `spark-submit` command:
 
 ```
-spark-submit --master yarn --deploy-mode cluster /hathi-client/spark-1.6.1-bin-hadoop2.6/rubigdata/target/scala-2.10/rubigdataapp_2.10-1.0.jar
+spark-submit --master yarn --deploy-mode cluster /hathi-client/spark/rubigdata/target/scala-2.11/rubigdataapp_2.11-1.0.jar
 ```
 
-(_Do not forget to first inspect the 
+_First inspect the 
 [`RUBigDataApp.scala` code](rubigdata/src/main/scala/org/rubigdata/RUBigDataApp.scala.txt), 
-so you know what to expect as output!_)
+so you know what to expect as output!_
 
 Follow the Spark application's output by opening the URL that is given on `stdout` 
-(this URL looks like `http://head05.hathi.surfsara.nl:8088/proxy/application_1458320004153_68201/`).
+(this URL looks like `http://head05.hathi.surfsara.nl:8088/proxy/application_1486393309284_11065/`).
 
 While the application runs, you will see the already familiar Spark UI (visible in standalone mode at `localhost:4040`); 
 once the application is finished, you get a summary page, from which you can inspect the logs.
@@ -112,9 +112,8 @@ into the Spark Notebook docker container, for example.
 
 ### Next steps
 
-Before trying to analyze Commoncrawl data, I suggest to run a few spark exercises from [assignment 2a](A2a-spark-101.html) 
-and [assignment 2b](A2b-execution-model.html). You can save any notebook as just its Scala code by using the _save as_ option
-from the file menu.
+Before trying to analyze Commoncrawl data, I suggest to run a few spark exercises from [assignment 3](../assignments/A3-spark.html).
+You can save any notebook as just its Scala code by using the _save as_ option from the file menu.
 
-_Include a brief discussion, perhaps using a concerete example, in the introductory part of your blog post, 
+_Include a brief discussion, perhaps using a concrete example, in the introductory part of your blog post, 
 taking your readers along on the road from interactive small scale prepatory experiments to actual use of a large cluster._
