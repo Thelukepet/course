@@ -52,15 +52,6 @@ To authenticate through Kerberos _on a Linux or Windows machine_ **outside** the
 which will be necessary to use the ResourceManager from your web-browser, 
 [follow these steps](kerberos.html) (provided without warranty, by me).
 
-#### First steps on Hathi
-
-Try a simple directory listing of the most recent crawl:
-
-```
-hdfs dfs -ls /data/public/common-crawl/crawl-data/CC-MAIN-2016-07
-hdfs dfs -ls -h /data/public/common-crawl/crawl-data/CC-MAIN-2016-07/segments/1454702039825.90/warc
-```
-
 #### Setting up Spark environment
 
 Spark Notebook is not supported on the national hadoop cluster, but Spark is.
@@ -81,6 +72,15 @@ eval $(/hathi-client/bin/env.sh)
 ```
 
 (You may want to add this to `${HOME}/.profile`.)
+
+#### First steps on Hathi
+
+Now try a simple directory listing of the most recent crawl:
+
+```
+hdfs dfs -ls /data/public/common-crawl/crawl-data/CC-MAIN-2016-07
+hdfs dfs -ls -h /data/public/common-crawl/crawl-data/CC-MAIN-2016-07/segments/1454702039825.90/warc
+```
 
 Then try out the standard example to compute Pi through a random process. 
 (The SurfSara cluster requires jobs to be submitted through `yarn`;
