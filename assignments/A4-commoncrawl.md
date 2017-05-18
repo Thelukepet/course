@@ -8,7 +8,7 @@ description: Commoncrawl
 
 Assignment 4 is an open assignment, where we will work with data on the national supercomputer infrastructure managed by SurfSara.
 
-Follow this link to the *Classroom for Github* [**Commoncrawl** assignment]() __TBD__, login with your github account, and accept the assignment.
+Follow this link to the *Classroom for Github* [**Commoncrawl** assignment](https://classroom.github.com/assignment-invitations/9cb7fee5465f641427a3a87a5b9140b4), login with your github account, and accept the assignment.
 
 #### Disclaimer (a.k.a. "no worries")
 
