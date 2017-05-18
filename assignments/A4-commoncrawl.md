@@ -44,10 +44,11 @@ through MIT's Kerberos.
 Inside a Docker container, this works smoothly: 
 use your credentials (obtained from me) to get a Kerberos ticket, 
 by following the [SurfSara instructions](https://userinfo.surfsara.nl/systems/hadoop/usage).
+_The capitals of CUA.SURFSARA.NL are an important detail!_
 
 To authenticate through Kerberos _on a Linux or Windows machine_ **outside** the Docker image,
 which will be necessary to use the ResourceManager from your web-browser, 
-please [follow these steps](kerberos.html) (provided without warranty, by me).
+[follow these steps](kerberos.html) (provided without warranty, by me).
 
 #### First steps on Hathi
 
