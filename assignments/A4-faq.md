@@ -23,9 +23,9 @@ scp target/RUBigDataApp-1.0.tar.gz ${USERNAME}@lilo.science.ru.nl
 In the `spark-notebook` docker container do:
 
 ```
-scp ${USERNAME}@lilo.science.ru.nl:RUBig* .
+scp ${USERNAME}@lilo.science.ru.nl:RUBigDataApp-1.0.tar.gz .
 tar xzvfp RUBigDataApp-1.0.tar.gz ./lib
-rm ./lib/rubigdataapp_2.10-1.0.jar
+rm ./lib/rubigdataapp_2.11-1.0.jar
 ```
 
 Now the `RUBigDataApp.scala` code will run in your Spark notebook.

@@ -8,7 +8,7 @@ description: Commoncrawl
 
 Assignment 4 is an open assignment, where we will work with data on the national supercomputer infrastructure managed by SurfSara.
 
-Follow this link to the *Classroom for Github* [**Commoncrawl** assignment](...), login with your github account, and accept the assignment.
+Follow this link to the *Classroom for Github* [**Commoncrawl** assignment]() __TBD__, login with your github account, and accept the assignment.
 
 #### Disclaimer (a.k.a. "no worries")
 
@@ -22,6 +22,9 @@ on actual __Big Data__).
 
 We work on the national [Hadoop cluster](https://userinfo.surfsara.nl/systems/hadoop/description).
 Instead of following the _Obtaining an account_ instructions, you receive your account info from me.
+
+After receiving your account info, please modify your password as soon as possible.
+__Instructions to be provided!__
 
 #### Initial setup
 
