@@ -32,7 +32,7 @@ apt-get update
 apt-get install sbt
 ```
 
-You may need the following two commands as well:
+You may need the following two commands:
 
 ```
 apt-get update
@@ -46,18 +46,20 @@ I found [this blog post on `sbt`](http://xerial.org/blog/2014/03/24/sbt/) a usef
 ### `RUBigDataApp`
 
 Glance over the Spark project's documentation on creating 
-[self-contained Spark apps](http://spark.apache.org/docs/1.6.1/quick-start.html#self-contained-applications)
+[self-contained Spark apps](http://spark.apache.org/docs/2.1.1/quick-start.html#self-contained-applications)
 to find out how to create a standalone Spark application and subsequently run the application using 
-[`spark-submit` for a yarn cluster](http://spark.apache.org/docs/1.6.1/running-on-yarn.html#launching-spark-on-yarn).
+[`spark-submit` for a yarn cluster](http://spark.apache.org/docs/2.1.1/running-on-yarn.html#launching-spark-on-yarn).
+Spark documentation on [launching jobs from scala](http://spark.apache.org/docs/2.1.1/programming-guide.html#launching-spark-jobs-from-java--scala)
+and [submitting applications](http://spark.apache.org/docs/2.1.1/submitting-applications.html) are also useful background reads.
 
-The official documentation is a little too concise to be very useful, so let us walk through the process with an actual (but _overly simple_) 
+The official documentation remains rather concise, so let us walk through the process with an actual (but _overly simple_) 
 example of a Spark application written in Scala.
 
 Download compressed archive [`rubigdata.tgz`](rubigdata.tgz) from the course website into your Docker container, and unpack the archive.
 
 ```
 cd /hathi-client/spark
-wget http://rubigdata.github.io/course/assignments/rubigdata.tgz
+wget http://rubigdata.github.io/course/background/rubigdata.tgz
 tar xzvfp rubigdata.tgz
 cd rubigdata
 ```

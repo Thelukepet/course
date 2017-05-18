@@ -1,10 +1,10 @@
 name		:= "RUBigDataApp"
 version		:= "1.0"
-scalaVersion	:= "2.10.5"
+scalaVersion	:= "2.11.8"
 
 packAutoSettings
 
-val sparkV	= "1.6.1"
+val sparkV	= "2.1.1"
 val hadoopV	= "2.7.1"
 val jwatV	= "1.0.0"
 
