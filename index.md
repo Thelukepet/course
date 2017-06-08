@@ -83,4 +83,21 @@ Instructions:
 * [Assignment 3A](assignments/A3a-spark-rdd.html)
 * [Assignment 3B](assignments/A3b-spark-df.html)
 
+#### June 29th / July 2nd: CommonCrawl
+
+The 4th assignment is the final project for the course. The assignment is to write a blog post about running
+an analysis over the full CommonCrawl on the SurfSara cluster.
+
+The assignment is open-ended, you can decide for yourself what you want to do. My recommendation is however 
+to take it one step at a time - start with something that seems incredibly simple, as the data is __REALLY__ huge 
+and it is likely that you will run into many small and perhaps even some serious issues in carrying out your 
+ideas. So, again, start easy!
+
+I scheduled a slot for presentating your progress on __June 29th__ starting __12.30__, in __HG 00.616__.
+
+The official deadline for the blogpost is July 2nd, but provided that you have 1. a _clear plan_ and 2. initial 
+results on small amounts of data, yet you run into problems completing your project on the cluster, 
+I promise to be flexible with granting an extension so you can discuss results on the full crawl.
+
+* [Assignment 4](assignments/A4-commoncrawl.html)
 
