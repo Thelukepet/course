@@ -71,7 +71,7 @@ From now on, initialize the right environment for working with Spark by issuing 
 eval $(/hathi-client/bin/env.sh)
 ```
 
-(You may want to add this to `${HOME}/.profile`.)
+(You may want to add this to `${HOME}/.bashrc` so it gets executed next time you run `bash` using `docker exec`.)
 
 #### First steps on Hathi
 
