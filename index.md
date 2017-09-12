@@ -7,8 +7,11 @@ description: RU Big Data course information and overall structure
 
 ## Related Course Information
 
-The course on Blackboard:
+The course on
 [Blackboard](http://bit.ly/RUBigDataBB-2017)
+and in the
+[course catalog](https://sis.ru.nl/osiris-student/OnderwijsCatalogusSelect.do?selectie=cursus&cursus=NWI-IBC036&collegejaar=2017)
+or [here](http://www.ru.nl/studiegids/science/vm/osirislinks/ibc/nwi-ibc036/).
 
 ## Practical Assignments
 
