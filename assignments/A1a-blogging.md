@@ -44,6 +44,8 @@ of the course to bootstrap new blog posts, one for every *real* course assignmen
 
 ## Finalize the Test Assignment
 
+<small>If you read this for the IR course, please skip this step!</small>
+
 When you have finished your test blog post, finalize the assignment by pushing it to the correct 
 assignment repository - I distribute this URL via a Blackboard announcement.
 
