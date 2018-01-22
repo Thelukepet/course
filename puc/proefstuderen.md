@@ -9,7 +9,8 @@ Welkom bij het proefstuderen college over Big Data.
 
 ### Introductie
 
-We bekijken een stream van Tweets rond de verkiezingen.
+Een (eigenlijk te) eenvoudige poll voor de stemming in het land, kijkt naar de voorkomens van verschillende smileys 
+in Tweets.
 
 Hiervoor gebruik ik programma `scraper.py`
 (je kunt het [thuis namaken](tutorial.html) als je de online instructies volgt!).
