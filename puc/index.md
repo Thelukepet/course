@@ -5,11 +5,9 @@ tagline: Radboud Pre-University College Big Data
 description: Pre-University College, Radboud.
 ---
 
-Pre-university college les over Big Data.
+Lesmateriaal Big Data geschikt voor leerlingen en onderwijzers van de middelbare school.
 
 ### Proefstuderen (22 januari 2018)
-
-Introductie slides (TODO).
 
 [Tutorial voor proefstudenten](proefstuderen.html).
 
