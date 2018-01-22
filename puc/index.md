@@ -7,9 +7,16 @@ description: Pre-University College, Radboud.
 
 Pre-university college les over Big Data.
 
+### Proefstuderen (22 januari 2018)
+
+Introductie slides (TODO).
+
+[Tutorial voor proefstudenten](proefstuderen.html).
+
+
 ### Leerlingen (14 maart 2017)
 
-Introductie slides voor leerlingen (TODO).
+Introductie [slides voor leerlingen](https://www.slideshare.net/spinque/masterclass-big-data-leerlingen).
 
 [Tutorial voor leerlingen](leerlingen.html).
 
