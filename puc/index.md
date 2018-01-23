@@ -17,7 +17,7 @@ Introductie [slides voor leerlingen](https://www.slideshare.net/spinque/mastercl
 
 [Tutorial voor leerlingen](leerlingen.html).
 
-Instructies voor je [eigen scraper](scraper.md).
+Instructies voor je [eigen scraper](scraper.html).
 
 ### Docenten (20 februari 2017)
 
