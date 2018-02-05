@@ -55,4 +55,4 @@ of the course to bootstrap new blog posts, one for every *real* course assignmen
 
 And
 
-* [Classroom for Github](https://classroom.github.com/classrooms/17478409-ru-big-data-course-2017)
+* [Classroom for Github](https://classroom.github.com/classrooms/17478409-ru-big-data-course-2018)
