@@ -36,8 +36,9 @@ This creates a private repository under the `rubigdata` "organization", specific
 This newly created repository `rubigdata/bigdata-blog-2018-USERNAME` will contain an example blogpost in the `README.md` file. 
 
 In order to publish this page go to your Github repository on [Github](https://github.com) and go to the settings tab. Scroll down to the **Github Pages** settings and select `master` as source to enable Github pages. After a little delay your repository should appear on `rubigdata.github.io/bigdata-blog-2018-USERNAME`.
+If you would like your blog to look a bit better than plain HTML, you can select a theme in your repository settings after enabling Github Pages
 
-## Editting the Blog post
+## Editing the Blog post
 
 Now in order to add your own content you must `clone` the private repository and edit the contents of `README.md`  
 
