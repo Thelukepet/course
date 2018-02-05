@@ -30,22 +30,31 @@ tool suites (the Windows one *is* convenient).
 After familiarizing yourself with `git` (or refreshing your memory) with the resources above, continue to write a 
 mockup blog post in Markdown syntax, as a model of the process of creating the results of an assignment.
 
-Follow this link to the *Classroom for Github* [**Bigdata Blog 2018** assignment](https://classroom.github.com/a/xpbKPce6), login with your github account, and accept the assignment.
+Follow **carefully** the instructions provided in this
+[tutorial to create a simple site](http://kbroman.org/simple_site/) in Markdown and have it hosted for free.
 
-This creates a private repository under the `rubigdata` "organization", specifically for this assignment. 
-This newly created repository `rubigdata/bigdata-blog-2018-USERNAME` will contain an example blogpost in the `README.md` file. 
+*Note: details matter; for example, pages written in Markdown that omit the header information will not render 
+as HTML, as I learned the hard way myself. Unless you know exactly what you are doing, follow the instructions 
+carefully.*
 
-In order to publish this page go to your Github repository on [Github](https://github.com) and go to the settings tab. Scroll down to the **Github Pages** settings and select `master` as source to enable Github pages. After a little delay your repository should appear on `rubigdata.github.io/bigdata-blog-2018-USERNAME`.
-
-## Editting the Blog post
-
-Now in order to add your own content you must `clone` the private repository and edit the contents of `README.md`  
-
-## Finalize the test assignment
 The goal in this first assignment is to just complete your first repository that contains a simple site, 
 composed in Markdown, published online for free; with no actual content, just to make sure the process is familiar.
 You can use the results of this template as your own **simple site**, and deploy the same steps in the rest 
 of the course to bootstrap new blog posts, one for every *real* course assignment.
+
+## Finalize the Test Assignment
+
+<small>If you read this for the IR course, please skip this step!</small>
+
+When you have finished your test blog post, finalize the assignment by pushing it to the correct 
+assignment repository - I distribute this URL via a Blackboard announcement.
+
+Follow this link to the *Classroom for Github* [**Test Blog 2017** assignment](https://classroom.github.com/assignment-invitations/bcd47a44179718d82cbaa81d15d80802), login with your github account, and accept the assignment.
+
+This creates a private repository under the `rubigdata` "organization", specifically for this assignment. 
+Push the blog post that you wrote as the result of Assignment 1a using the commands "to push an existing 
+repository from the commandline", that you find on the github page for this newly created repository: 
+`rubigdata/bigdata-blog-2017-USERNAME`.
 
 ## See also
 
@@ -55,4 +64,7 @@ of the course to bootstrap new blog posts, one for every *real* course assignmen
 
 And
 
-* [Classroom for Github](https://classroom.github.com/classrooms/17478409-ru-big-data-course-2018)
+* [Classroom for Github](https://classroom.github.com/classrooms/17478409-ru-big-data-course-2017)
+
+*If you get stuck, [my command history](A1a-history.html) provides a quick reference of the series of git commands
+that I use to create this course site.*
