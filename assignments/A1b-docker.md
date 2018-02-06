@@ -39,7 +39,7 @@ If Docker is new to you, it is highly recommended to learn more about its archit
 site; specifically, the rest of the course material will assume that you followed steps **two** and **three** 
 from the excellent documentation.
 
-Follow the tutorial starting from [**step two**](https://docs.docker.com/engine/getstarted/step_two/).
+Follow the tutorial starting from [**step two**](https://docs.docker.com/get-started/part2/).
 
 In the course, we will only use docker with images provided by others, so it is not necessary to continue to 
 step four, although I will not stop you if you are starting to get the hang of it!
