@@ -12,6 +12,7 @@ We will use [Docker](https://www.docker.com/what-docker) to remove the burden on
 ## Introduction
 
 First, go over the [basic tutorial](https://docs.docker.com/get-started/) to gain familiarity with Docker usage.
+(Do not follow the instruction to install docker _yet_.)
 
 The easiest solution is to use Docker on the computers in the terminal room; the only drawback that you
 have to be in the terminal room to boot the machine in Linux (note that you can use `ssh` once it is booted, but,
