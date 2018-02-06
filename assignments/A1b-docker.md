@@ -51,6 +51,9 @@ _Continue only after having seen the ASCII art using your own setup!_
 If you opt to install docker on your own hardware (and work independently from the availability of
 computers in the Huygens building), follow the instructions for the right [Docker Community Edition](https://www.docker.com/community-edition).
 
+_If you have an older version of Windows, you may need to use [Docker Toolbox](https://docs.docker.com/toolbox/overview/).
+An alternative would be to use a virtual machine with, e.g., Ubuntu, and install Docker there._
+
 <!--
 
 TO BE DONE
