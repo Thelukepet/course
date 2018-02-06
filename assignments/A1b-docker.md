@@ -7,7 +7,7 @@ description: First steps using Docker
 
 # Docker Environment
 
-We will use [Docker](https://docs.docker.com/linux/) to remove the burden on unifying working environments.
+We will use [Docker](https://www.docker.com/what-docker) to remove the burden on unifying working environments.
 
 ## Introduction
 
