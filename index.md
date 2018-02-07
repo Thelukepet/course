@@ -35,10 +35,6 @@ Check out the [forum](https://github.com/rubigdata/forum-2018) to get help, or e
 If you feel the forum is not the right place for your question you can contact one of the student assistents at
 `wietse.kuipers AT student.ru.nl` or `J.martens AT student.ru.nl`
 
-### Development environment
-
-Development environment customization: more next week.
-
 ### Assignments Schedule
 
 #### February 21st: Setup and first test blog
@@ -61,9 +57,7 @@ Instructions (assignments A1a and A1b):
 * [Assignment 1a](assignments/A1a-blogging.html)
 * [Assignment 1b](assignments/A1b-docker.html)
 
-### Final words 
-
-_Practice makes perfect_.
+__Final words:__ _Practice makes perfect_.
  
 Take your time to improve your CLI (CommandLine Interface) skills! 
 Mastering UNIX is a steep learning curve, but the time invested pays back bigtime in the long run.
