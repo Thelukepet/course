@@ -46,7 +46,12 @@ Development environment customization: more next week.
 Completing the first assignment is not evaluated. However, I expect that every student will be able 
 to create their assignment reports in Markdown and have these converted to HTML at their github page,
 and know how to use Docker on their hardware of choice (be it a laptop, their home computer or
-a PC in HG 00.137).
+a PC in HG 00.075).
+
+Usually, working with big data requires accessing a large cluster through a remote shell (`ssh`).
+If you are not that familiar with using a computer from the commandline in a terminal, or struggle 
+with UNIX commands, I recommend this [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/);
+nicely organised by topic. 
 
 Once you have your template blogpost published and Docker installed, explore Scala using the links
 in assignment 1B. Write up your experience in markdown, following 1A to publish those as a first blog post.
@@ -56,4 +61,10 @@ Instructions (assignments A1a and A1b):
 * [Assignment 1a](assignments/A1a-blogging.html)
 * [Assignment 1b](assignments/A1b-docker.html)
 
+### Final words 
+
+_Practice makes perfect_.
+ 
+Take your time to improve your CLI (CommandLine Interface) skills! 
+Mastering UNIX is a steep learning curve, but the time invested pays back bigtime in the long run.
 
