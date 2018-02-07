@@ -78,6 +78,34 @@ Links to explore:
 
 _The course is not about functional programming, so do not get carried away - you only want to acquire a basic understanding of the language._
 
+To follow the tutorial and compile and execute a `HelloWorld.scala` program,
+start the Docker container issuing a shell (_you may want to leave out the `--rm` option if you want to revisit the container later!_):
+
+    docker run -it williamyeh/scala /bin/bash
+
+If you use an editor like `vi` or `emacs`, install it in the container:
+
+    apt update
+    apt-get install vim-nox
+
+Create the file (`vi HelloWorld.scala` and use copy-paste).
+Next, compile the program and run it:
+
+    scalac HelloWorld.scala
+    scala -classpath . HelloWorld
+
+Alternatively, you can create the file in your normal desktop environment, and copy it into the running container:
+
+    docker cp HelloWorld.scala HASH:/
+
+You find the HASH value using `docker ps -a` (or using autocompletion in the shell) and issue the following commands 
+to copy the file and continue to use the container:
+
+    docker cp HelloWorld.scala vibrant_liskov:/
+    docker start vibrant_liskov
+    docker attach vibrant_liskov
+
+
 <!--
 
 TO BE DONE
