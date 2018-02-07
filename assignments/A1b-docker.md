@@ -104,7 +104,8 @@ You can create the file in your normal desktop environment, save it, and copy it
     docker cp HelloWorld.scala HASH:/
 
 You find the HASH value using `docker ps -a` (or by using autocompletion in the shell, press TAB) 
-and issue the following commands to copy the file and continue to use the container:
+and issue the following commands to copy the file and continue using the container
+(assuming the value of HASH is `vibrant_liskov`):
 
     docker cp HelloWorld.scala vibrant_liskov:/
     docker start vibrant_liskov
