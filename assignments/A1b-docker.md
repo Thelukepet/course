@@ -67,19 +67,23 @@ Just run a Docker container that comes with a complete Scala environment pre-ins
 docker run -it --rm williamyeh/scala
 ```
 
-The container starts up by automatically running the Scala interpreter (or REPL). Of course, you can first start a shell in that container, by appending `/bin/bash` to the command above;
-then start a Scala interpreter using `scala` from the commandline.
+The first time, the image is downloaded from the Docker hub, and a container is initialised and starts up 
+by automatically running the Scala interpreter (or REPL). 
 
 Links to explore:
 
-* [Main Scala site](http://scala-lang.org/) and [documentation](http://docs.scala-lang.org/)
 * [Scala tutorial for Java Programmers](http://docs.scala-lang.org/tutorials/scala-for-java-programmers.html)
+* [Main Scala site](http://scala-lang.org/) and [documentation](http://docs.scala-lang.org/)
 * [API documentation](https://www.scala-lang.org/api/current/)
 
-_The course is not about functional programming, so do not get carried away - you only want to acquire a basic understanding of the language._
+_This course is not about functional programming, so do not get carried away - you only want to acquire a basic understanding of the language._
 
-To follow the tutorial and compile and execute a `HelloWorld.scala` program,
-start the Docker container issuing a shell (_you may want to leave out the `--rm` option if you want to revisit the container later!_):
+If you skip the first section of the Scala tutorial (where they compile and run a Hello World program), you 
+can follow along in the Scala interpreter. (Type `:quit` when you are done.)
+
+To follow the Scala tutorial and compile and execute a `HelloWorld.scala` program,
+start the Docker container issuing a shell (_notice how I leave out the `--rm` option,
+because we want to revisit the same container later!_):
 
     docker run -it williamyeh/scala /bin/bash
 
@@ -88,18 +92,19 @@ If you use an editor like `vi` or `emacs`, install it in the container:
     apt update
     apt-get install vim-nox
 
-Create the file (`vi HelloWorld.scala` and use copy-paste).
+Create the file (`vi HelloWorld.scala`, use copy-paste to enter the code).
 Next, compile the program and run it:
 
     scalac HelloWorld.scala
     scala -classpath . HelloWorld
 
-Alternatively, you can create the file in your normal desktop environment, and copy it into the running container:
+Alternatively, quit the container by typing `exit` or `^D`.
+You can create the file in your normal desktop environment, save it, and copy it into the root of the container:
 
     docker cp HelloWorld.scala HASH:/
 
-You find the HASH value using `docker ps -a` (or using autocompletion in the shell) and issue the following commands 
-to copy the file and continue to use the container:
+You find the HASH value using `docker ps -a` (or by using autocompletion in the shell, press TAB) 
+and issue the following commands to copy the file and continue to use the container:
 
     docker cp HelloWorld.scala vibrant_liskov:/
     docker start vibrant_liskov
@@ -153,7 +158,6 @@ Next, you may remove all inactive, exited containers that you do not plan to res
 ## See also
 
 Optional extra reading (not required for the course):
-
 
 * [Docker for Data Science](https://towardsdatascience.com/docker-for-data-science-4901f35d7cf9) (blog post)
 * Advanced Docker with the [Docker book](http://www.dockerbook.com/) (not free, ~EUR 10).
