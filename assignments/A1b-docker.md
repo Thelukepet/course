@@ -73,8 +73,8 @@ by automatically running the Scala interpreter (or REPL).
 Links to explore:
 
 * [Scala tutorial for Java Programmers](http://docs.scala-lang.org/tutorials/scala-for-java-programmers.html)
+* [Excellent interactive tutorial](https://www.scala-exercises.org/scala_tutorial)
 * [Main Scala site](http://scala-lang.org/) and [documentation](http://docs.scala-lang.org/)
-* [API documentation](https://www.scala-lang.org/api/current/)
 
 _This course is not about functional programming, so do not get carried away - you only want to acquire a basic understanding of the language._
 
