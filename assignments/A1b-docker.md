@@ -36,8 +36,8 @@ A minimal test shows that the docker client can start so-called containers:
     docker run hello-world
 
 If Docker is new to you, it is highly recommended to learn more about its architecture and usage on the Docker
-site; specifically, the rest of the course material will assume that you followed steps **two** and **three** 
-from the excellent documentation.
+site; specifically, the rest of the course material will assume that you followed step **two** from the excellent 
+documentation.
 
 Follow the tutorial [**step two**](https://docs.docker.com/get-started/part2/).
 
