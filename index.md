@@ -45,10 +45,15 @@ Development environment customization: more next week.
 
 Completing the first assignment is not evaluated. However, I expect that every student will be able 
 to create their assignment reports in Markdown and have these converted to HTML at their github page,
-and know how to start Spark Notebook on their hardware of choice (be it a laptop, their home computer or
+and know how to use Docker on their hardware of choice (be it a laptop, their home computer or
 a PC in HG 00.137).
 
-Instructions (assignment A1a):
+Once you have your template blogpost published and Docker installed, explore Scala using the links
+in assignment 1B. Write up your experience in markdown, following 1A to publish those as a first blog post.
+
+Instructions (assignments A1a and A1b):
 
 * [Assignment 1a](assignments/A1a-blogging.html)
+* [Assignment 1b](assignments/A1b-docker.html)
+
 

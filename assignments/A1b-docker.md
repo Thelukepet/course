@@ -54,6 +54,30 @@ computers in the Huygens building), follow the instructions for the right [Docke
 _If you have an older version of Windows, you may need to use [Docker Toolbox](https://docs.docker.com/toolbox/overview/).
 An alternative would be to use a virtual machine with, e.g., Ubuntu, and install Docker there._
 
+## Scala
+
+The practical assignments aim to give you basic knowledge of Spark, at the moment the _de facto_ Big Data platform.
+We will use Spark from Scala, a functional language that is executed on the Java Virtual Machine (JVM), 
+so usage of Java libraries can be mixed with pure Scala in a hybrid environment.
+
+The usefulness of Docker is immediately clear when you explore the language and practice your Scala!
+Just run a Docker container that comes with a complete Scala environment pre-installed:
+
+```
+docker run -it --rm williamyeh/scala
+```
+
+The container starts up by automatically running the Scala interpreter (or REPL). Of course, you can first start a shell in that container, by appending `/bin/bash` to the command above;
+then start a Scala interpreter using `scala` from the commandline.
+
+Links to explore:
+
+* [Main Scala site](http://scala-lang.org/) and [documentation](http://docs.scala-lang.org/)
+* [Scala tutorial for Java Programmers](http://docs.scala-lang.org/tutorials/scala-for-java-programmers.html)
+* [API documentation](https://www.scala-lang.org/api/current/)
+
+_The course is not about functional programming, so do not get carried away - you only want to acquire a basic understanding of the language._
+
 <!--
 
 TO BE DONE
@@ -102,4 +126,6 @@ Next, you may remove all inactive, exited containers that you do not plan to res
 
 Optional extra reading (not required for the course):
 
+
+* [Docker for Data Science](https://towardsdatascience.com/docker-for-data-science-4901f35d7cf9) (blog post)
 * Advanced Docker with the [Docker book](http://www.dockerbook.com/) (not free, ~EUR 10).
