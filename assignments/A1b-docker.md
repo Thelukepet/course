@@ -153,8 +153,7 @@ The following command lists the running containers:
 Any running containers you do not use, can be stopped using `docker stop HASH`.
 Next, you may remove all inactive, exited containers that you do not plan to restart by issuing one shell command:
 
-    docker ps -f status=exited -q | \
-      xargs docker rm
+    docker container prune
 
 ## See also
 
