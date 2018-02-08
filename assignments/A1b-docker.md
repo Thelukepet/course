@@ -150,10 +150,14 @@ The following command lists the running containers:
 
     docker ps -f status=running
 
-Any running containers you do not use, can be stopped using `docker stop HASH`.
-Next, you may remove all inactive, exited containers that you do not plan to restart by issuing one shell command:
+Any running containers you do not use, can be stopped using `docker stop HASH` (tab autocompletion is easiest to 
+find the corresponding HASH).
+You can remove all inactive, exited containers that you do not plan to restart by issuing:
 
     docker container prune
+
+Images that are not needed any longer can also be removed, use `docker image ls` followed by `docker image rm` 
+for the image you can free up (or, equivalently, `docker rmi`).
 
 ## See also
 
