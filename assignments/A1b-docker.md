@@ -44,8 +44,6 @@ Follow the tutorial [**step two**](https://docs.docker.com/get-started/part2/).
 In the course, we will only use docker with images provided by others, so it is not necessary to continue to 
 steps three and beyond, although I will not stop you if you are starting to get the hang of it!
 
-_Continue only after having seen the ASCII art using your own setup!_
-
 ### DIY
 
 If you opt to install docker on your own hardware (and work independently from the availability of
