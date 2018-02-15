@@ -49,7 +49,7 @@ steps three and beyond, although I will not stop you if you are starting to get 
 If you opt to install docker on your own hardware (and work independently from the availability of
 computers in the Huygens building), follow the instructions for the right [Docker Community Edition](https://www.docker.com/community-edition).
 
-_You can upgrade to Windows 10 Pro via Surfspot (free for students). Because I run Windows Insider preview versions on my laptop, the latest Docker for Windows stable release did not work and I had to install version 17.09.1 instead of 17.12.0. If you have an older version of Windows, you may need to use [Docker Toolbox](https://docs.docker.com/toolbox/overview/). An alternative would be to use a virtual machine with, e.g., Ubuntu, and install Docker there._
+_You can upgrade to Windows 10 Education via Surfspot (free for students), this gives access to the required windows features for Docker. Because I run Windows Insider preview versions on my laptop, the latest Docker for Windows stable release did not work and I had to install version 17.09.1 instead of 17.12.0. If you have an older version of Windows, you may need to use [Docker Toolbox](https://docs.docker.com/toolbox/overview/). An alternative would be to use a virtual machine with, e.g., Ubuntu, and install Docker there._
 
 ## Scala
 
