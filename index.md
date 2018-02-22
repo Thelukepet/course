@@ -71,4 +71,4 @@ The following weeks, you will write a blog-post discussing your own Map Reduce j
 
 * [Assignment 2](assignments/A2-mapreduce.html)
 
-
+_More next week!_
