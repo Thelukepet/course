@@ -14,23 +14,15 @@ You accept the assignment via Github for Education, using
 [__this invitation link__](https://classroom.github.com/assignment-invitations/TBD)
 -->
 
-The tutorial was tested inside the Docker container for Spark-Notebook that we setup in the previous lab sessions;
-you would use the `docker exec` command to start a shell inside the image first:
-
-```
-docker exec -it HASH /bin/bash
-```
-
+In the first week of assignment two, you will use a container we created for the course, where you setup a
+pseudo-distributed cluster. In the subsequent two weeks, you run your own map-reduce jobs.
 The HDFS filesystem that you create and use in this tutorial, can be re-used in the later lab sessions on Spark.
 
 ### Setup
 
-Start the docker container (refer to [assignment A1.b](A1b-docker.html)
-and the [Spark Notebook background](../background/spark-notebook.html)
-if necessary).
-
 Setup distributed filesystem `HDFS` and the Map-Reduce tools using [__this course's Hadoop instructions__](../background/hadoop.html).
 
+<!--
 ### Blog post
 
 The assignment is to write a blog post about your experience with HDFS and Map-Reduce.
@@ -71,11 +63,12 @@ When you completed the assignment, push your blog post to the first assignment's
 (in the `gh-pages` branch or it will not render);
 and include a link to the published blog post in the README of the assignment repository,
 and commit the README as well as your code to the assignment repository.
+-->
 
 ### Help?!
 
-Feel free to ask for help, but please do that by using the github issue tracker on [the forum](https://github.com/rubigdata/forum-2017/); 
-see the [welcome issue](https://github.com/rubigdata/forum-2017/issues/1) as an example of how to proceed.
+Feel free to ask for help, but please do that by using the github issue tracker on [the forum](https://github.com/rubigdata/forum-2018/); 
+see the [welcome issue](https://github.com/rubigdata/forum-2018/issues/1) as an example of how to proceed.
 Every student may help out, please contribute and share your knowledge! 
 
 [Back to assignments overview](../index.html)
