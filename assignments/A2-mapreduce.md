@@ -20,9 +20,16 @@ The HDFS filesystem that you create and use in this tutorial, can be re-used in 
 
 ### Setup
 
-Setup distributed filesystem `HDFS` and the Map-Reduce tools using [__this course's Hadoop instructions__](../background/hadoop.html).
+Setup distributed filesystem `HDFS` and the Map-Reduce tools using [__our Hadoop instructions__](../background/hadoop.html).
+
+Make sure that you understand conceptually what is going on, and you know how to use the filesystem:
+create files, read them, _etc_. If you did not fully comprehend the Java code for the example,
+don't worry - that will become clear in class this Monday.
+
+_We continue this assignment next week with more Map-Reduce exercises!_
 
 <!--
+
 ### Blog post
 
 The assignment is to write a blog post about your experience with HDFS and Map-Reduce.
