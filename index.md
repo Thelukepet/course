@@ -62,3 +62,13 @@ __Final words:__ _Practice makes perfect_.
 Take your time to improve your CLI (CommandLine Interface) skills! 
 Mastering UNIX is a steep learning curve, but the time invested pays back bigtime in the long run.
 
+#### March 14th: Hadoop and Map-Reduce
+
+The objective of assignment 2 is to gain some hands-on experience with HDFS.
+
+The first week, we install HDFS in pseudo-distributed mode, and explore the default examples.
+The following weeks, you will write a blog-post discussing your own Map Reduce jobs on your own cluster.
+
+* [Assignment 2](assignments/A2-mapreduce.html)
+
+_More next week!_
