@@ -68,7 +68,20 @@ In Redhat FC25, I had to adapt the default kernel setting as follows:
 
 Then reboot the machine.
 
-See also:
+## Sharing files
+
+Tricky: I cannot get this to work with a directory in ${HOME}.
+However... I can in a different path.
+
+Create user and group `dockerfiles` with uid and gid equal to the dockremap user/group-id in `/etc/subuid` and `/etc/subgid`, respectively.
+
+A folder `/export/data/arjen/my-data` can now be shared in a container after `sudo chown dockerfiles:dockerfiles /export/data/arjen/my-data`:
+
+    docker run -it -v /export/data/arjen/my-bigdata/:/mnt/my-bigdata busybox sh
+
+_TODO: check if this also works when simply using the numeric value of the uid/gid._
+
+## See also
 
 + https://github.com/docker/docker/issues/25929
 + https://github.com/procszoo/procszoo/wiki/How-to-enable-%22user%22-namespace-in-RHEL7-and-CentOS7%3F
