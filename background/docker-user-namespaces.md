@@ -81,6 +81,39 @@ A folder `/export/data/arjen/my-data` can now be shared in a container after `su
 
 _TODO: check if this also works when simply using the numeric value of the uid/gid._
 
+### Testing
+
+Prepare on the host:
+
+```
+arjen$ echo Hello to the container > /export/data/arjen/my-bigdata/hi-container.txt
+```
+
+Run a container with shared mount:
+
+```
+arjen$ docker run -it -v /export/data/arjen/my-bigdata/:/mnt/my-bigdata busybox sh
+/ # cd /mnt/my-bigdata/
+/mnt/my-bigdata # ls
+hi-container.txt
+/mnt/my-bigdata # cat hi-container.txt 
+Hello to the container
+/mnt/my-bigdata # echo Hi from the container > container-hi.txt
+```
+
+Ét voilà, the results back on the host:
+
+```
+[arjen@apc my-bigdata]$ ls -al
+total 16K
+drwxrwx---.  2 dockerfiles dockerfiles 4.0K Feb 23 17:29 ./
+drwxr-xr-x. 11 arjen       arjen       4.0K Feb 23 17:10 ../
+-rw-r--r--.  1 dockerfiles dockerfiles   23 Feb 23 17:29 container-hi.txt
+-rw-rw-r--.  1 arjen       arjen         24 Feb 23 17:29 hi-container.txt
+arjen$ cat container-hi.txt 
+Hi from the container!
+```
+
 ## See also
 
 + https://github.com/docker/docker/issues/25929
