@@ -39,7 +39,7 @@ Download the *Complete Shakespeare* from the _Project Gutenburg_ website:
 
 ```
 mkdir -p /mnt/bigdata
-wget -P /mnt/bigdat http://www.gutenberg.org/ebooks/100.txt.utf-8
+wget -P /mnt/bigdata http://www.gutenberg.org/ebooks/100.txt.utf-8
 ```
 
 Walk your readers through a simple Map-Reduce example to count the number of lines, words or characters 
