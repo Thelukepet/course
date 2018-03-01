@@ -44,6 +44,7 @@ Download the *Complete Shakespeare* directly from the github website and save it
 ```
 cd /opt/docker/hadoop-2.7.3
 wget https://raw.githubusercontent.com/rubigdata/hadoop-dockerfile/master/100.txt
+bin/hdfs dfs -put 100.txt input
 ```
 Next we need to set up the environment to compile and run the WordCount code.
 Make sure WordCount.java is in the `/opt/docker/hadoop-2.7.3` directory.
