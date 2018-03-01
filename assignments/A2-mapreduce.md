@@ -36,14 +36,28 @@ But do take a look at it!
 ### Blog post
 
 The assignment is to write a blog post about your experience with HDFS and Map-Reduce.
-
 Assume the reader knows what a distributed filesystem is, and why you would use it.
 
-Download the *Complete Shakespeare* directly from the github website:
+These instructions assume your HDFS has been set up succesfully and is running.
+Download the *Complete Shakespeare* directly from the github website and save it to the HDFS:
 
 ```
+cd /opt/docker/hadoop-2.7.3
 wget https://raw.githubusercontent.com/rubigdata/hadoop-dockerfile/master/100.txt
 ```
+Next we need to set up the environment to compile and run the WordCount code.
+Make sure WordCount.java is in the `/opt/docker/hadoop-2.7.3` directory.
+```
+export HADOOP_CLASSPATH=${JAVA_HOME}/lib/tools.jar
+bin/hadoop com.sun.tools.javac.Main WordCount.java
+jar cf wc.jar WordCount*.class
+```
+Next run your code with
+```
+bin/hadoop jar wc.jar WordCount input output
+```
+This output is now located in the file output in the HDFS and can be inspected like you did in the Hadoop instructions.
+
 
 Walk your readers through a simple Map-Reduce example to count the number of lines, words or characters 
 (or something more interesting, it is really up to you).
