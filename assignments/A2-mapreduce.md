@@ -39,13 +39,10 @@ The assignment is to write a blog post about your experience with HDFS and Map-R
 
 Assume the reader knows what a distributed filesystem is, and why you would use it.
 
-Copy the *Complete Shakespeare* in text provided at 
-[`/vol/practica/BigData/100.txt.utf-8`](file:///vol/practica/BigData/100.txt.utf-8)
-into directory `/mnt/bigdata` in the docker container.
-Alternatively, download it directly from the _Project Gutenburg_ website:
+Download the *Complete Shakespeare* directly from the github website:
 
 ```
-wget http://www.gutenberg.org/ebooks/100.txt.utf-8
+wget https://raw.githubusercontent.com/rubigdata/hadoop-dockerfile/master/100.txt
 ```
 
 Walk your readers through a simple Map-Reduce example to count the number of lines, words or characters 
