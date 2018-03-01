@@ -10,7 +10,7 @@ Lectures 2 to 4 discuss distributed filesystems and Map-Reduce, that in practice
 In this assignment, we install Hadoop on our own "pseudo-cluster", and use Map-Reduce to do some basic count operations.
 
 You accept the assignment via Github for Education, using 
-[__this invitation link__](https://classroom.github.com/assignment-invitations/TBD)
+[__this invitation link__](https://classroom.github.com/a/H-Hs6uhw)
 
 In the first week of assignment two, you will use a container we created for the course, where you setup a
 pseudo-distributed cluster. In the subsequent two weeks, you run your own map-reduce jobs.
