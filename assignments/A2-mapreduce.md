@@ -69,7 +69,7 @@ Use the Map-Reduce documentation to get started:
 If you clone your assignment repository, you find the example `WordCount.java` as starting point. 
 
 Address at least the following questions:
-+ What happens when you run the commands in the first week's part of the tutorial?
++ What happens when you run the Hadoop commands (`hdfs dfs` _etc._) in the first week's part of the tutorial?
 + How do you use mapreduce to count the number of lines/words/characters/... in the *Complete Shakespeare*?
 + Does Romeo or Juliet appear more often in the plays?
   Can you answer this question making only one pass over the corpus?
