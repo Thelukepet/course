@@ -36,7 +36,7 @@ copy-paste support, _etc. etc._
 
 You can exchange files in three different ways:
 
-1. Use `docker cp` to copy files into the container.
+1. Use `docker cp` to copy files between a container and the local filesystem.
 
 2. Use `scp` to copy files via `lilo` (the FNWI LInux LOgin server); your homedir in the terminal room
 is also mounted through NFS on `lilo`. 
