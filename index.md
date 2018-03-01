@@ -67,8 +67,8 @@ Mastering UNIX is a steep learning curve, but the time invested pays back bigtim
 The objective of assignment 2 is to gain some hands-on experience with HDFS.
 
 The first week, we install HDFS in pseudo-distributed mode, and explore the default examples.
-The following weeks, you will write a blog-post discussing your own Map Reduce jobs on your own cluster.
+The subsequent weeks, you write your blog-post discussing your own Map Reduce jobs on your own cluster.
 
-* [Assignment 2](assignments/A2-mapreduce.html)
+* Assignment 2 [description](assignments/A2-mapreduce.html) and [invite](https://classroom.github.com/a/H-Hs6uhw) (please accept only once)
 
-_More next week!_
+_Enjoy the Elephant in the Room!_
