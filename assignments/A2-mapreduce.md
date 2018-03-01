@@ -9,10 +9,8 @@ Lectures 2 to 4 discuss distributed filesystems and Map-Reduce, that in practice
 
 In this assignment, we install Hadoop on our own "pseudo-cluster", and use Map-Reduce to do some basic count operations.
 
-<!--
 You accept the assignment via Github for Education, using 
 [__this invitation link__](https://classroom.github.com/assignment-invitations/TBD)
--->
 
 In the first week of assignment two, you will use a container we created for the course, where you setup a
 pseudo-distributed cluster. In the subsequent two weeks, you run your own map-reduce jobs.
@@ -34,10 +32,6 @@ Run the example with a different pattern on a different set of files.
 If you did not fully comprehend the Java code for the example,
 don't worry - that will become clear in class this Monday.
 But do take a look at it!
-
-_We continue this assignment next week with more Map-Reduce exercises!_
-
-<!--
 
 ### Blog post
 
@@ -63,8 +57,7 @@ Use the Map-Reduce documentation to get started:
 If you clone your assignment repository, you find the example `WordCount.java` as starting point. 
 
 Address at least the following questions:
-+ What happens when you ran the commands in the _Standalone_ part of the tutorial?
-+ What is different in the _Pseudo-Distributed_ case?
++ What happens when you run the commands in the first week's part of the tutorial?
 + How do you use mapreduce to count the number of lines/words/characters/... in the *Complete Shakespeare*?
 + Does Romeo or Juliet appear more often in the plays?
   Can you answer this question making only one pass over the corpus?
@@ -76,10 +69,8 @@ If things go _really_ smoothly, you can try to use a combiner and discuss the im
 ### Done
 
 When you completed the assignment, push your blog post to the first assignment's repository
-(in the `gh-pages` branch or it will not render);
-and include a link to the published blog post in the README of the assignment repository,
-and commit the README as well as your code to the assignment repository.
--->
+and include a link to the published blog post in the README of the assignment repository.
+Commit the README as well as your code to the assignment repository.
 
 ### Help?!
 
