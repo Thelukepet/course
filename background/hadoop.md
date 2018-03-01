@@ -14,12 +14,14 @@ The HDFS filesystem that you create and use in this tutorial, can be re-used in 
 
 ### Setup
 
+#### First time setup
+
 Run the course's Docker container and execute a shell, in which we still have to start the `ssh` service 
 (a shortcoming of our current Docker image).
 
 ```
 ## Run the container, in the background
-DID=`docker run -d rubigdata/hadoop`
+DID=$(docker run -d rubigdata/hadoop)
 
 ## Execute a shell in the running container
 docker exec -it $DID /bin/bash
@@ -27,6 +29,14 @@ docker exec -it $DID /bin/bash
 ## Start missing service
 service ssh start
 ```
+
+#### Returning student
+
+Docker containers can be started and stopped whenever you want.
+If you worked on a container before, you can continue with that same container - 
+use `docker start` with the right hash; that you can find using `docker ps -a`.
+
+_Of course this assumes you work on the same terminal PC as previous week._
 
 ### Intermezzo
 
