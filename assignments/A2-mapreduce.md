@@ -38,7 +38,7 @@ But do take a look at it!
 The assignment is to write a blog post about your experience with HDFS and Map-Reduce.
 Assume the reader knows what a distributed filesystem is, and why you would use it.
 
-These instructions assume your HDFS has been set up succesfully and is running.
+These instructions assume your HDFS has been set up successfully and is running.
 Download the *Complete Shakespeare* directly from the github website and save it to the HDFS:
 
 ```
