@@ -60,7 +60,7 @@
       "id" : "545599137D8E4CEB8844C430F48BA0CC"
     },
     "cell_type" : "markdown",
-    "source" : "Only now, evaluation took place: see the [stages](http://localhost:4040/stages/) in the Spark UI.\nClick on the links!\n_Why are there two jobs?_"
+    "source" : "Only now, evaluation took place: see the [stages](http://localhost:4040/stages/) in the Spark UI.\nClick on the links!\n_Why would Spark have created two jobs?_"
   }, {
     "metadata" : {
       "id" : "24BABECC852D44758D23663C539DD7ED"
