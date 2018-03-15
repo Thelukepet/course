@@ -12,6 +12,10 @@ The lecture on Monday March 19th gives more detail on Spark's internals;
 the initial goal this week is to observe how you can carry out a few simple tasks in Spark,
 and contrast this with using the older Map Reduce framework.
 
+You should stop at heading _Deeper Understanding of Spark_.
+And, it is not a problem if you do not understand everything this first week,
+however, _it will be a problem if you still do not understand it next week!_
+
 <!--
 You accept the assignment via Github for Education, using 
 [__this invitation link__](https://classroom.github.com/assignment-invitations/ba5deb387f2b05e70253cf91e478d076).
