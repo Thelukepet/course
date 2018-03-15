@@ -91,7 +91,7 @@
       "id" : "2338CDA0C3F743EE83C5FC5342E533F4"
     },
     "cell_type" : "code",
-    "source" : "val lines = sc.textFile(\"/mnt/bigdata/100.txt.utf-8\")",
+    "source" : "val lines = sc.textFile(\"/mnt/bigdata/100.txt\")",
     "outputs" : [ ]
   }, {
     "metadata" : {
