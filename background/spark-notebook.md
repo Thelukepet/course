@@ -6,19 +6,21 @@ description: How to use the Spark Notebook Docker Image on the machines in the H
 
 # Spark Notebook
 
+<!--
 ## Install
 
 Pull an image directly from [Spark Notebook](http://spark-notebook.io):
+
 ```
 docker pull andypetrella/spark-notebook:0.7.0-scala-2.11.8-spark-2.1.0-hadoop-2.7.3-with-hive
 ```
+-->
 
 ## Run the container
 
-We can now run a container using this image.
+We run a container using the course's `rubigdata/hadoop` image. 
 
-    docker run -p 9001:9001 -p 4040-4045:4040-4045 \ 
-      andypetrella/spark-notebook:0.7.0-scala-2.11.8-spark-2.1.0-hadoop-2.7.3-with-hive
+    docker run -p 9001:9001 -p 4040-4045:4040-4045 rubigdata/hadoop
 
 (You could also use the image's hash, which you would have to copy-paste from `docker images`.)
 
@@ -31,14 +33,11 @@ You can execute a shell inside the running container by looking up its hash usin
 
     docker exec -it HASH /bin/bash
 
-## Done
+## Need help?
 
-If you are lucky, you reached this point without any problems. Do not worry to ask questions if you encounter
-problems that you cannot resolve on your own, but then **please please** do that using
-the github issue tracker on [the forum](https://github.com/rubigdata/forum-2017/); then every one in class can help out, 
-and it is not my overflowing email box that will form the bottleneck for your progress.
-
-See also: [First welcome issue](https://github.com/rubigdata/forum-2017/issues/1)
+Use the github issue tracker on [the forum](https://github.com/rubigdata/forum-2018/) so every one 
+in class can help out and my overflowing email box is not a bottleneck for _your_ progress.
+See also: [First welcome issue](https://github.com/rubigdata/forum-2018/issues/1)
 
 [Back to Assignment A1b](../assignments/A1b-docker.html)
 
