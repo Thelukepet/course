@@ -30,6 +30,9 @@ modifications in response to feedback.
 
 Refer to [assignment 1a](assignments/A1a-blogging.html) for more details about the blogging framework.
 
+Doublecheck with [Blackboard announcement](https://blackboard.ru.nl/webapps/blackboard/execute/announcement?method=search&context=mybb&searchSelect=_115038_1) 
+to avoid common mistakes.
+
 ### Getting help
 Check out the [forum](https://github.com/rubigdata/forum-2018) to get help, or even help out your peers.
 If you feel the forum is not the right place for your question you can contact one of the student assistents at
