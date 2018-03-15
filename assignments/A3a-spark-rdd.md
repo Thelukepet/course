@@ -24,6 +24,9 @@ For the assignment, we have to copy the __course notebook__
 [BigData-big-data-spark-rdd.snb](http://rubigdata.github.io/course/assignments/BigData-big-data-spark-rdd.snb) into 
 a directory on the Spark Notebook container.
 
+_You can [view the course notebook](https://github.com/rubigdata/spark-2018/blob/master/BigData-big-data-spark-rdd.snb.ipynb)
+in your browser as (imperfectly) rendered by Github UI._
+
 To get files onto the notebook docker container that you use, the recommended approach is to download the files
 to your normal desktop environment and copy them into the container using `docker cp`
 (replace CONTAINER by the hash or the name of your container):
