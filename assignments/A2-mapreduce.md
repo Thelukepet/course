@@ -83,6 +83,15 @@ If things go _really_ smoothly, you can try to use a combiner and discuss the im
 When you completed the assignment, push your blog post to the first assignment's repository
 and include a link to the published blog post in the README of the assignment repository.
 Commit the README as well as your code to the assignment repository.
+In other words:
+
+**Instructions to submit your completed work** (replace USERNAME by your github account):
+
++ Write your blog in the blogpost repository you made for assignment 1. 
+  This repostory is located at `https://github.com/rubigdata/bigdata-blog-2018-USERNAME` 
++ Make sure your blog is published and the post is accessible from https://rubigdata.github.io/bigdata-blog-2018-USERNAME
++ Place a link to the published blogpost (for example https://rubigdata.github.io/bigdata-blog-2018-USERNAME/assignment2) in the README.md of your assignment 2 repository, 
+  which is located at https://github.com/rubigdata/hello-hadoop-2018-USERNAME
 
 ### Help?!
 

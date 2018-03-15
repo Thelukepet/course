@@ -30,6 +30,9 @@ modifications in response to feedback.
 
 Refer to [assignment 1a](assignments/A1a-blogging.html) for more details about the blogging framework.
 
+Doublecheck with [Blackboard announcement](https://blackboard.ru.nl/webapps/blackboard/execute/announcement?method=search&context=mybb&searchSelect=_115038_1) 
+to avoid common mistakes.
+
 ### Getting help
 Check out the [forum](https://github.com/rubigdata/forum-2018) to get help, or even help out your peers.
 If you feel the forum is not the right place for your question you can contact one of the student assistents at
@@ -64,6 +67,8 @@ Mastering UNIX is a steep learning curve, but the time invested pays back bigtim
 
 #### March 14th: Hadoop and Map-Reduce
 
+_Extended deadline, in case you missed this one: March 21st. Only and **final** extension for this assignment._
+
 The objective of assignment 2 is to gain some hands-on experience with HDFS.
 
 The first week, we install HDFS in pseudo-distributed mode, and explore the default examples.
@@ -72,3 +77,18 @@ The subsequent weeks, you write your blog-post discussing your own Map Reduce jo
 * Assignment 2 [description](assignments/A2-mapreduce.html) and [invite](https://classroom.github.com/a/H-Hs6uhw) (please accept only once)
 
 _Enjoy the Elephant in the Room!_
+
+#### April 11th: Spark
+
+_I recommend to complete assignment 3A before the Mid-Term test._
+
+The objective of assignment 3 is to gain hands-on experience with Spark.
+
+Assignment 3A is designed to enhance your understanding of RDDs and how they are executed.
+
+<!--
+Assignment 3B helps you carry out a basic data analysis task using Spark Dataframes and/or Spark SQL.
+-->
+
+* Assignment 3 [description](assignments/A3-spark.html). Invite follows next week.
+
