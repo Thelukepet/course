@@ -20,6 +20,8 @@ _Unfortunately, a new container is necessary to open up the ports for the Spark 
 Access Spark Notebook in your browser by navigating to [localhost:9001](http://localhost:9001/).
 
 Navigate the notebook using the keyboard, pressing shift-enter to execute a cell, and enter to add lines to a cell.
+_You can try out any scala command - create a new cell, enter some scala code in the cell,
+and execute it, just to get familiar with the notebook environment._
 
 ### Prepare container
 
