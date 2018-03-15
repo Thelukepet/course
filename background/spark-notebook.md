@@ -7,7 +7,7 @@ description: How to use the Spark Notebook Docker Image on the machines in the H
 # Spark Notebook
 
 <!--
-## Install
+### Install
 
 Pull an image directly from [Spark Notebook](http://spark-notebook.io):
 
@@ -16,7 +16,7 @@ docker pull andypetrella/spark-notebook:0.7.0-scala-2.11.8-spark-2.1.0-hadoop-2.
 ```
 -->
 
-## Run the container
+### Run the container
 
 We run a container using the course's `rubigdata/hadoop` image. 
 
@@ -33,7 +33,11 @@ You can execute a shell inside the running container by looking up its hash usin
 
     docker exec -it HASH /bin/bash
 
-## Need help?
+### Need help?
+
+For more information about the Spark Notebook environment, you may refer to the 
+[Spark Notebook documentation](https://github.com/spark-notebook/spark-notebook/blob/master/docs/index.md),
+e.g. glance over the [brief intro to Spark and the UI](https://github.com/spark-notebook/spark-notebook/blob/master/docs/exploring_notebook.md).
 
 Use the github issue tracker on [the forum](https://github.com/rubigdata/forum-2018/) so every one 
 in class can help out and my overflowing email box is not a bottleneck for _your_ progress.
