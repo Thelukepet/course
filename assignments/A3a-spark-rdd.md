@@ -15,13 +15,8 @@ instructions.
 
 _Unfortunately, a new container is necessary to open up the ports for the Spark Notebook and its debug console._
 
-### Using Notebook
-
-Access Spark Notebook in your browser by navigating to [localhost:9001](http://localhost:9001/).
-
-Navigate the notebook using the keyboard, pressing shift-enter to execute a cell, and enter to add lines to a cell.
-_You can try out any scala command - create a new cell, enter some scala code in the cell,
-and execute it, just to get familiar with the notebook environment._
+You can access the Spark Notebook environment in your browser by navigating to [localhost:9001](http://localhost:9001/).
+Feel free to take a quick peek, but do not spend too much time before following the instructions below.
 
 ### Prepare container
 
@@ -46,10 +41,14 @@ Create a directory for the course notebooks and download the file there:
     cd /opt/docker/notebooks/BigData
     wget http://rubigdata.github.io/course/assignments/BigData-big-data-spark-rdd.snb
 
-### Course Notebook
+### Using Notebook
 
 Navigate to [localhost:9001/tree/BigData](http://localhost:9001/tree/BigData) in your browser 
 to open the notebook you just installed inside your Spark Notebook container.
+
+Navigate the notebook using the keyboard, pressing shift-enter to execute a cell, and enter to add lines to a cell.
+_You can try out any scala command - create a new cell, enter some scala code in the cell,
+and execute it, just to get familiar with the notebook environment._
 
 You will have to copy the Shakespeare file into the notebook, as last week, and/or modify its path
 in the notebook. _I did the following:_
