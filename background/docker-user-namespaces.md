@@ -119,4 +119,17 @@ Hi from the container!
 + https://github.com/docker/docker/issues/25929
 + https://github.com/procszoo/procszoo/wiki/How-to-enable-%22user%22-namespace-in-RHEL7-and-CentOS7%3F
 
+## The story continues
+
+Docker added an option to overrule the namespace control per container: `--userns=host`,
+see also this [stackoverflow discussion](https://stackoverflow.com/questions/40468739/disable-certain-docker-run-options).
+
+A solution is to start the daemon with an [_authorization plugin_](https://docs.docker.com/engine/extend/plugins_authorization/).
+
+Two options that we may follow:
+
++ A crude option that simply [disables dangerous options including --userns](https://github.com/ad-freiburg/docker-no-trivial-root);
++ A more sophisiticated approach that [distinguishes users and their access rights](https://sergeyyakubov.github.io/hpc/docker/2017/03/13/docker-noroot.html);
++ An even more advanced solution called [TwistLock](https://github.com/twistlock/authz).
+
 
