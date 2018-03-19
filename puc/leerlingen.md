@@ -7,6 +7,8 @@ description: Pre-University College, Radboud.
 
 Welkom bij de pre-university college (PUC) les over Big Data.
 
+Na het [college](https://www.slideshare.net/arjenpdevries/masterclass-big-data-leerlingen-91175715) is het nu tijd om je handen uit de mouwen te steken!
+
 ### Introductie
 
 We bekijken een stream van Tweets rond de verkiezingen.
