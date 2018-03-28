@@ -19,7 +19,7 @@ however, _it will be a problem if you still do not understand it next week!_
 -->
 
 You accept the assignment via Github for Education, using 
-[__this invitation link__](TODO)
+[__this invitation link__](https://classroom.github.com/a/hqXs_57o)
 
 You need to download the Spark Notebook for assignment 3, and copy it to your Docker container.
 Follow the instructions:
