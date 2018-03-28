@@ -25,6 +25,9 @@ and open the notebook you just installed inside your Spark Notebook container.
 Follow the instructions in the notebook, and do not just click through every single cell - experiment with
 alternatives, you will need the experience when you write your blog post!
 
+_You can [view the course notebook](https://github.com/rubigdata/spark-2018/blob/master/BigData-open-data-Nijmegen.snb.ipynb)
+in your browser as (imperfectly) rendered by Github UI._
+
 **When you get stuck, open an issue in the
 [Forum](https://github.com/rubigdata/forum-2017)
 to find help from your fellow students and/or me!**
