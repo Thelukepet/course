@@ -74,7 +74,7 @@ The objective of assignment 2 is to gain some hands-on experience with HDFS.
 The first week, we install HDFS in pseudo-distributed mode, and explore the default examples.
 The subsequent weeks, you write your blog-post discussing your own Map Reduce jobs on your own cluster.
 
-* Assignment 2 [description](assignments/A2-mapreduce.html) and [invite](https://classroom.github.com/a/H-Hs6uhw) (please accept only once)
+* Assignment 2 [description](assignments/A2-mapreduce.html) and [invite](https://classroom.github.com/a/H-Hs6uhw) (please accept only once).
 
 _Enjoy the Elephant in the Room!_
 
@@ -85,8 +85,7 @@ _I recommend to complete assignment 3A before the Mid-Term test._
 The objective of assignment 3 is to gain hands-on experience with Spark.
 
 Assignment 3A is designed to enhance your understanding of RDDs and how they are executed.
-
 Assignment 3B helps you carry out a basic data analysis task using Spark Dataframes and/or Spark SQL.
 
-* Assignment 3 [description](assignments/A3-spark.html). _Please accept the invite!_
+* Assignment 3 [description](assignments/A3-spark.html) and [invite](https://classroom.github.com/a/hqXs_57o) (please accept only once).
 
