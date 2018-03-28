@@ -22,17 +22,17 @@ In 2018, the course uses their own Docker image, derived from the awesome Spark 
 
 + [Spark](A3-spark.html)
 + [Spark RDDs](A3a-spark-rdd.html)
-
-<!--
 + [Spark dataframes and SQL](A3b-spark-df.html)
 
-### Big Data Republic Week
-
-+ Hackaton associated with the Big Data Republic guest lecture
+<!--
 
 ### Spark Streaming
 
 + [Spark streaming](A4-spark-streaming.html)
+
+### Big Data Republic Week
+
++ Hackaton associated with the Big Data Republic guest lecture
 
 ### Commoncrawl
 
