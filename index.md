@@ -89,3 +89,8 @@ Assignment 3B helps you carry out a basic data analysis task using Spark Datafra
 
 * Assignment 3 [description](assignments/A3-spark.html) and [invite](https://classroom.github.com/a/hqXs_57o) (please accept only once).
 
+#### TBA: Spark Streaming
+
+The objective of assignment 4 is to gain hands-on experience with Spark Streaming.
+# [Assignment 4](assignments/A4-streaming.html)
+
