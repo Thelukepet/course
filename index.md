@@ -89,8 +89,16 @@ Assignment 3B helps you carry out a basic data analysis task using Spark Datafra
 
 * Assignment 3 [description](assignments/A3-spark.html) and [invite](https://classroom.github.com/a/hqXs_57o) (please accept only once).
 
-#### TBA: Spark Streaming
+#### May 23rd: Spark Streaming
 
 The objective of assignment 4 is to gain hands-on experience with Spark Streaming.
 * [Assignment 4](assignments/A4-streaming.html)
+
+### May 28th - May 31st: BDR Challenge
+
+This week starts with a guest lecture by Big Data Republic, which is accompanied by a mini-Hackaton that we complete May 31st. Details to follow.
+
+### June 24th: Final project
+
+Details to follow.
 
