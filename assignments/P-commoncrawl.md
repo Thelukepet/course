@@ -68,14 +68,16 @@ Spark Notebook is not supported on the national hadoop cluster, but Spark is.
 
 Next, let us go through the basics of running a Spark job on the cluster.
 Quickly scan the [Surfsara specific instructions](https://userinfo.surfsara.nl/systems/hadoop/software);
-to install Spark on the docker image, proceed however with the specific instructions given here:
+to install Spark on the docker image, proceed however with the specific instructions given here.
 
+<!--
 ```
 cd hathi-client
 bin/get.sh spark
 ```
+-->
 
-From now on, initialize the right environment for working with Spark by issuing the following command:
+Initialize the right environment for working with Spark by issuing the following command:
 
 ```
 eval $(/hathi-client/bin/env.sh)
