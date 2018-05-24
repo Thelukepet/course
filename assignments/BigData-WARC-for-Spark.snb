@@ -21,7 +21,7 @@
       "id" : "D265A9CB8A6844B8B1F3ABBC963E010B"
     },
     "cell_type" : "markdown",
-    "source" : "## WARC for Spark\n\nThis notebook will help you get started on developing code to analyze WARC files in Spark inside Spark Notebook.\n\nOnce the code seems ready, you can use _Download as scala_ from the File menu, and continue to develop it into the standalone application to be submitted using `spark-submit`; see specifically the [course instructions on self-contained apps](http://rubigdata.github.io/course/assignments/sbt.html)."
+    "source" : "## WARC for Spark\n\nThis notebook will help you get started on developing code to analyze WARC files in Spark inside Spark Notebook.\n\nOnce the code seems ready, you can use _Download as scala_ from the File menu, and continue to develop it into the standalone application to be submitted using `spark-submit`; see specifically the [course instructions on self-contained apps](http://rubigdata.github.io/course/background/sbt.html)."
   }, {
     "metadata" : {
       "id" : "FEFBC1DB256544618CA6B32B4148897E"
@@ -114,7 +114,7 @@
       "id" : "CB57B6CBAD374BD68D64156A0A591274"
     },
     "cell_type" : "markdown",
-    "source" : "Assign `warcfile` an example WARC file to work with; I used `wget` to create a WARC file from the course website, see e.g. [assignment A4](http://rubigdata.github.io/course/assignments/A4-commoncrawl.html)."
+    "source" : "Assign `warcfile` an example WARC file to work with; I used `wget` to create a WARC file from the course website, see e.g. [the final assignment](http://rubigdata.github.io/course/assignments/P-commoncrawl.html)."
   }, {
     "metadata" : {
       "trusted" : true,
