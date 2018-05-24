@@ -26,7 +26,7 @@ In 2018, the course uses their own Docker image, derived from the awesome Spark 
 
 ### Spark Streaming
 
-+ [Spark streaming](A4-spark-streaming.html)
++ [Spark streaming](A4-streaming.html)
 
 ### Big Data Republic Week
 
