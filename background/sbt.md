@@ -42,11 +42,11 @@ I found [this blog post on `sbt`](http://xerial.org/blog/2014/03/24/sbt/) a usef
 ### `RUBigDataApp`
 
 Glance over the Spark project's documentation on creating 
-[self-contained Spark apps](http://spark.apache.org/docs/2.1.1/quick-start.html#self-contained-applications)
+[self-contained Spark apps](http://spark.apache.org/docs/2.1.2/quick-start.html#self-contained-applications)
 to find out how to create a standalone Spark application and subsequently run the application using 
-[`spark-submit` for a yarn cluster](http://spark.apache.org/docs/2.1.1/running-on-yarn.html#launching-spark-on-yarn).
-Spark documentation on [launching jobs from scala](http://spark.apache.org/docs/2.1.1/programming-guide.html#launching-spark-jobs-from-java--scala)
-and [submitting applications](http://spark.apache.org/docs/2.1.1/submitting-applications.html) are also useful background reads.
+[`spark-submit` for a yarn cluster](http://spark.apache.org/docs/2.1.2/running-on-yarn.html#launching-spark-on-yarn).
+Spark documentation on [launching jobs from scala](http://spark.apache.org/docs/2.1.2/programming-guide.html#launching-spark-jobs-from-java--scala)
+and [submitting applications](http://spark.apache.org/docs/2.1.2/submitting-applications.html) are also useful background reads.
 
 The official documentation remains rather concise, so let us walk through the process with an actual (but _overly simple_) 
 example of a Spark application written in Scala.
