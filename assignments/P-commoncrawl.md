@@ -49,14 +49,16 @@ through MIT's Kerberos.
 Inside a Docker container, this works smoothly: 
 use your credentials (obtained from me) to get a Kerberos ticket, 
 by following the [SurfSara instructions](https://userinfo.surfsara.nl/systems/hadoop/usage).
-_The capitals of CUA.SURFSARA.NL are an important detail!_
+You do not have to install anything inside the `surfsara/hathi-client` container,
+so just start at _1. Setup the environment_ on that page.
 
 To authenticate through Kerberos _on a Linux or Windows machine_ **outside** the Docker image,
 which will be necessary to use the ResourceManager from your web-browser, 
 [follow these steps](kerberos.html) (provided without warranty, by me).
-
-_You can skip the previous step if it is the first time you go through this information, but it is necessary
+_You can skip this step if it is the first time you go through this information, but it is necessary
 eventually to be able to inspect the ResourceManager web UI._
+
+_If you use `kinit` with a realm, the capitals of CUA.SURFSARA.NL are an important detail!_
 
 #### Setting up Spark environment
 
