@@ -155,8 +155,8 @@ The [WARC for Spark notebook](BigData-WARC-for-Spark.snb) will be helpful to pla
 WARC files in a Spark Notebook, to give a more flexible and efficient approach to 
 develop new code _and debug it_, independent of the large cluster.
 
-_You can view the notebook almost correctly with the IPython 
-[notebook viewer](http://nbviewer.jupyter.org/url/rubigdata.github.io/course/assignments/BigData-WARC-for-Spark.snb)_
+_You can view the notebook almost correctly using Github's rendering of IPython notebooks, by simply renaming it with an extension `.ipynb`:
+[Notebook renamed for rendering by Github](https://github.com/rubigdata/course/blob/gh-pages/assignments/BigData-WARC-for-Spark.snb.ipynb)_
 
 _Note: The collection of [`jar` files](http://rubigdata.github.io/course/background/rubigdata/jars/) for the external dependencies._
 
