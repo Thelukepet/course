@@ -52,11 +52,13 @@ by following the [SurfSara instructions](https://userinfo.surfsara.nl/systems/ha
 You do not have to install anything inside the `surfsara/hathi-client` container,
 so just start at _1. Setup the environment_ on that page.
 
+__2018 class: I did not yet get the browser settings to work correctly. Hopefully fixed soon.__
+
+<!--
 To authenticate through Kerberos _on a Linux or Windows machine_ **outside** the Docker image,
 which will be necessary to use the ResourceManager from your web-browser, 
 [follow these steps](kerberos.html) (provided without warranty, by me).
-_You can skip this step if it is the first time you go through this information, but it is necessary
-eventually to be able to inspect the ResourceManager web UI._
+-->
 
 _If you use `kinit` with a realm, the capitals of CUA.SURFSARA.NL are an important detail!_
 
