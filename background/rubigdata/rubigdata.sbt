@@ -4,8 +4,8 @@ scalaVersion	:= "2.11.8"
 
 packAutoSettings
 
-val sparkV	= "2.1.1"
-val hadoopV	= "2.7.1"
+val sparkV	= "2.1.2"
+val hadoopV	= "2.7.2"
 val jwatV	= "1.0.0"
 
 resolvers += "nl.surfsara" at "http://beehub.nl/surfsara-repo/releases"
