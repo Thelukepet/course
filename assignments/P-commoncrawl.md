@@ -178,6 +178,9 @@ Finally, before developing your own code for specific tasks, check the
 [SparkPackages community index](https://spark-packages.org/) to see if
 your problem has already been solved (partially) before.
 
+__I am very interested in learning from students who use (code borrowed from) ArchiveSpark. 
+And, interested teachers implies high grades!__
+
 #### Blog post 
 
 Imagine a reader that has followed your previous experiences with Spark.
