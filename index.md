@@ -100,5 +100,17 @@ This week starts with a guest lecture by Big Data Republic, which is accompanied
 
 ### June 24th: Final project
 
-Details to follow.
+The final project brings together everything we learned in the previous exercises: you will carry out a big data analysis on a large
+Web crawl distributed by the CommonCrawl, on the national cluster `Hathi` (managed by SurfSara). 
+
+A successful project faces a few differences from the way of work so far:
+
+* Run Spark code standalone, outside the notebook interface;
+* Working remote, using Kerberos for authentication, on a managed cluster with many different users;
+* Scaling up your workload in multiple steps, to tackle the issues that you encounter one by one.
+
+Instructions:
+
+* [Assignment 4](assignments/P-commoncrawl.html)
+
 
