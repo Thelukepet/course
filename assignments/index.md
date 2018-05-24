@@ -24,8 +24,6 @@ In 2018, the course uses their own Docker image, derived from the awesome Spark 
 + [Spark RDDs](A3a-spark-rdd.html)
 + [Spark dataframes and SQL](A3b-spark-df.html)
 
-<!--
-
 ### Spark Streaming
 
 + [Spark streaming](A4-spark-streaming.html)
@@ -36,6 +34,5 @@ In 2018, the course uses their own Docker image, derived from the awesome Spark 
 
 ### Commoncrawl
 
-+ [Final project](A4-commoncrawl.html): free-choice analysis of CommonCrawl
-+ [FAQ](A4-faq.md)
--->
++ [Final project](P-commoncrawl.html): free-choice analysis of CommonCrawl
++ [FAQ](P-faq.md)
