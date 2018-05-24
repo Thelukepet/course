@@ -203,8 +203,7 @@ When you completed the assignment:
 
 #### Need help?!
 
-Feel free to ask for help, but please do that by using the github issue tracker on [the forum](https://github.com/rubigdata/forum-2017/);
-see the [welcome issue](https://github.com/rubigdata/forum-2017/issues/1) as an example of how to proceed.
+Feel free to ask for help, but please do that by using the github issue tracker on [the forum](https://github.com/rubigdata/forum-2018/).
 Every student may help out, please contribute and share your knowledge!
 
 _By the way_, before I forget: students from a previous version of this course _did_ win the Norvig Award in 2014! 
