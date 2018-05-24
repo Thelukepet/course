@@ -111,6 +111,6 @@ A successful project faces a few differences from the way of work so far:
 
 Instructions:
 
-* [Assignment 4](assignments/P-commoncrawl.html)
+* [Final Project](assignments/P-commoncrawl.html)
 
 
