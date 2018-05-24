@@ -6,7 +6,7 @@ description: Commoncrawl
 
 ## Commoncrawl
 
-Assignment 4 is an open assignment, where we will work with data on the national supercomputer infrastructure managed by SurfSara.
+The final project is an open assignment, where we will work with data on the national supercomputer infrastructure managed by SurfSara.
 
 <!--
 Follow this link to the *Classroom for Github* [**Commoncrawl** assignment](https://classroom.github.com/assignment-invitations/9cb7fee5465f641427a3a87a5b9140b4), login with your github account, and accept the assignment.
@@ -54,6 +54,9 @@ _The capitals of CUA.SURFSARA.NL are an important detail!_
 To authenticate through Kerberos _on a Linux or Windows machine_ **outside** the Docker image,
 which will be necessary to use the ResourceManager from your web-browser, 
 [follow these steps](kerberos.html) (provided without warranty, by me).
+
+_You can skip the previous step if it is the first time you go through this information, but it is necessary
+eventually to be able to inspect the ResourceManager web UI._
 
 #### Setting up Spark environment
 
