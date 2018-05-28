@@ -96,7 +96,11 @@ The objective of assignment 4 is to gain hands-on experience with Spark Streamin
 
 ### May 28th - May 31st: BDR Challenge
 
-This week starts with a guest lecture by Big Data Republic, which is accompanied by a mini-Hackaton that we complete May 31st. Details to follow.
+This week starts with a guest lecture by Big Data Republic, which is accompanied by a mini-Hackaton that we complete May 31st.
+
+More info:
++ [Blackboard announcment](https://blackboard.ru.nl/webapps/blackboard/execute/announcement?method=search&context=mybb&searchSelect=_115038_1)
++ [BDR Assignment FAQ](https://github.com/rubigdata/forum-2018/issues/17)
 
 ### June 24th: Final project
 
