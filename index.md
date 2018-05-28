@@ -100,10 +100,11 @@ This week starts with a guest lecture by Big Data Republic, which is accompanied
 
 More info:
 + [Blackboard announcment](https://blackboard.ru.nl/webapps/blackboard/execute/announcement?method=search&context=mybb&searchSelect=_115038_1)
-+ [BDR Assignment FAQ](https://github.com/rubigdata/forum-2018/issues/17)
++ BDR Assignment [repository](https://github.com/rubigdata/bdr-assignment)
++ BDR Assignment [FAQ](https://github.com/rubigdata/forum-2018/issues/17)
 
 __Ideally, you complete the assignment at the end of the Thursday morning meeting. If you cannot attend or are too competitive to give up the
-quest for the highest Recall@15, then you may complete the assignment on **Sunday, June 3rd, midnight**.__
+quest for the highest Recall@15, then you may complete the assignment on **Sunday, June 3rd, midnight** the latest.__
 
 ### June 24th: Final project
 
