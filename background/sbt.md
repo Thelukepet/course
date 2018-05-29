@@ -61,7 +61,7 @@ ln -s /usr/share/java/bcprov.jar /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/b
         && mv /tmp/java.security /etc/java-7-openjdk/security/java.security
 ```
 
-
+Source: [Fix by Travis project](https://github.com/travis-ci/travis-ci/issues/8503)
 
 ### `RUBigDataApp`
 
