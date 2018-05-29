@@ -28,7 +28,16 @@ you are root in the docker container, so do not need to `sudo` these commands:
 ```
 apt-get update
 apt-get install apt-transport-https
+```
 
+Myself, I issue `apt-get install vim mlocate` as well, but feel free to skip this of you do not use
+these tools.
+
+Continue to install the Scala Build Tool (SBT) from a non-standard location.
+
+_Note: the default `sbt` package for Ubuntu is a newer version that does not work together with JDK 1.7._
+
+```
 echo "deb https://dl.bintray.com/sbt/debian /" | tee -a /etc/apt/sources.list.d/sbt.list
 apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823
 apt-get update
@@ -36,35 +45,36 @@ wget -c https://bintray.com/artifact/download/sbt/debian/sbt-0.13.16.deb
 dpkg -i sbt-0.13.16.deb
 ```
 
-This last command takes quite some time to execute.
-(While at it, I issued `apt-get install vim mlocate` as well, but feel free to skip this.)
+This last command takes a few minutes to execute; go treat yourself on a cup of coffee or tea!
 
-I found [this blog post on `sbt`](http://xerial.org/blog/2014/03/24/sbt/) a useful read.
+You should use the rest of the waiting time to glance over [this blog post on `sbt`](http://xerial.org/blog/2014/03/24/sbt/).
 
-### 2018 class: OpenJDK issue
+### OpenJDK security policy fix
 
-SurfSara now uses [jitpack.io](https://jitpack.io/) to distribute libraries like the `warcutils`, 
-which caused errors in combination with the OpenJDK 1.7 JVM installed on their machines.
-
-To resolve errors `java.security.InvalidKeyException: EC parameters error` I did:
+SurfSara started to use [jitpack.io](https://jitpack.io/) to distribute libraries like the `warcutils`, 
+which causes however errors in combination with SBT and the OpenJDK 1.7 JVM installed on their machines.
+To resolve these errors (`java.security.InvalidKeyException: EC parameters error`) you have to issue:
 
 ```
 apt-get install libbcprov-java
 ```
 
-__Not 100% sure if the following is necessary:__
+Followed by this long command to configure the JDK to use the just installed `BouncyCastle` security provider:
 
 ```
-# install BouncyCastle provider
 ln -s /usr/share/java/bcprov.jar /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/bcprov.jar \
-        && awk -F . -v OFS=. 'BEGIN{n=2}/^security\.provider/ {split($3, posAndEquals, "=");$3=n++"="posAndEquals[2];print;next} 1' /etc/java-7-openjdk/security/java.security > /tmp/java.security \
+        && awk -F . -v OFS=. 'BEGIN{n=2}/^security\.provider/ {split($3, posAndEquals, "=");$3=n++"="posAndEquals[2];print;next} 1' \
+             /etc/java-7-openjdk/security/java.security > /tmp/java.security \
         && echo "security.provider.1=org.bouncycastle.jce.provider.BouncyCastleProvider" >> /tmp/java.security \
         && mv /tmp/java.security /etc/java-7-openjdk/security/java.security
 ```
 
-Source: [Fix by Travis project](https://github.com/travis-ci/travis-ci/issues/8503)
+Source for this magic: [Fix by Travis project](https://github.com/travis-ci/travis-ci/issues/8503). 
+_Thank you Travis!_
 
 ### `RUBigDataApp`
+
+Now we can start to actually develop the Standalone Spark App.
 
 Glance over the Spark project's documentation on creating 
 [self-contained Spark apps](http://spark.apache.org/docs/2.1.2/quick-start.html#self-contained-applications)
@@ -76,9 +86,11 @@ and [submitting applications](http://spark.apache.org/docs/2.1.2/submitting-appl
 The official documentation remains rather concise, so let us walk through the process with an actual (but _overly simple_) 
 example of a Spark application written in Scala.
 
+<!--
 You can find the sample application in your assignment repository (after accepting it in the classroom).
+-->
 
-Alternatively, download a compressed archive [`rubigdata.tgz`](rubigdata.tgz) with the same code from the 
+Download a compressed archive [`rubigdata.tgz`](rubigdata.tgz) with the same code from the 
 course website into your Docker container, and unpack the archive.
 
 ```
@@ -88,7 +100,7 @@ tar xzvfp rubigdata.tgz
 cd rubigdata
 ```
 
-Now, we copy the included (very small) [text file](rubigdata/rubigdata-test.txt) into your home directory 
+Copy the included (very small) [text file](rubigdata/rubigdata-test.txt) into your home directory 
 on the cluster; feel free to first modify the sample textfile before copying it to HDFS.
 
 ```
