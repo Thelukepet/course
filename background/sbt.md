@@ -36,7 +36,8 @@ wget -c https://bintray.com/artifact/download/sbt/debian/sbt-0.13.16.deb
 dpkg -i sbt-0.13.16.deb
 ```
 
-(While at it, I issued `apt-get install vim` as well, but feel free to skip this.)
+This last command takes quite some time to execute.
+(While at it, I issued `apt-get install vim mlocate` as well, but feel free to skip this.)
 
 I found [this blog post on `sbt`](http://xerial.org/blog/2014/03/24/sbt/) a useful read.
 
