@@ -54,6 +54,12 @@ so just start at _1. Setup the environment_ on that page.
 
 __2018 class: I did not yet get the browser settings to work correctly. Hopefully fixed soon.__
 
+Working on this, but if you cannot wait...:
+
+```
+KRB5_CONFIG=/home/arjen/.surfsara.krb5.conf google-chrome --auth-server-whitelist=".hathi.surfsara.nl"
+```
+
 <!--
 To authenticate through Kerberos _on a Linux or Windows machine_ **outside** the Docker image,
 which will be necessary to use the ResourceManager from your web-browser, 
