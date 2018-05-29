@@ -45,7 +45,7 @@ I found [this blog post on `sbt`](http://xerial.org/blog/2014/03/24/sbt/) a usef
 SurfSara now uses [jitpack.io](https://jitpack.io/) to distribute libraries like the `warcutils`, 
 which caused errors in combination with the OpenJDK 1.7 JVM installed on their machines.
 
-To resolve errors `Server access Error: java.security.ProviderException: java.security.InvalidKeyException: EC parameters error` I did:
+To resolve errors `java.security.InvalidKeyException: EC parameters error` I did:
 
 ```
 apt-get install libbcprov-java
