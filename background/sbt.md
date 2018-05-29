@@ -32,12 +32,36 @@ apt-get install apt-transport-https
 echo "deb https://dl.bintray.com/sbt/debian /" | tee -a /etc/apt/sources.list.d/sbt.list
 apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823
 apt-get update
-apt-get install sbt
+wget -c https://bintray.com/artifact/download/sbt/debian/sbt-0.13.16.deb
+dpkg -i sbt-0.13.16.deb
 ```
 
 (While at it, I issued `apt-get install vim` as well, but feel free to skip this.)
 
 I found [this blog post on `sbt`](http://xerial.org/blog/2014/03/24/sbt/) a useful read.
+
+### 2018 class: OpenJDK issue
+
+SurfSara now uses [jitpack.io](https://jitpack.io/) to distribute libraries like the `warcutils`, 
+which caused errors in combination with the OpenJDK 1.7 JVM installed on their machines.
+
+To resolve errors `Server access Error: java.security.ProviderException: java.security.InvalidKeyException: EC parameters error` I did:
+
+```
+apt-get install libbcprov-java
+```
+
+__Not 100% sure if the following is necessary:__
+
+```
+# install BouncyCastle provider
+ln -s /usr/share/java/bcprov.jar /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/bcprov.jar \
+        && awk -F . -v OFS=. 'BEGIN{n=2}/^security\.provider/ {split($3, posAndEquals, "=");$3=n++"="posAndEquals[2];print;next} 1' /etc/java-7-openjdk/security/java.security > /tmp/java.security \
+        && echo "security.provider.1=org.bouncycastle.jce.provider.BouncyCastleProvider" >> /tmp/java.security \
+        && mv /tmp/java.security /etc/java-7-openjdk/security/java.security
+```
+
+
 
 ### `RUBigDataApp`
 
