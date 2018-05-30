@@ -25,19 +25,36 @@ Below, I share how I have made this work on Linux and Windows (hoping OS/X is th
 ### Linux
 
 To authenticate through Kerberos _on a Linux machine_ outside the Docker image (necessary to use the ResourceManager from firefox),
-first install the Kerberos client software. You can skip this on Huygens; on a self-managed Redhat machine, you would issue the 
+first install the Kerberos client software. You can skip this on Huygens; on a self-managed Redhat machine, you would issue
 `sudo dnf install krb5-workstation krb5-libs krb5-auth-dialog`.
 
 Now, copy the config file from the Docker image, or, alternatively, download [`surfsara.krb5.conf`](surfsara.krb5.conf),
-put it in your home directory and set the `KRB5_CONFIG` environment variable:
+put it in your home directory and set the `KRB5_CONFIG` environment variable to point to this file:
 
 ```
 cp /path/to/surfsara.krb5.conf $HOME/.surfsara.krb5.conf
 export KRB5_CONFIG=$HOME/.surfsara.krb5.conf
 ```
 
-Configure Firefox by setting its settings according to the instructions given by SurfSara on the
-[usage page](https://userinfo.surfsara.nl/systems/hadoop/usage).
+If these steps have been successful, you authenticate to the cluster using the following command:
+
+    kinit rubd##X@CUA.SURFSARA.NL
+
+Common pitfalls are (1) that the PCs in the Huygens terminal rooms already use Kerberos for authentication in the 
+RU domain, so you must use your username (at the cluster) with the SurfSara realm when using `kinit`
+(as in the example above), (2) that the *capitals* in `CUA.SURFSARA.NL` are an important detail, 
+and (3) that the `KRB5_CONFIG` variable needs to be set in the terminal where you try to issue these commands.
+
+Now, proceed to configure Firefox according to the instructions in the final assignment's [FAQ](P-faq.html).
+Do not forget that you have to start the browser from a terminal in which the `KRB5_CONFIG` variable points
+to the `krb5.conf` that defines the SurfSara Kerberos environment.
+
+On your own hardware, using Chrome is an alternative (it is not installed in Huygens however). 
+Start Chrome from the command-line with a special flag to whitelist Hathi for Kerberos authentication:
+
+``` 
+KRB5_CONFIG=/home/arjen/.surfsara.krb5.conf google-chrome --auth-server-whitelist=".hathi.surfsara.nl"
+```
 
 You should now be able to access the [ResourceManager](http://head05.hathi.surfsara.nl/cluster) in the configured Firefox browser.
 _Note: this may involve a restart of Firefox from a terminal in which the `KRB5_CONFIG` variable is set as given above._
