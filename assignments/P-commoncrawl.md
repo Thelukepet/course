@@ -55,7 +55,7 @@ To authenticate through Kerberos _on a Linux or Windows machine **outside** the 
 [follow these steps](kerberos.html) (provided without warranty, by me).
 As most people run their web browser outside Docker, you will need to do this before you can
 access the SurfSara cluster's ResourceManager, that runs at 
-[`head05.hathi.surfsara.nl`](https://head05.hathi.surfsara.nl/cluster). 
+[`head05.hathi.surfsara.nl`](http://head05.hathi.surfsara.nl/). 
 
 ```
 KRB5_CONFIG=/home/arjen/.surfsara.krb5.conf google-chrome --auth-server-whitelist=".hathi.surfsara.nl"
@@ -80,7 +80,8 @@ bin/get.sh spark
 ```
 -->
 
-Initialize the right environment for working with Spark by issuing the following command:
+Initialize the right environment for working with Spark by issuing the following command
+(inside the `surfsara/hathi-client` Docker container):
 
 ```
 eval $(/hathi-client/bin/env.sh)
