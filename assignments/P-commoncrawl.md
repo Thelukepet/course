@@ -57,10 +57,6 @@ As most people run their web browser outside Docker, you will need to do this be
 access the SurfSara cluster's ResourceManager, that runs at 
 [`head05.hathi.surfsara.nl`](http://head05.hathi.surfsara.nl/). 
 
-```
-KRB5_CONFIG=/home/arjen/.surfsara.krb5.conf google-chrome --auth-server-whitelist=".hathi.surfsara.nl"
-```
-
 The PCs in the Huygens terminal rooms already use Kerberos in a RU domain, so you have to ensure
 that you give the right username and realm when using `kinit`.
 _The capitals of `CUA.SURFSARA.NL` are an important detail!_
