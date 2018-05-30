@@ -47,7 +47,8 @@ and (3) that the `KRB5_CONFIG` variable needs to be set in the terminal where yo
 
 Now, proceed to configure Firefox according to the instructions in the final assignment's [FAQ](P-faq.html).
 Do not forget that you have to start the browser from a terminal in which the `KRB5_CONFIG` variable points
-to the `krb5.conf` that defines the SurfSara Kerberos environment.
+to the `krb5.conf` that defines the SurfSara Kerberos environment; clicking on the icon on the desktop will
+not work correctly.
 
 On your own hardware, using Chrome is an alternative (it is not installed in Huygens however). 
 Start Chrome from the command-line with a special flag to whitelist Hathi for Kerberos authentication:
@@ -55,9 +56,7 @@ Start Chrome from the command-line with a special flag to whitelist Hathi for Ke
 ``` 
 KRB5_CONFIG=/home/arjen/.surfsara.krb5.conf google-chrome --auth-server-whitelist=".hathi.surfsara.nl"
 ```
-
-You should now be able to access the [ResourceManager](http://head05.hathi.surfsara.nl/cluster) in the configured Firefox browser.
-_Note: this may involve a restart of Firefox from a terminal in which the `KRB5_CONFIG` variable is set as given above._
+You should now be able to access the [ResourceManager](http://head05.hathi.surfsara.nl/cluster) in the configured browser.
 
 ### Windows
 
