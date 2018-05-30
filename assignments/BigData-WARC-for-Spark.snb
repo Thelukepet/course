@@ -36,7 +36,7 @@
       "id" : "C7E1A15F003A46888C305BB10D278AF1"
     },
     "cell_type" : "code",
-    "source" : ":remote-repo nl.surfsara % default % http://beehub.nl/surfsara-repo/releases % maven",
+    "source" : ":remote-repo com.github.sara-nl % default % https://jitpack.io % maven",
     "outputs" : [ ]
   }, {
     "metadata" : {
@@ -44,13 +44,13 @@
       "input_collapsed" : false,
       "collapsed" : false,
       "presentation" : {
-        "tabs_state" : "{\n  \"tab_id\": \"#tab1097757666-0\"\n}",
+        "tabs_state" : "{\n  \"tab_id\": \"#tab2070156606-0\"\n}",
         "pivot_chart_state" : "{\n  \"hiddenAttributes\": [],\n  \"menuLimit\": 200,\n  \"cols\": [],\n  \"rows\": [],\n  \"vals\": [],\n  \"exclusions\": {},\n  \"inclusions\": {},\n  \"unusedAttrsVertical\": 85,\n  \"autoSortUnusedAttrs\": false,\n  \"inclusionsInfo\": {},\n  \"aggregatorName\": \"Count\",\n  \"rendererName\": \"Table\"\n}"
       },
       "id" : "9B24FAE065144DF2A08A1072CB2B5E5F"
     },
     "cell_type" : "code",
-    "source" : ":dp \"nl.surfsara\" % \"warcutils\" % \"1.3\"",
+    "source" : ":dp \"com.github.sara-nl\" % \"warcutils\" % \"-SNAPSHOT\"",
     "outputs" : [ ]
   }, {
     "metadata" : {
@@ -58,7 +58,7 @@
       "input_collapsed" : false,
       "collapsed" : false,
       "presentation" : {
-        "tabs_state" : "{\n  \"tab_id\": \"#tab897192401-0\"\n}",
+        "tabs_state" : "{\n  \"tab_id\": \"#tab27722197-0\"\n}",
         "pivot_chart_state" : "{\n  \"hiddenAttributes\": [],\n  \"menuLimit\": 200,\n  \"cols\": [],\n  \"rows\": [],\n  \"vals\": [],\n  \"exclusions\": {},\n  \"inclusions\": {},\n  \"unusedAttrsVertical\": 85,\n  \"autoSortUnusedAttrs\": false,\n  \"inclusionsInfo\": {},\n  \"aggregatorName\": \"Count\",\n  \"rendererName\": \"Table\"\n}"
       },
       "id" : "591E58C4109D42B08A4798B66CF6CD7D"
@@ -179,7 +179,7 @@
       "input_collapsed" : false,
       "collapsed" : false,
       "presentation" : {
-        "tabs_state" : "{\n  \"tab_id\": \"#tab1131131653-0\"\n}",
+        "tabs_state" : "{\n  \"tab_id\": \"#tab1201913832-0\"\n}",
         "pivot_chart_state" : "{\n  \"hiddenAttributes\": [],\n  \"menuLimit\": 200,\n  \"cols\": [],\n  \"rows\": [],\n  \"vals\": [],\n  \"exclusions\": {},\n  \"inclusions\": {},\n  \"unusedAttrsVertical\": 85,\n  \"autoSortUnusedAttrs\": false,\n  \"inclusionsInfo\": {},\n  \"aggregatorName\": \"Count\",\n  \"rendererName\": \"Table\"\n}"
       },
       "id" : "BF3D40F75FF24058A23E93D140D43E60"
@@ -193,7 +193,7 @@
       "input_collapsed" : false,
       "collapsed" : false,
       "presentation" : {
-        "tabs_state" : "{\n  \"tab_id\": \"#tab703477654-0\"\n}",
+        "tabs_state" : "{\n  \"tab_id\": \"#tab2014867277-0\"\n}",
         "pivot_chart_state" : "{\n  \"hiddenAttributes\": [],\n  \"menuLimit\": 200,\n  \"cols\": [],\n  \"rows\": [],\n  \"vals\": [],\n  \"exclusions\": {},\n  \"inclusions\": {},\n  \"unusedAttrsVertical\": 85,\n  \"autoSortUnusedAttrs\": false,\n  \"inclusionsInfo\": {},\n  \"aggregatorName\": \"Count\",\n  \"rendererName\": \"Table\"\n}"
       },
       "id" : "87625ED014A6419B8773E94CF456B986"
@@ -207,7 +207,7 @@
       "input_collapsed" : false,
       "collapsed" : false,
       "presentation" : {
-        "tabs_state" : "{\n  \"tab_id\": \"#tab441967940-0\"\n}",
+        "tabs_state" : "{\n  \"tab_id\": \"#tab67877132-0\"\n}",
         "pivot_chart_state" : "{\n  \"hiddenAttributes\": [],\n  \"menuLimit\": 200,\n  \"cols\": [],\n  \"rows\": [],\n  \"vals\": [],\n  \"exclusions\": {},\n  \"inclusions\": {},\n  \"unusedAttrsVertical\": 85,\n  \"autoSortUnusedAttrs\": false,\n  \"inclusionsInfo\": {},\n  \"aggregatorName\": \"Count\",\n  \"rendererName\": \"Table\"\n}"
       },
       "id" : "BF3D40F75FF24058A23E93D140D43E60"
@@ -221,7 +221,7 @@
       "input_collapsed" : false,
       "collapsed" : false,
       "presentation" : {
-        "tabs_state" : "{\n  \"tab_id\": \"#tab1510114550-0\"\n}",
+        "tabs_state" : "{\n  \"tab_id\": \"#tab423682289-0\"\n}",
         "pivot_chart_state" : "{\n  \"hiddenAttributes\": [],\n  \"menuLimit\": 200,\n  \"cols\": [],\n  \"rows\": [],\n  \"vals\": [],\n  \"exclusions\": {},\n  \"inclusions\": {},\n  \"unusedAttrsVertical\": 85,\n  \"autoSortUnusedAttrs\": false,\n  \"inclusionsInfo\": {},\n  \"aggregatorName\": \"Count\",\n  \"rendererName\": \"Table\"\n}"
       },
       "id" : "ABBEAAF54B7A458193C0D72FFDD65DBA"
@@ -261,7 +261,7 @@
       "input_collapsed" : false,
       "collapsed" : false,
       "presentation" : {
-        "tabs_state" : "{\n  \"tab_id\": \"#tab2071857782-0\"\n}",
+        "tabs_state" : "{\n  \"tab_id\": \"#tab337399741-0\"\n}",
         "pivot_chart_state" : "{\n  \"hiddenAttributes\": [],\n  \"menuLimit\": 200,\n  \"cols\": [],\n  \"rows\": [],\n  \"vals\": [],\n  \"exclusions\": {},\n  \"inclusions\": {},\n  \"unusedAttrsVertical\": 85,\n  \"autoSortUnusedAttrs\": false,\n  \"inclusionsInfo\": {},\n  \"aggregatorName\": \"Count\",\n  \"rendererName\": \"Table\"\n}"
       },
       "id" : "447EC545A2AF435ABED89DD4BA2BC2F6"
@@ -301,7 +301,7 @@
       "input_collapsed" : false,
       "collapsed" : false,
       "presentation" : {
-        "tabs_state" : "{\n  \"tab_id\": \"#tab1335200931-0\"\n}",
+        "tabs_state" : "{\n  \"tab_id\": \"#tab105469047-0\"\n}",
         "pivot_chart_state" : "{\n  \"hiddenAttributes\": [],\n  \"menuLimit\": 200,\n  \"cols\": [],\n  \"rows\": [],\n  \"vals\": [],\n  \"exclusions\": {},\n  \"inclusions\": {},\n  \"unusedAttrsVertical\": 85,\n  \"autoSortUnusedAttrs\": false,\n  \"inclusionsInfo\": {},\n  \"aggregatorName\": \"Count\",\n  \"rendererName\": \"Table\"\n}"
       },
       "id" : "848A5B7C4D844219B68C982B16BD8ABF"
@@ -318,6 +318,16 @@
     },
     "cell_type" : "markdown",
     "source" : "### Final words\n\nNow it is time to continue to develop your own project.\n\nDo not worry about a _\"required\"_ level of success; it does not have to be a publishable study!\nIt is perfectly fine if you only realize no more than rather simple standalone program that executes on the cluster\nbut does not run on the complete crawl, or uses only header information. \n\n**Even simple tasks are challenging when carried out on large data!**\n\nDo not be too ambitious, and make progress step by step.\n\nThe examples presented in this notebook are meant to be helpful, but they are by no means complete and have not been tested thoroughly on actual data.\nYou may encounter weird problems, complex enough such that there exists no immediate answer on StackExchange.\n\nI hope the course provided enough background on Spark to spot what the cause of the problem might be;\nhowever, if you spend more than say two to three hours on analyzing \nand debugging a challenge, I recommend to give up and modify your objective - consider a different (simpler) project and only scale up later on\n(provided there is still time left).\n\n_If you cannot solve a problem, definitely do call out by creating a new issue on the Forum - maybe one of us knows the answer already!_\n\n"
+  }, {
+    "metadata" : {
+      "trusted" : true,
+      "input_collapsed" : false,
+      "collapsed" : true,
+      "id" : "E279BF23D60C46138E9AD4FA400CE8BD"
+    },
+    "cell_type" : "code",
+    "source" : "",
+    "outputs" : [ ]
   } ],
   "nbformat" : 4
 }
