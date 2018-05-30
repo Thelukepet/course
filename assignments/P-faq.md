@@ -41,6 +41,26 @@ sc.getConf.toDebugString
 
 The scala version (and the specific JVM) are printed right under the logo when starting `spark-shell`.
 
+### Firefox config
+
+Myself, I had quite some trouble getting Kerberos and Firefox to work together correctly.
+
+What helped is to create a clean profile, and set the variable there;
+starting Firefox in a terminal where `KRB5_CONFIG` is set to the config file in your homedir.
+For example:
+
+    KRB5_CONFIG=${HOME}/.surfsara.krb5.conf firefox -P bigdata
+
+You can set the configuration option for Kerberos manually, or edit the `prefs.js` file for this profile
+(`${HOME}/.mozilla/hash.bigdata/prefs.js`) to include
+
+    user_pref("network.negotiate-auth.trusted-uris", "https://, hathi.surfsara.nl");
+
+If you need to debug, enable logging of authorization related events as follows:
+
+    export NSPR_LOG_MODULES=negotiateauth:5
+    export NSPR_LOG_FILE=/tmp/test.log
+
 ### See also:
 
 * Additional info on [`spark-shell`](https://jaceklaskowski.gitbooks.io/mastering-apache-spark/content/spark-shell.html)
