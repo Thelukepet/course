@@ -52,7 +52,7 @@ For example:
     KRB5_CONFIG=${HOME}/.surfsara.krb5.conf firefox -P bigdata
 
 You can set the configuration option for Kerberos manually, or edit the `prefs.js` file for this profile
-(`${HOME}/.mozilla/hash.bigdata/prefs.js`) to include
+(`${HOME}/.mozilla/firefox/somehash.bigdata/prefs.js`) to include
 
     user_pref("network.negotiate-auth.trusted-uris", "https://, hathi.surfsara.nl");
 
