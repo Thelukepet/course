@@ -105,7 +105,7 @@ MASTER=yarn-cluster bin/run-example SparkPi
 
 If you managed to get a Kerberos ticket and configured your Firefox correctly, you can view
 the application state in the Resource Manager, very similar to this screenshot:
-![ResourceManager](screenshot-hathi-resourcemanager.png)
+![ResourceManager](https://github.com/rubigdata/course/blob/gh-pages/assignments-2016/screenshot-hathi-resourcemanager.png)
 
 ### Using Spark on the cluster
 
