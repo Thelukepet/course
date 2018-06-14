@@ -24,7 +24,7 @@ Below, I share how I have made this work on Linux and Windows (hoping OS/X is th
 
 ### Linux
 
-To authenticate through Kerberos _on a Linux machine_ outside the Docker image (necessary to use the ResourceManager from firefox),
+To authenticate through Kerberos _on a Linux machine_ outside the Docker image (necessary to use the ResourceManager from Firefox),
 first install the Kerberos client software. You can skip this on Huygens; on a self-managed Redhat machine, you would issue
 `sudo dnf install krb5-workstation krb5-libs krb5-auth-dialog`.
 
@@ -81,8 +81,29 @@ network.auth.use-sspi false
 
 You should now be able to view the [ResourceManager](http://head05.hathi.surfsara.nl/cluster) _(works in configured Firefox only)_.
 
-### OS/X
+### macOS
 
-Sorry, you are on your own!
-If you figure out how to modify the Linux instructions to work on OS/X, please share on the Forum and I will add those here.
+To authenticate through Kerberos _on a macOS machine_ outside the Docker image (necessary to use the ResourceManager from Firefox or Chrome) you should not have to install additional software. Kerberos should come pre-installed on any modern Mac.
+
+Now, copy the config file from the Docker image, or, alternatively, download [`surfsara.krb5.conf`](surfsara.krb5.conf),
+put it in your home directory and set the `KRB5_CONFIG` environment variable to point to this file:
+
+```
+cp /path/to/surfsara.krb5.conf ~/.surfsara.krb5.conf
+export KRB5_CONFIG=~/.surfsara.krb5.conf
+```
+
+If these steps have been successful, you authenticate to the cluster using the following command:
+
+    kinit rubd##X@CUA.SURFSARA.NL
+
+Common pitfalls are (1) that the *capitals* in `CUA.SURFSARA.NL` are an important detail, 
+and (3) that the `KRB5_CONFIG` variable needs to be set in the terminal where you try to issue these commands.
+
+Now, proceed to configure Firefox by following the instructions in the [hathi-client repository](https://github.com/sara-nl/hathi-client#browser-setup). Or use the following command to start Chrome from the command-line with a special flag to whitelist Hathi for Kerberos authentication:
+
+``` 
+KRB5_CONFIG=~/.surfsara.krb5.conf /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --auth-server-whitelist=".hathi.surfsara.nl"
+```
+You should now be able to access the [ResourceManager](http://head05.hathi.surfsara.nl/cluster) in the configured browser.
 
