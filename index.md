@@ -106,7 +106,7 @@ More info:
 __Ideally, you complete the assignment at the end of the Thursday morning meeting. If you cannot attend or are too competitive to give up the
 quest for the highest Recall@15, then you may complete the assignment on **Sunday, June 3rd, midnight** the latest.__
 
-### June 24th: Final project
+### _July 3rd_: Final project
 
 The final project brings together everything we learned in the previous exercises: you will carry out a big data analysis on a large
 Web crawl distributed by the CommonCrawl, on the national cluster `Hathi` (managed by SurfSara). 
