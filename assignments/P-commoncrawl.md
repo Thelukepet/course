@@ -28,12 +28,12 @@ After receiving your account info, please [modify your password](https://portal.
 do not forget your new credentials, as you'd have to go through the SurfSara helpdesk and I would like to
 avoid their involvement as much as possible (I want to give the course next year as well!).
 
-#### Initial setup
-
-Let us work through the basics, additional information can be found at the
+Let us work through the basics; additional "official" information can be found at the
 [Hadoop cluster usage pages](https://userinfo.surfsara.nl/systems/hadoop/usage).
 
-Start by using the provided docker image.
+#### Initial setup
+
+We will use a Docker image provided by SurfSara.
 
 ```
 docker pull surfsara/hathi-client
@@ -43,30 +43,23 @@ docker run -it surfsara/hathi-client
 
 #### Kerberos authentication
 
-Because the national cluster serves many users that not all have access to the same data, authentication is kind-a strict, provided
-through MIT's Kerberos.
-
-Inside a Docker container, this works smoothly: 
+Because the national cluster serves many users that not all have access to the same data, 
+authentication is kind-a strict. They use MIT's Kerberos as authentication mechanism.
+Inside the Docker container that SurfSara provides, this works smoothly: 
 use your credentials (obtained from me) to get a Kerberos ticket, 
-by following the [SurfSara instructions](https://userinfo.surfsara.nl/systems/hadoop/usage).
-You do not have to install anything inside the `surfsara/hathi-client` container,
-so just start at _1. Setup the environment_ on that page.
+by following the [SurfSara instructions](https://github.com/sara-nl/hathi-client/blob/master/README.md).
+Skip the prerequisites and start directly from _1. Setup the environment_ under the Usage heading 
+in their README.
 
-__2018 class: I did not yet get the browser settings to work correctly. Hopefully fixed soon.__
-
-Working on this, but if you cannot wait...:
-
-```
-KRB5_CONFIG=/home/arjen/.surfsara.krb5.conf google-chrome --auth-server-whitelist=".hathi.surfsara.nl"
-```
-
-<!--
-To authenticate through Kerberos _on a Linux or Windows machine_ **outside** the Docker image,
-which will be necessary to use the ResourceManager from your web-browser, 
+To authenticate through Kerberos _on a Linux or Windows machine **outside** the Docker image_
 [follow these steps](kerberos.html) (provided without warranty, by me).
--->
+As most people run their web browser outside Docker, you will need to do this before you can
+access the SurfSara cluster's ResourceManager, that runs at 
+[`head05.hathi.surfsara.nl`](http://head05.hathi.surfsara.nl/). 
 
-_If you use `kinit` with a realm, the capitals of CUA.SURFSARA.NL are an important detail!_
+The PCs in the Huygens terminal rooms already use Kerberos in a RU domain, so you have to ensure
+that you give the right username and realm when using `kinit`.
+_The capitals of `CUA.SURFSARA.NL` are an important detail!_
 
 #### Setting up Spark environment
 
@@ -83,7 +76,8 @@ bin/get.sh spark
 ```
 -->
 
-Initialize the right environment for working with Spark by issuing the following command:
+Initialize the right environment for working with Spark by issuing the following command
+(inside the `surfsara/hathi-client` Docker container):
 
 ```
 eval $(/hathi-client/bin/env.sh)
@@ -111,7 +105,7 @@ MASTER=yarn-cluster bin/run-example SparkPi
 
 If you managed to get a Kerberos ticket and configured your Firefox correctly, you can view
 the application state in the Resource Manager, very similar to this screenshot:
-![ResourceManager](screenshot-hathi-resourcemanager.png)
+![ResourceManager](https://github.com/rubigdata/course/raw/gh-pages/assignments-2016/screenshot-hathi-resourcemanager.png)
 
 ### Using Spark on the cluster
 
