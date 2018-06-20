@@ -173,13 +173,16 @@ provides [utility code](https://github.com/iipc/webarchive-commons)
 for `OpenWayback`, an open version of the Internet Archive's Wayback machine.
 Other related pointers to help you get going include Jimmy Lin's 
 [Warcbase project](https://github.com/lintool/warcbase) and
-L3S's recent [ArchiveSpark](https://github.com/helgeho/ArchiveSpark).
+L3S's recent [ArchiveSpark](https://github.com/helgeho/ArchiveSpark) 
+(although the latter unfortunately has a dependency on JDK 8 that is hard to work around).
 Finally, before developing your own code for specific tasks, check the
 [SparkPackages community index](https://spark-packages.org/) to see if
 your problem has already been solved (partially) before.
 
+<!--
 __I am very interested in learning from students who use (code borrowed from) ArchiveSpark. 
 And, interested teachers implies high grades!__
+-->
 
 #### Blog post 
 
