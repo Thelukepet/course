@@ -206,9 +206,9 @@ _Wishing you good big data vibes!_
 
 When you completed the assignment:
 
-1. Push your blog post to the first assignment's repository (in the `gh-pages` branch or it will not render).
-2. Include a link to the published blog post in the README of the A4 assignment repository.
-3. Push the updated README as well as your own code or notebook to the A4 assignment repository.
+1. Push your blog post to the first assignment's repository and check that you can read the blog post online (when logged in into github).
+2. Include a link to the blogpost in the `README.md` of that repository
+3. Include the code and/or notebook that you produced in that repository, and include a brief description in its `README.md`
 
 #### Need help?!
 
