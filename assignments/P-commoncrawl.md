@@ -99,7 +99,7 @@ Then try out the standard example to compute Pi through a random process.
 just ignore the warning about `yarn-cluster` being deprecated.)
 
 ```
-cd spark
+cd /hathi-client/spark
 MASTER=yarn-cluster bin/run-example SparkPi
 ```
 
